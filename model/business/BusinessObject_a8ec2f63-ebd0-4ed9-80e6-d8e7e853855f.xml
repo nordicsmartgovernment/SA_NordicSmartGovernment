@@ -1,0 +1,5 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer purchase number"
+    id="a8ec2f63-ebd0-4ed9-80e6-d8e7e853855f"
+    documentation="a unique identification number"/>

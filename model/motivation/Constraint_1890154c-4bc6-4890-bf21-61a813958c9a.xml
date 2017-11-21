@@ -1,0 +1,5 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="ISO 20022 (Universal Financial Industry Message Scheme)"
+    id="1890154c-4bc6-4890-bf21-61a813958c9a"
+    documentation="ISO 20022 er en internasjonal meldingsstandard for finansielle filbaserte meldinger, beregnet på bruk i hele verdikjeden fra betaler til betalingsmottaker.&#xA;&#xA;pain 001.001.03 CustomerCreditTransferInitiation&#xA;pain 002.001.03 CustomerPaymentStatusReport&#xA;&#xA;ISO 20022 xml vil erstatte gjeldende Edifact og proprietære meldingsstandarder.&#xA;&#xA;Alle som skal gjøre en SEPA (EU/EØS + Sveits, Monaco og San Marino), betaling må bruke IBAN som til-konto i stedet for nasjonale kontonummer."/>
