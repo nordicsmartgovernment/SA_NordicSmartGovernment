@@ -1,0 +1,5 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer invoice"
+    id="e0d1de8b-5064-4785-b8d6-dcceb77f5870"
+    documentation="A customer invoice is a bill that an organization gives to a customer in connection with a sale. You create this kind of customer invoice based on a sales order that includes a header and one or more lines for items or services. The customer invoice completes the sales order, packing slip, and sales invoice cycle."/>

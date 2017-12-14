@@ -1,0 +1,5 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Released (purchase) order"
+    id="4c1d30c0-2d15-4daa-9fb5-bf3244032813"
+    documentation="A purchase order is completed by a buyer and is sent to a seller to request the purchase of products or services. The buyer uses the purchase order to specify the number of items, types of service and prices associated with the purchase. A purchase order is a contract that obligates the buyer to compensate the seller for products and services listed on the document once the seller provides them. The buyer initiates the transaction by issuing the purchase order."/>
