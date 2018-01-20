@@ -283,16 +283,4 @@
           href="BusinessRole_cc0eb81d-b3b4-41b0-84d3-ee34d51421c6.xml#cc0eb81d-b3b4-41b0-84d3-ee34d51421c6"/>
     </children>
   </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="ad87455b-61d6-4408-b07f-d7d27be51264">
-    <bounds
-        x="48"
-        y="528"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:DataObject"
-        href="DataObject_10f6fbe6-282b-4367-a03d-8b183be0afb7.xml#10f6fbe6-282b-4367-a03d-8b183be0afb7"/>
-  </children>
 </archimate:ArchimateDiagramModel>
