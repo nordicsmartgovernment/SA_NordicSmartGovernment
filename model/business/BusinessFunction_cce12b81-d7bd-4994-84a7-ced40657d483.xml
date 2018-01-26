@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Maintain partner masterdata"
+    id="cce12b81-d7bd-4994-84a7-ced40657d483"
+    documentation="In the BC, this is called &quot;maintaining vendor and customer master data&quot;, in this model, &quot;vendor and customer&quot; is generalized to &quot;partner&quot;&#xD;&#xA;"/>
