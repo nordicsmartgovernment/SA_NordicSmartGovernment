@@ -15,30 +15,6 @@
         height="481"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="ecaec895-6acf-47ef-ac60-2251a9b9be86">
-      <bounds
-          x="12"
-          y="192"
-          width="253"
-          height="61"/>
-      <archimateElement
-          xsi:type="archimate:BusinessFunction"
-          href="BusinessFunction_eba5b423-be6a-4078-a637-e1e7ac6219b3.xml#eba5b423-be6a-4078-a637-e1e7ac6219b3"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="a0dc794c-e746-4545-a1e5-ce9a28314701">
-      <bounds
-          x="12"
-          y="120"
-          width="253"
-          height="61"/>
-      <archimateElement
-          xsi:type="archimate:BusinessFunction"
-          href="BusinessFunction_d2ef9338-7201-4052-a127-c9b66f3d7cca.xml#d2ef9338-7201-4052-a127-c9b66f3d7cca"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="35898319-fb42-4527-a316-2188df816067">
       <bounds
           x="12"
@@ -69,6 +45,30 @@
       <archimateElement
           xsi:type="archimate:BusinessFunction"
           href="BusinessFunction_216a825e-1645-41cc-8323-a9afc3f72052.xml#216a825e-1645-41cc-8323-a9afc3f72052"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="3a53506d-fd32-4e4d-8e8e-654e1ee92b19">
+      <bounds
+          x="12"
+          y="192"
+          width="253"
+          height="61"/>
+      <archimateElement
+          xsi:type="archimate:BusinessFunction"
+          href="BusinessFunction_dc61ec7a-a2fb-4dcd-b303-600ac595a1e8.xml#dc61ec7a-a2fb-4dcd-b303-600ac595a1e8"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="061d81c1-9805-417e-a3be-5d00eb1eacff">
+      <bounds
+          x="12"
+          y="120"
+          width="253"
+          height="61"/>
+      <archimateElement
+          xsi:type="archimate:BusinessFunction"
+          href="BusinessFunction_7ba307b2-8952-4ec2-ba40-123068efa52a.xml#7ba307b2-8952-4ec2-ba40-123068efa52a"/>
     </children>
   </children>
   <children
