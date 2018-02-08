@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Analysis"
-    id="ca405cd2-d732-4bb8-bee4-20629c3b040c">
+    id="ca405cd2-d732-4bb8-bee4-20629c3b040c"
+    documentation="One of the main effects outlined in the business case is that smart government will enable better marketing, business intelligence and data utilisation, which might in turn open new markets for third party service providers. Several use-cases are indicated in the business case and several more can be imagined.&#xD;&#xA;&#xD;&#xA;The model shows the typical relationships between these:&#xD;&#xA;* The ERP-system itself needs more features, adding business for the ERP-vendor&#xD;&#xA;* Information service providers can build new services on top of data exposed by new application services&#xD;&#xA;* The analysis capabilities underpinning these services will be enabled by analytics software provided by software providers&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="bcb8d9c8-9625-486d-b83d-05cd811a5b52"
@@ -73,7 +74,8 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="a7f165ba-710f-430d-b6d2-31309b0bc94f">
+        id="a7f165ba-710f-430d-b6d2-31309b0bc94f"
+        targetConnections="e3cfff54-6bec-4202-a097-6bef94fffb03">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="6be73b77-33d0-4021-9ed9-d183224d8dee"
@@ -256,6 +258,27 @@
       <archimateElement
           xsi:type="archimate:ApplicationService"
           href="ApplicationService_24b34ad9-3690-4e01-9ddb-0e12a00c5679.xml#24b34ad9-3690-4e01-9ddb-0e12a00c5679"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="d9f30571-bfcd-4096-83ba-491bce12297f">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="e3cfff54-6bec-4202-a097-6bef94fffb03"
+          source="d9f30571-bfcd-4096-83ba-491bce12297f"
+          target="a7f165ba-710f-430d-b6d2-31309b0bc94f">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_8f370c8d-3cf6-4612-9bb0-3cc9143e01c2.xml#8f370c8d-3cf6-4612-9bb0-3cc9143e01c2"/>
+      </sourceConnections>
+      <bounds
+          x="12"
+          y="37"
+          width="85"
+          height="48"/>
+      <archimateElement
+          xsi:type="archimate:BusinessRole"
+          href="BusinessRole_8baf539d-65e5-44d8-a8ec-c1753aa289dc.xml#8baf539d-65e5-44d8-a8ec-c1753aa289dc"/>
     </children>
   </children>
   <children
