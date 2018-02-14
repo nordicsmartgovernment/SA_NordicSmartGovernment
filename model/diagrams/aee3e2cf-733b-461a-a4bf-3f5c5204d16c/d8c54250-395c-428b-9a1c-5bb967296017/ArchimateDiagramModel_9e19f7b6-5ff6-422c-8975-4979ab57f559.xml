@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Sales, Order, Inventory management"
-    id="9e19f7b6-5ff6-422c-8975-4979ab57f559">
+    id="9e19f7b6-5ff6-422c-8975-4979ab57f559"
+    documentation="The sales and procurement-processes from the vendor point of view.&#xD;&#xA;&#xD;&#xA;The model makes some assumptions about functions for inventory, sales, order and product management being provided by an ERP-system. In the real world, these might be provided by different systems and might be structured differently, however, this set of functions is probably required for providing the e-procurement services and the price/sales aggregated reporting services.&#xD;&#xA;&#xD;&#xA;For the usage of these services, please see the views for &quot;analysis&quot; and &quot;procurement&quot;.&#xD;&#xA;&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="ee95ba87-40d3-42cc-9042-59ee3876f07e">
@@ -32,6 +33,15 @@
       <archimateRelationship
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_ba0d617a-97e9-40e7-860b-14373c457427.xml#ba0d617a-97e9-40e7-860b-14373c457427"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="d1a2642e-62f0-4700-b724-ebfd0b6ef64e"
+        source="ee95ba87-40d3-42cc-9042-59ee3876f07e"
+        target="992bc92a-224e-4581-bd70-f4e9fdb3f4bc">
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_b125cce3-5422-4e77-947b-f131e22f221f.xml#b125cce3-5422-4e77-947b-f131e22f221f"/>
     </sourceConnections>
     <bounds
         x="36"
@@ -522,5 +532,18 @@
           xsi:type="archimate:ApplicationService"
           href="ApplicationService_56e14912-e683-4c54-9206-1d5bd15c21d7.xml#56e14912-e683-4c54-9206-1d5bd15c21d7"/>
     </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="992bc92a-224e-4581-bd70-f4e9fdb3f4bc"
+      targetConnections="d1a2642e-62f0-4700-b724-ebfd0b6ef64e">
+    <bounds
+        x="439"
+        y="264"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationFunction"
+        href="ApplicationFunction_08eadcb5-ec18-441a-867e-9b11ccd15a26.xml#08eadcb5-ec18-441a-867e-9b11ccd15a26"/>
   </children>
 </archimate:ArchimateDiagramModel>

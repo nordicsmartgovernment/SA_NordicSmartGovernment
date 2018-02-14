@@ -11,7 +11,7 @@
       textAlignment="1">
     <bounds
         y="12"
-        width="1056"
+        width="913"
         height="468"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -45,7 +45,7 @@
             href="ServingRelationship_be841c4d-e957-4c68-bd64-dc64d0b9e1c0.xml#be841c4d-e957-4c68-bd64-dc64d0b9e1c0"/>
       </sourceConnections>
       <bounds
-          x="837"
+          x="688"
           y="189"
           width="190"
           height="37"/>
@@ -67,9 +67,9 @@
             href="ServingRelationship_a4f2930a-ed68-4d8b-bfcf-baa757045f26.xml#a4f2930a-ed68-4d8b-bfcf-baa757045f26"/>
       </sourceConnections>
       <bounds
-          x="192"
+          x="156"
           y="129"
-          width="409"
+          width="337"
           height="37"/>
       <archimateElement
           xsi:type="archimate:BusinessFunction"
@@ -101,9 +101,9 @@
         id="9ec00ade-f532-49a5-841d-39180d911bab"
         targetConnections="7e6e2e6e-2e8f-410c-85b3-67a71b5fda5f">
       <bounds
-          x="192"
+          x="156"
           y="45"
-          width="408"
+          width="337"
           height="36"/>
       <archimateElement
           xsi:type="archimate:BusinessRole"
@@ -168,9 +168,9 @@
             href="ServingRelationship_c76add9a-a1f7-4485-b93d-cf680f973f1c.xml#c76add9a-a1f7-4485-b93d-cf680f973f1c"/>
       </sourceConnections>
       <bounds
-          x="192"
+          x="156"
           y="189"
-          width="409"
+          width="337"
           height="97"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
@@ -179,7 +179,7 @@
         <bounds
             x="12"
             y="24"
-            width="120"
+            width="97"
             height="55"/>
         <archimateElement
             xsi:type="archimate:ApplicationFunction"
@@ -190,9 +190,9 @@
           id="a88303aa-3b16-48fc-8fa5-cc39466ae6f6"
           targetConnections="8a361e29-37f1-448c-be67-6af52e51b5b6">
         <bounds
-            x="145"
+            x="120"
             y="24"
-            width="120"
+            width="97"
             height="55"/>
         <archimateElement
             xsi:type="archimate:ApplicationFunction"
@@ -203,9 +203,9 @@
           id="7bdd7b6c-8c2d-40f4-8888-d35b902b7293"
           targetConnections="8d0b0f86-af61-4f11-8b8c-3979663f543a">
         <bounds
-            x="276"
+            x="228"
             y="24"
-            width="120"
+            width="97"
             height="55"/>
         <archimateElement
             xsi:type="archimate:ApplicationFunction"
@@ -238,9 +238,9 @@
             href="CompositionRelationship_6a3b2dc4-5ef7-486f-9b70-5f5f021f069e.xml#6a3b2dc4-5ef7-486f-9b70-5f5f021f069e"/>
       </sourceConnections>
       <bounds
-          x="192"
+          x="156"
           y="319"
-          width="409"
+          width="337"
           height="55"/>
       <archimateElement
           xsi:type="archimate:ApplicationComponent"
@@ -269,9 +269,9 @@
             href="AssignmentRelationship_68f66411-b93e-4e22-b808-ba9d121db139.xml#68f66411-b93e-4e22-b808-ba9d121db139"/>
       </sourceConnections>
       <bounds
-          x="644"
+          x="564"
           y="319"
-          width="372"
+          width="314"
           height="55"/>
       <archimateElement
           xsi:type="archimate:ApplicationInterface"
@@ -319,7 +319,7 @@
             href="ServingRelationship_09297ca7-b723-420f-9d11-0f0de9e7298e.xml#09297ca7-b723-420f-9d11-0f0de9e7298e"/>
       </sourceConnections>
       <bounds
-          x="660"
+          x="580"
           y="249"
           width="190"
           height="37"/>
@@ -340,9 +340,9 @@
             href="SpecializationRelationship_d024cd64-9671-4754-9c14-0f39964cc0cd.xml#d024cd64-9671-4754-9c14-0f39964cc0cd"/>
       </sourceConnections>
       <bounds
-          x="848"
+          x="748"
           y="405"
-          width="168"
+          width="130"
           height="26"/>
       <archimateElement
           xsi:type="archimate:ApplicationInterface"
@@ -382,7 +382,7 @@
             href="SpecializationRelationship_f1d6e89b-0db8-4b20-917c-bf46e0645220.xml#f1d6e89b-0db8-4b20-917c-bf46e0645220"/>
       </sourceConnections>
       <bounds
-          x="644"
+          x="564"
           y="405"
           width="168"
           height="26"/>
@@ -397,7 +397,7 @@
       name="External stakeholders"
       textAlignment="1">
     <bounds
-        x="1068"
+        x="924"
         y="12"
         width="216"
         height="468"/>

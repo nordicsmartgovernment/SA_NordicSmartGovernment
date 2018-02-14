@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Credit lending"
-    id="9af1c006-6e44-4e92-ac06-6ac705ecf85a">
+    id="9af1c006-6e44-4e92-ac06-6ac705ecf85a"
+    documentation="To provide credit, a bank needs to assess the risk and cover this risk by proper pricing. For this assessment, it will need to analyse data regarding the past and future economic situation of the debtor. The analysis can be performed by the bank itself, or by a third party providing the analysis as a credit rating.&#xD;&#xA;&#xD;&#xA;For large transactions the risk is further spread by buying credit insurance. According to the business case, this is sparse in the SME-market, and with the availability of better information to the credit provider (enabling a better assessment of risk), it might disapear completely in the long run.&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="aa0a8dd4-3255-4a1d-a901-b0b5084e33cb"
@@ -424,5 +425,39 @@
     <archimateElement
         xsi:type="archimate:BusinessService"
         href="BusinessService_8441fe4b-7bdc-4f4b-9797-92a69ea79d40.xml#8441fe4b-7bdc-4f4b-9797-92a69ea79d40"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="d1b3a4dd-d4a5-44b7-b3b9-18f285d0074f">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="68e98a6a-d73b-4002-acad-4360ab69456d"
+        source="d1b3a4dd-d4a5-44b7-b3b9-18f285d0074f"
+        target="1a7675e9-05de-446e-af00-067441fd064a">
+      <archimateRelationship
+          xsi:type="archimate:SpecializationRelationship"
+          href="SpecializationRelationship_895db6df-444a-4c05-a108-c75d4fefb13d.xml#895db6df-444a-4c05-a108-c75d4fefb13d"/>
+    </sourceConnections>
+    <bounds
+        x="984"
+        y="201"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessRole"
+        href="BusinessRole_5c325c04-85c6-40fd-aed8-2f8b1d4afe5f.xml#5c325c04-85c6-40fd-aed8-2f8b1d4afe5f"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="1a7675e9-05de-446e-af00-067441fd064a"
+      targetConnections="68e98a6a-d73b-4002-acad-4360ab69456d">
+    <bounds
+        x="984"
+        y="51"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessRole"
+        href="BusinessRole_2a13f18e-57e2-44a7-8b88-523c0ab81a14.xml#2a13f18e-57e2-44a7-8b88-523c0ab81a14"/>
   </children>
 </archimate:ArchimateDiagramModel>

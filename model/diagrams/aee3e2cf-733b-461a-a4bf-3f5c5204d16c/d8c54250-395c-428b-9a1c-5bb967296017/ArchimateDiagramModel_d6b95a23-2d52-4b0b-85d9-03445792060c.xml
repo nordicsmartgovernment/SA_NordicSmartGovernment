@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Cash register sales"
-    id="d6b95a23-2d52-4b0b-85d9-03445792060c">
+    id="d6b95a23-2d52-4b0b-85d9-03445792060c"
+    documentation="The format of the journal of actual register transactions from a single cash register can be represented as &quot;SAF-T Cash register&quot; or &quot;XBRL&quot;. At least in case of SAF-T, the requirement is that the journal is created in the cash register itself (entries needs to be digitally signed by a key known to the register).&#xD;&#xA;&#xD;&#xA;The details of the application architecture providing the &quot;cash sales report&quot; service is outside the scope of this model, but this view shows one possibility: it is assumed that the ERP-system needs to keep track of each cash register transaction and does so by accessing, storing and aggregating the journal from each register. This information can furter be provided through the &quot;cash sales report&quot;-service.&#xD;&#xA;&#xD;&#xA;The cash register itself might be managed by a central application component, this might be a part of the ERP or integrated with the ERP, or it might provide the &quot;cash sales report&quot;-service without going through the ERP. These details are up to the implementer and out of scope for this analysis.&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="4f2ee3f1-a566-491a-8dee-c1e9b2054c59">

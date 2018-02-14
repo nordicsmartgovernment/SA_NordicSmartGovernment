@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Invoice"
-    id="bbedec01-ffef-4063-abba-1cc92da9e01a">
+    id="bbedec01-ffef-4063-abba-1cc92da9e01a"
+    documentation="The infrastructure for electronic invoicing is already well established. However, each country has its own standards and infrastructure, as indicated in this view.&#xD;&#xA;&#xD;&#xA;Source: wikipedia, https://en.wikipedia.org/wiki/Electronic_invoicing&#xD;&#xA;&#xD;&#xA;The rest of the procurement-process is described separately.&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="a6efdf2c-f6d9-43fa-9b08-bd2deba98037"
