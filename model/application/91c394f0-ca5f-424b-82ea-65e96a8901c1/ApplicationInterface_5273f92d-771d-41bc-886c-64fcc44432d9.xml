@@ -1,4 +1,5 @@
 <archimate:ApplicationInterface
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="e-Invoce interface"
-    id="5273f92d-771d-41bc-886c-64fcc44432d9"/>
+    id="5273f92d-771d-41bc-886c-64fcc44432d9"
+    documentation="https://en.wikipedia.org/wiki/Electronic_invoicing"/>

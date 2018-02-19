@@ -1,4 +1,5 @@
 <archimate:ApplicationInterface
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="XBRL"
-    id="79696b51-5b80-4bad-876c-c4cb64d30c46"/>
+    id="79696b51-5b80-4bad-876c-c4cb64d30c46"
+    documentation="https://en.wikipedia.org/wiki/XBRL&#xD;&#xA;https://en.wikipedia.org/wiki/XBRL_GL&#xD;&#xA;"/>

@@ -1,4 +1,5 @@
 <archimate:Folder
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Separate processes"
-    id="d8c54250-395c-428b-9a1c-5bb967296017"/>
+    id="d8c54250-395c-428b-9a1c-5bb967296017"
+    documentation="Processes underpinning the identified use-cases for smart goverment.&#xD;&#xA;The use-cases themselves are not listed or documented, but the processes are lifted from the Smartgoverment Business Case.&#xD;&#xA;"/>

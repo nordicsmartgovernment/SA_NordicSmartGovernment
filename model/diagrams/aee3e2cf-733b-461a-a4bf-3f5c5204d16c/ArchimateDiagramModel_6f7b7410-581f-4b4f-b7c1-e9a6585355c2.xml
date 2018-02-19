@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Stakeholders"
-    id="6f7b7410-581f-4b4f-b7c1-e9a6585355c2">
+    id="6f7b7410-581f-4b4f-b7c1-e9a6585355c2"
+    documentation="Listing the different stakeholders from the &quot;Smartgovernment Stakeholder Analysis&quot;, with some assumed relations.&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="8c790e14-f7e7-4371-9081-89abee737a16">

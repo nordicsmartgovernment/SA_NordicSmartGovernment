@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Formats"
-    id="58a3ed11-fb28-498e-b912-bdc4a9e2a82b">
+    id="58a3ed11-fb28-498e-b912-bdc4a9e2a82b"
+    documentation="Overview of technical format descriptions involved in the defined services.&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="a30cdf57-db9b-4745-b85b-85dd0c77d466">
