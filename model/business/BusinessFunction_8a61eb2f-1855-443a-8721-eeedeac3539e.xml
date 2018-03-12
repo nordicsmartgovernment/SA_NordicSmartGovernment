@@ -1,4 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Managing invoices"
-    id="8a61eb2f-1855-443a-8721-eeedeac3539e"/>
+    id="8a61eb2f-1855-443a-8721-eeedeac3539e"
+    documentation="Including invoce tracking."/>

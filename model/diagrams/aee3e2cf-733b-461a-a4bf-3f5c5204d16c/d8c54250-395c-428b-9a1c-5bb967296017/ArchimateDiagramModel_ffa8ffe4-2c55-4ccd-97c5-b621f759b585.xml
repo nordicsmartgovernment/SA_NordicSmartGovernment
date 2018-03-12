@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Procurement"
+    name="Procurement application"
     id="ffa8ffe4-2c55-4ccd-97c5-b621f759b585"
     documentation="The procurement-process is currently being defined and described as a set of data formats and protocols under the EU-initiative CEN/TC 440. This is aimed at the government procuring products and services from private companies, but it will probably make sense for private customers as well.&#xD;&#xA;&#xD;&#xA;Please note that the view shows this mostly from the customer point of view, not the vendor. For mapping of the procurement-services to application functions at the vendor, se the &quot;sales, order, inventory management&quot;-view.&#xD;&#xA;&#xD;&#xA;More information is available at:&#xD;&#xA;https://www.anskaffelser.no/generelt-om-verktoykassen/standardiseringsprosjekter-i-regi-av-eu/centc-440&#xD;&#xA;https://standards.cen.eu/dyn/www/f?p=204:7:0::::FSP_ORG_ID:1976650&amp;cs=175E298F320429229DD35C9E22F4E8F76&#xD;&#xA;">
   <children
