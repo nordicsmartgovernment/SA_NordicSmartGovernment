@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Business Process (All high level functions)"
+    name="Business Functions"
     id="0cb18ec8-ed64-4cb6-864f-3416ca2d198a">
   <children
       xsi:type="archimate:DiagramModelGroup"

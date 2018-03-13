@@ -446,9 +446,9 @@
         targetConnections="9d5c31a3-ac86-4d45-9a0b-46a4fb3ed12d">
       <bounds
           x="24"
-          y="108"
+          y="96"
           width="169"
-          height="40"/>
+          height="61"/>
       <archimateElement
           xsi:type="archimate:BusinessRole"
           href="BusinessRole_8a8655d0-94a8-44e8-90e8-f314837da334.xml#8a8655d0-94a8-44e8-90e8-f314837da334"/>

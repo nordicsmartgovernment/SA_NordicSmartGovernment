@@ -1,5 +1,0 @@
-<archimate:TechnologyInterface
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Data Tranformation"
-    id="e9219fdf-c4ca-4281-a042-9e19220a8001"
-    documentation="information like:&#xD;&#xA;-bank statement&#xD;&#xA;-sales&#xD;&#xA;-purchase orders&#xD;&#xA;-inventory&#xD;&#xA;-salary"/>
