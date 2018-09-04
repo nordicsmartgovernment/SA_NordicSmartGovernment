@@ -1,4 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="XBRL"
-    id="f0a171b0-735f-4dff-90de-8d9bd181ef3f"/>
+    id="f0a171b0-735f-4dff-90de-8d9bd181ef3f"
+    documentation=" Formatet egner seg for konsolidering og utveksling av transaksjonsdata på detaljert nivå, for store selskaper mellom konsernselskaper i ulike land. &#xA;&#xA;Egnet når det foreligger behov for utveksling av transaksjonsdata på detaljert nivå mellom konsernselskaper, (i motsetning til når rapportering skjer på aggregert nivå, hvor SAF-T også kan brukes). &#xA;"/>
