@@ -1,4 +1,5 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Accounting"
-    id="62605a01-a522-49bb-bf27-23cf4bf14c9c"/>
+    id="62605a01-a522-49bb-bf27-23cf4bf14c9c"
+    documentation="(Norsk: Hovedbok)&#xA;Norsk: finanskonto&#xA;"/>

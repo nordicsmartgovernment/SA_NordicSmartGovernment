@@ -1,4 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Credit lending evaluation"
-    id="2c2948c6-404d-4a9d-bf7c-6cd4347dfad6"/>
+    id="2c2948c6-404d-4a9d-bf7c-6cd4347dfad6"
+    documentation="bankenes kredittvurderinger"/>

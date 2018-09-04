@@ -1,0 +1,30 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Concepts"
+    id="98e50d5c-3e4b-459d-a949-39de7587f5a0">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="2751766d-c302-41f2-97de-af7ecb6318e0">
+    <bounds
+        x="192"
+        y="71"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Meaning"
+        href="Meaning_730dd1d3-a655-4daa-ac09-68abdb42cafc.xml#730dd1d3-a655-4daa-ac09-68abdb42cafc"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="7d087f84-a140-4484-9827-a3958bbbd23c">
+    <bounds
+        x="374"
+        y="84"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Meaning"
+        href="Meaning_e87189c5-245b-4a3c-8881-f9de5e155430.xml#e87189c5-245b-4a3c-8881-f9de5e155430"/>
+  </children>
+</archimate:ArchimateDiagramModel>

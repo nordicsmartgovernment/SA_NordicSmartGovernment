@@ -271,7 +271,7 @@
       <bounds
           x="564"
           y="319"
-          width="314"
+          width="330"
           height="55"/>
       <archimateElement
           xsi:type="archimate:ApplicationInterface"
@@ -342,7 +342,7 @@
       <bounds
           x="748"
           y="405"
-          width="130"
+          width="146"
           height="26"/>
       <archimateElement
           xsi:type="archimate:ApplicationInterface"

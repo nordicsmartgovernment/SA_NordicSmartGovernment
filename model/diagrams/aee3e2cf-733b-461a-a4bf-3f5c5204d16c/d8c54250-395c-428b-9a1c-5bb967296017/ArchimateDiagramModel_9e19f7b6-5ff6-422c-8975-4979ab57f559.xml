@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Sales, Order, Inventory management"
     id="9e19f7b6-5ff6-422c-8975-4979ab57f559"
-    documentation="The sales and procurement-processes from the vendor point of view.&#xD;&#xA;&#xD;&#xA;The model makes some assumptions about functions for inventory, sales, order and product management being provided by an ERP-system. In the real world, these might be provided by different systems and might be structured differently, however, this set of functions is probably required for providing the e-procurement services and the price/sales aggregated reporting services.&#xD;&#xA;&#xD;&#xA;For the usage of these services, please see the views for &quot;analysis&quot; and &quot;procurement&quot;.&#xD;&#xA;&#xD;&#xA;">
+    documentation="The sales and procurement-processes from the vendor point of view.&#xD;&#xA;&#xD;&#xA;The model makes some assumptions about functions for inventory, sales, order and product management being provided by an ERP-system. In the real world, these might be provided by different systems and might be structured differently, however, this set of functions is probably required for providing the e-procurement services and the price/sales aggregated reporting services.&#xD;&#xA;&#xD;&#xA;For the usage of these services, please see the views for &quot;analysis&quot; and &quot;procurement&quot;.&#xA;&#xA;Standardized interfaces is the key to acquire more details on the business transactions such as product information and other measurable details. &#xD;&#xA;&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="ee95ba87-40d3-42cc-9042-59ee3876f07e">
@@ -323,9 +323,9 @@
           id="7384be91-0ab3-4c04-b391-1772eee79628"
           targetConnections="9ca56157-2d2f-4321-bca1-a4563d0170d9">
         <bounds
-            x="24"
+            x="12"
             y="168"
-            width="120"
+            width="132"
             height="29"/>
         <archimateElement
             xsi:type="archimate:ApplicationService"
@@ -336,9 +336,9 @@
           id="1e72d9c0-f160-4170-a73c-6bd32d06664c"
           targetConnections="e90a18a9-e548-423b-b837-04a8237407ac">
         <bounds
-            x="24"
+            x="12"
             y="132"
-            width="120"
+            width="132"
             height="29"/>
         <archimateElement
             xsi:type="archimate:ApplicationService"
@@ -349,9 +349,9 @@
           id="b5134a13-0699-4dac-bfa7-45e4bcd9fad9"
           targetConnections="b298a91c-95df-4c3a-b6e0-d6d1be5217b8">
         <bounds
-            x="24"
+            x="12"
             y="101"
-            width="120"
+            width="132"
             height="29"/>
         <archimateElement
             xsi:type="archimate:ApplicationService"
@@ -362,9 +362,9 @@
           id="c6de2d52-daa0-451d-b82a-67bf9fdfd2b7"
           targetConnections="6924b47d-552d-469f-8b1d-cc212355d623">
         <bounds
-            x="24"
+            x="12"
             y="68"
-            width="120"
+            width="132"
             height="29"/>
         <archimateElement
             xsi:type="archimate:ApplicationService"
@@ -375,9 +375,9 @@
           id="ab6b74cb-4896-4aa2-ba04-468bded879cb"
           targetConnections="b96f76b4-e8ae-42cf-a877-5d4729bea6b1">
         <bounds
-            x="24"
+            x="12"
             y="36"
-            width="120"
+            width="132"
             height="29"/>
         <archimateElement
             xsi:type="archimate:ApplicationService"

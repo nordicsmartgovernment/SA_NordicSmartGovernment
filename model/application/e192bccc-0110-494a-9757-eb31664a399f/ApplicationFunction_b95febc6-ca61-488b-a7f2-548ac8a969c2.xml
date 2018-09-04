@@ -1,4 +1,5 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Sales ledger"
-    id="b95febc6-ca61-488b-a7f2-548ac8a969c2"/>
+    id="b95febc6-ca61-488b-a7f2-548ac8a969c2"
+    documentation="The Sales Ledger is frequently in software known as &quot;Accounts Receivable&quot; or &quot;Customer Accounts&quot;."/>

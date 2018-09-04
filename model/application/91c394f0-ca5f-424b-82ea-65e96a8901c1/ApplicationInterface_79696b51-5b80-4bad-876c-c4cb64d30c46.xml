@@ -1,5 +1,5 @@
 <archimate:ApplicationInterface
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="XBRL"
+    name="XBRL-GL"
     id="79696b51-5b80-4bad-876c-c4cb64d30c46"
-    documentation="https://en.wikipedia.org/wiki/XBRL&#xD;&#xA;https://en.wikipedia.org/wiki/XBRL_GL&#xD;&#xA;"/>
+    documentation="https://en.wikipedia.org/wiki/XBRL&#xD;&#xA;https://en.wikipedia.org/wiki/XBRL_GL&#xD;&#xA;&#xA;The XBRL Global Ledger Taxonomy Framework (XBRL GL) is a holistic and generic XML and XBRL-based representation of the detailed data that can be found in accounting and operational systems, and is meant to be the bridge from transactional standards to reporting standards, integrating the Business Reporting Supply Chain.&#xA;&#xA;XBRL GL can be used by computer programs for information interchange of accounting General ledger balances (summarized information) as well as complete accounting ledgers (payables, receivables, inventory, payroll, order entry, purchasing, banking) supporting object oriented accounting, quantity accounting and transparency support. &#xA;&#xA;OECD: revenue bodies should be aware of the on-going development of XBRL, which may offer a more holistic approach to audit. {compared to SAF-T}"/>
