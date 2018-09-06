@@ -1,0 +1,5 @@
+<archimate:WorkPackage
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="RTECO (Real time economy)"
+    id="7e6a522c-03cf-465c-b96e-77f40258cecb"
+    documentation="We have defined eReciept structured data model, end to end infrastructure and define basic use cases e.g. = Rulebook for eReciept ecosystem&#xA;- roles of the members in the ecosystem&#xA;...&#xA;- e-reciept e-address and 4-corner model (just idea, no peppol - idea is the same, but we do not have that much peppol in finland, do not see the need)&#xA;- e-reciept mobile use, to display the eRecipts in mobile app&#xA;-integration to companies travel and expense systems or purchase invoice system"/>

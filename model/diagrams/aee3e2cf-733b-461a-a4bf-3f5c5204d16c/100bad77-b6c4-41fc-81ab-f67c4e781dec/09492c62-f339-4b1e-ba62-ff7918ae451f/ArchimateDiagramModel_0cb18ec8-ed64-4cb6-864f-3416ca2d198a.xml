@@ -11,7 +11,7 @@
     <bounds
         x="336"
         y="12"
-        width="277"
+        width="290"
         height="589"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -90,24 +90,46 @@
         id="f92c2422-ba68-4e38-b915-f35248bf8134">
       <bounds
           x="12"
-          y="24"
+          y="228"
           width="253"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessFunction"
           href="BusinessFunction_3571fab9-d4ba-47e9-9478-fb6d0e10138d.xml#3571fab9-d4ba-47e9-9478-fb6d0e10138d"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelNote"
+        id="1e5838f4-5d4e-44f5-9ab7-754b8adece5b"
+        textAlignment="1"
+        content="* Maintaining vendor and customer master data&#xA;* Order handling and inventory management&#xA;* Managming invoice and accounting&#xA;* Losses on loans&#xA;* Erp implementation = cost">
+      <bounds
+          x="5"
+          y="25"
+          width="281"
+          height="121"/>
+    </children>
   </children>
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="6ebf4796-5f47-4ab1-9738-ffd6747b05ab"
-      name="Financial services and transactions"
+      name="Financial services and liquidity"
       textAlignment="1">
     <bounds
-        x="912"
+        x="924"
         y="12"
         width="265"
         height="589"/>
+    <children
+        xsi:type="archimate:DiagramModelNote"
+        id="3a4c794b-7518-423c-bed1-199314183786"
+        textAlignment="1"
+        content="Case handling on loans (Getting loans)&#xA;...">
+      <bounds
+          x="12"
+          y="24"
+          width="241"
+          height="121"/>
+    </children>
   </children>
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -115,7 +137,7 @@
       name="Marketing, business intelligence and  products"
       textAlignment="1">
     <bounds
-        x="624"
+        x="636"
         y="12"
         width="277"
         height="589"/>
@@ -130,6 +152,17 @@
       <archimateElement
           xsi:type="archimate:BusinessFunction"
           href="BusinessFunction_a65f8929-95d2-4624-a63d-db0cc3471a22.xml#a65f8929-95d2-4624-a63d-db0cc3471a22"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelNote"
+        id="ad46b320-30a2-452b-9403-acaa9ceccd59"
+        textAlignment="1"
+        content="Benchmarking = cost reduction&#xA;Marketing = revenue inreasies&#xA;Pricing = revenue increases &#xA;&#x9;- avverage cost EUR 0,5m &#xA;&#x9;- average revenue euro 0.7m&#xA;">
+      <bounds
+          x="12"
+          y="24"
+          width="253"
+          height="121"/>
     </children>
   </children>
   <children

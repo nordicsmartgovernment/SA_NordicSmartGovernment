@@ -242,7 +242,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="3ab3c063-07fa-40c1-b70b-63aef169f79a"
       textAlignment="1"
-      content="XBRL GL vs. XBRL FS/FR?">
+      content="XBRL GL vs. XBRL FS/FR (Financial Statements/Finance Report) - Aggregation?">
     <bounds
         x="81"
         y="305"

@@ -1,0 +1,5 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="EHF"
+    id="6b85ea41-8f87-4645-a459-ef1a50658a08"
+    documentation="EHF (Elektronisk Handelsformat) er en norsk tilpasning til et felleseuropeisk fakturaformat. Organisasjonsnummeret til kunden er adressen. &#xA; &#xA;The EHF and PEPPOL BIS standard are mandated for central, regional and local&#xA;contracting authorities and entities. UBL is the technical format (syntax) that is&#xA;widely used by trading parties in Norway. EHF - Electronic trade format – is a&#xA;national format based on PEPPOL BIS (and UBL) that is used in public&#xA;procurement. The only difference is that two information fields are optional in&#xA;PEPPOL BIS but mandatory in EHF."/>

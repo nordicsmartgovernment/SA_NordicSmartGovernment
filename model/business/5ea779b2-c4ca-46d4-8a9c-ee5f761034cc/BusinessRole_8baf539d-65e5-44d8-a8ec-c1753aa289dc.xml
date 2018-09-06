@@ -1,4 +1,5 @@
 <archimate:BusinessRole
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="ERP vendor"
-    id="8baf539d-65e5-44d8-a8ec-c1753aa289dc"/>
+    id="8baf539d-65e5-44d8-a8ec-c1753aa289dc"
+    documentation="Enterprise Resource Planning (ERP) vendors sell ERP systems. An ERP system is a business process management software that allows an organization to use a system of integrated applications to manage the business and automate many back office functions such as procurement and accounting."/>

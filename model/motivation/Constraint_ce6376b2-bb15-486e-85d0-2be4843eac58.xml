@@ -1,0 +1,5 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="ISO 20022 - Bank to customer statement v02. Camd.053.001.02"
+    id="ce6376b2-bb15-486e-85d0-2be4843eac58"
+    documentation="Your previous / prior day bank statement. Provides the customer with detailed and structured information on all entries booked to their account for the previous day."/>
