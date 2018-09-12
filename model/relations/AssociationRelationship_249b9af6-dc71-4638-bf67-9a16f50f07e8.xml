@@ -7,6 +7,6 @@
       xsi:type="archimate:DataObject"
       href="DataObject_81078e50-6e20-4cc8-b3ae-6827fe40f341.xml#81078e50-6e20-4cc8-b3ae-6827fe40f341"/>
   <target
-      xsi:type="archimate:Grouping"
-      href="Grouping_d1990917-4586-4590-86b8-15cee17f0b15.xml#d1990917-4586-4590-86b8-15cee17f0b15"/>
+      xsi:type="archimate:DataObject"
+      href="DataObject_ff4e3bd8-e840-412a-8296-f2795a1459b1.xml#ff4e3bd8-e840-412a-8296-f2795a1459b1"/>
 </archimate:AssociationRelationship>

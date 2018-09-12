@@ -203,4 +203,15 @@
         xsi:type="archimate:Meaning"
         href="Meaning_d918de3f-3d76-4201-a8a3-4bb4080655c1.xml#d918de3f-3d76-4201-a8a3-4bb4080655c1"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="1a987e46-9201-46fe-b454-434b1c756925">
+    <bounds
+        x="456"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Meaning"
+        href="Meaning_e2d172b2-ca3b-4e75-ad86-f53df61ab7f9.xml#e2d172b2-ca3b-4e75-ad86-f53df61ab7f9"/>
+  </children>
 </archimate:ArchimateDiagramModel>

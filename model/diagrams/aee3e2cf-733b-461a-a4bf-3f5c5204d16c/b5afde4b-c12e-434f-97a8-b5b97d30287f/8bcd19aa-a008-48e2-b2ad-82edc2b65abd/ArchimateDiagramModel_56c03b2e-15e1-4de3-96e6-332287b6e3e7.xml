@@ -189,16 +189,16 @@
       xsi:type="archimate:DiagramModelNote"
       id="9a3bcc33-40c5-4423-b79e-b22d4523041d"
       textAlignment="1"
-      content="EN 16931-1.">
+      content="EN 16931-1 semantic model for e-invoice">
     <sourceConnections
         id="c7cb3195-be3d-4c50-a65b-658541b9ad7d"
         source="9a3bcc33-40c5-4423-b79e-b22d4523041d"
         target="67c00db6-d054-4de8-a56a-9475047dd3ea"/>
     <bounds
         x="276"
-        y="26"
+        y="16"
         width="185"
-        height="35"/>
+        height="55"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
