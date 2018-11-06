@@ -9,23 +9,24 @@ First you have to install tools and plugin as described in [README.md](README.md
 So far branching is unsupported in Archi, therefore you have to follow a certain pattern when updating the model
 
 #### Update HTML-report
-Når du har gjort vesentlige endringer i modellen, må du oppdatere HTML-rapporten. (Dette er en read-only html-versjon av modellen, som interessenter kan klikke rundt i.)
-1. Velg File->Report->HTML...
-2. Velg docs-mappa i prosjektet.
-3. Trykk OK
+When you have done substantial changes in the model, you have to update the HTML-report. (This is a read-only html-version of the model, where stake holders can click around)
+1. Select File->Report->HTML...
+2. Select docs-folder in the project.
+3. Press OK
 
-Docs-mappa finner du lettest ved å finne Main->File i Properties-fanen for modellen. Erstatt ".git\temp.archimate" med "docs". Du vil få advarsel om at du overskriver eksisterende innhold. Det er ok, så trykk "Yes" i dialogen.
+The Docs-folder you will most easily find by finding the Main->File in Properties-tab for the model. Replace ".git\temp.archimate" with "docs". You will get a warning that you are replacing existing content. This is ok, so press "Yes" in the dialog.
+
 #### Commit
-1.  Etter at du har gjort endringer, lagre disse på vanlig måte i Archi, feks CTLR+s
-2.  Velg Collaboration->Commit Changes.
-3.  Fyll ut feltene, bruk en fornuftig Commit message
-4.  Trykk Ok
+1.  After you have done changes, store this in normal way in Archi, e.g. CTRL+s
+2.  Select Collaboration->Commit Changes.
+3.  Fill out the fileds, use a understandable Commit message
+4.  Press Ok
 
-#### Publisere endringer til Github
-1.  Etter at du har committet endringene, vil du publisere disse til Github
-2.  Velg Collaboration->Publish Changes
-Endringen blir da publisert på Github.
+#### Publish changes to Github
+1.  After you have comitted the changes, you will publish these on Github
+2.  Select Collaboration->Publish Changes
+The change will then be published on Github.
 
-### Hvilke standarder og metoder har vi benyttet
-*   Metodikk er basert på [TOGAF 9](http://pubs.opengroup.org/architecture/togaf9-doc/arch/)
-*   Metamodellen er [Archimate 3](http://pubs.opengroup.org/architecture/archimate3-doc/)
+### What standards and methods have we been using?
+*   Methodology is baserd on [TOGAF 9](http://pubs.opengroup.org/architecture/togaf9-doc/arch/)
+*   Meta modell is [Archimate 3](http://pubs.opengroup.org/architecture/archimate3-doc/)
