@@ -1,0 +1,5 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="EDIFACT"
+    id="5145ad05-a097-4251-965d-95f6295c656d"
+    documentation="UN/EDIFACT21 (United Nations Electronic Data Interchange for Administration, Commerce and Transport) is the international EDI standard developed under the United Nations. The EDIFACT standard provides a set of syntax rules to structure data, an interactive exchange protocol (I-EDI) and a standard message which allow multi-country and multi-industry exchange."/>

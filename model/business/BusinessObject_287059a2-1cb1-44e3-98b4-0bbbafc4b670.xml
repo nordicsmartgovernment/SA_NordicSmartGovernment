@@ -1,0 +1,5 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Kontoopplysninger"
+    id="287059a2-1cb1-44e3-98b4-0bbbafc4b670"
+    documentation="Et standardisert grensesnitt for oppslag på kontoopplysninger  er etablert for alle bankene i DSOP prosjektet. Dette grensesnittet bygger på ISO 20022."/>

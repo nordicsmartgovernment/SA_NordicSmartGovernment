@@ -115,7 +115,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="2a94b1aa-1f62-4c7d-be33-35c1bf16c992"
-      targetConnections="297ebb82-d576-4820-9eef-d4b676aae540">
+      targetConnections="297ebb82-d576-4820-9eef-d4b676aae540 a101c8ee-d57d-4dc7-8f79-1bfbc1bdc350">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="56bd3cc3-1286-4fb4-bf60-a0aa46258cd9"
@@ -248,5 +248,20 @@
         y="305"
         width="185"
         height="55"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="102d56bc-0f36-4a60-82cb-31ec41d0b775"
+      textAlignment="1"
+      content="In Norway, there have been a standard account plan for several years, and annual accounts are generated from the accounting systems and from there submitted to the registry. Moreover, Norway has for some years been working on distributing data related to salary in a SmartGovernment-fashion, and thus has experience on collecting data and distributing it to various authorities.">
+    <sourceConnections
+        id="a101c8ee-d57d-4dc7-8f79-1bfbc1bdc350"
+        source="102d56bc-0f36-4a60-82cb-31ec41d0b775"
+        target="2a94b1aa-1f62-4c7d-be33-35c1bf16c992"/>
+    <bounds
+        x="732"
+        y="192"
+        width="185"
+        height="260"/>
   </children>
 </archimate:ArchimateDiagramModel>

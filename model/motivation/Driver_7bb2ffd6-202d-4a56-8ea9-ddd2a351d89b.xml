@@ -1,4 +1,5 @@
 <archimate:Driver
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Directive 2014/55/EU on electronic invoicing in public procurement"
-    id="7bb2ffd6-202d-4a56-8ea9-ddd2a351d89b"/>
+    id="7bb2ffd6-202d-4a56-8ea9-ddd2a351d89b"
+    documentation="Implementation and adoption of European Union-wide electronic invoicing is regulated Council Directive 2010/45/EU, which affects all EU member states. Companies that want to benefit from electronic invoicing must submit sales order invoices, free text invoices, project invoices, sales order credit notes, and project invoice credit notes as .xml files to the government or other trading parties that mandate use of electronic invoicing. These .xml files must comply with certain standards. The country-specific requirements and their implementation may differ across EU member states but commonly they are using Universal Business Language (UBL) in different versions with customizations as well as PEPPOL specifications and access points for validation and transportation. The primary advantage of UBL is that business documents can be standardized for different purposes. Because UBL is a flexible, international standard that supports many business requirements, these business documents can be exchanged across national borders."/>

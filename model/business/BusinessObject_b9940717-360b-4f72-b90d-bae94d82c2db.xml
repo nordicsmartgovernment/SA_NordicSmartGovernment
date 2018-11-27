@@ -1,4 +1,5 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Invoice"
-    id="b9940717-360b-4f72-b90d-bae94d82c2db"/>
+    id="b9940717-360b-4f72-b90d-bae94d82c2db"
+    documentation="an invoice is sent from a vendor to a purchaser to request payment for an (purchase) order.&#xA;It is a summary of the goods and services the buyer has purchased (or agreed to purchase).&#xA;An invoice can be sent after the purchase order has been agreed upon and payment has been sent."/>

@@ -192,28 +192,6 @@
         height="199"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="133a1f7e-5244-4273-aa2e-59773992c0b8"
-        targetConnections="c63baf46-c7d5-4155-9c9d-34b319474491 ac9cccfd-e1d4-4cc5-a40b-3f5fe85e0527">
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="7e0bcd83-cc02-488a-9a5b-8954ed573d1b"
-          source="133a1f7e-5244-4273-aa2e-59773992c0b8"
-          target="5d68b9a1-1bdc-4b6e-920f-d9d05bee0d17">
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_0a2905ef-b921-42be-a839-ecf52a6993a5.xml#0a2905ef-b921-42be-a839-ecf52a6993a5"/>
-      </sourceConnections>
-      <bounds
-          x="12"
-          y="24"
-          width="613"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:Stakeholder"
-          href="Stakeholder_54b9691f-1b54-4d7f-985e-34474bd52938.xml#54b9691f-1b54-4d7f-985e-34474bd52938"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="13796e5f-21e5-4218-ae3a-888c1a03b1ab">
       <bounds
           x="630"
@@ -288,9 +266,9 @@
         targetConnections="80fba925-72cb-4094-9939-95355c7b293b 3661d84d-f22c-488d-adf6-d164a7cf1500 5ca53971-bf05-4364-bfe6-a2ecef8a9484">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="ac9cccfd-e1d4-4cc5-a40b-3f5fe85e0527"
+          id="d99b25bb-ce3b-412b-a027-e9cd6513b11d"
           source="9b68d98b-dc92-463a-bc86-b9b3701c420c"
-          target="133a1f7e-5244-4273-aa2e-59773992c0b8">
+          target="c62e2c21-db88-4685-acda-3fa8f11f6631">
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_49294cb0-5fd6-4769-89a1-91d271a2abae.xml#49294cb0-5fd6-4769-89a1-91d271a2abae"/>
@@ -310,9 +288,9 @@
         targetConnections="b0f41fc5-fd38-421f-88dc-ad4ae7cad74b">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="c63baf46-c7d5-4155-9c9d-34b319474491"
+          id="aec9fa12-bb86-4d8a-8470-dca1d633073b"
           source="f6b4701f-1b77-4cbe-93bb-1022493bbce1"
-          target="133a1f7e-5244-4273-aa2e-59773992c0b8">
+          target="c62e2c21-db88-4685-acda-3fa8f11f6631">
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_d60a326f-a7f5-48b2-bd08-536a96c2cb3b.xml#d60a326f-a7f5-48b2-bd08-536a96c2cb3b"/>
@@ -329,7 +307,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="5d68b9a1-1bdc-4b6e-920f-d9d05bee0d17"
-        targetConnections="7e0bcd83-cc02-488a-9a5b-8954ed573d1b">
+        targetConnections="ed2c1790-d57e-4872-966d-ca85549f401e">
       <bounds
           x="491"
           y="108"
@@ -373,6 +351,28 @@
       <archimateElement
           xsi:type="archimate:Assessment"
           href="Assessment_2f9504be-324a-47f9-a8d5-ca449d8c5d93.xml#2f9504be-324a-47f9-a8d5-ca449d8c5d93"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="c62e2c21-db88-4685-acda-3fa8f11f6631"
+        targetConnections="d99b25bb-ce3b-412b-a027-e9cd6513b11d aec9fa12-bb86-4d8a-8470-dca1d633073b">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="ed2c1790-d57e-4872-966d-ca85549f401e"
+          source="c62e2c21-db88-4685-acda-3fa8f11f6631"
+          target="5d68b9a1-1bdc-4b6e-920f-d9d05bee0d17">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_0a2905ef-b921-42be-a839-ecf52a6993a5.xml#0a2905ef-b921-42be-a839-ecf52a6993a5"/>
+      </sourceConnections>
+      <bounds
+          x="24"
+          y="36"
+          width="588"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Stakeholder"
+          href="Stakeholder_72cb33d7-ee4e-4639-b379-b4504f669d46.xml#72cb33d7-ee4e-4639-b379-b4504f669d46"/>
     </children>
   </children>
   <children

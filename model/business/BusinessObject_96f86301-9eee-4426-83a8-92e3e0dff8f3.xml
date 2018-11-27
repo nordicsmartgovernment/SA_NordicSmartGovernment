@@ -1,4 +1,5 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Purchase Order"
-    id="96f86301-9eee-4426-83a8-92e3e0dff8f3"/>
+    name="(Purchase) Order"
+    id="96f86301-9eee-4426-83a8-92e3e0dff8f3"
+    documentation="a purchase order is sent from a purchaser to a vendor to place an order."/>

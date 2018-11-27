@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Transaction formats"
+    name="Invoice interfaces"
     id="58a3ed11-fb28-498e-b912-bdc4a9e2a82b"
     documentation="Overview of technical format descriptions involved in the defined services.&#xD;&#xA;">
   <children
@@ -303,7 +303,7 @@
         xsi:type="archimate:DiagramModelNote"
         id="0c3144ea-9a38-474f-8c08-fdf86ede9cc4"
         textAlignment="1"
-        content="Se detailed data structure in own &quot;Invoice&quot;-diagram">
+        content="Se detailed data structure in own &quot;Invoice data model&quot;-diagram">
       <sourceConnections
           id="cadfc72c-4942-484c-8257-2b981049692f"
           source="0c3144ea-9a38-474f-8c08-fdf86ede9cc4"
@@ -471,7 +471,7 @@
           href="AssociationRelationship_cc24faf8-4c03-4525-b36f-9569dff9fd4a.xml#cc24faf8-4c03-4525-b36f-9569dff9fd4a"/>
     </sourceConnections>
     <bounds
-        x="157"
+        x="163"
         y="-66"
         width="288"
         height="55"/>
