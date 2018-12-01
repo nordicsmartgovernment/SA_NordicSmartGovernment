@@ -10,7 +10,7 @@
         x="72"
         y="84"
         width="205"
-        height="73"/>
+        height="97"/>
     <archimateElement
         xsi:type="archimate:Driver"
         href="Driver_7bb2ffd6-202d-4a56-8ea9-ddd2a351d89b.xml#7bb2ffd6-202d-4a56-8ea9-ddd2a351d89b"/>
@@ -22,9 +22,21 @@
         x="312"
         y="84"
         width="205"
-        height="73"/>
+        height="97"/>
     <archimateElement
         xsi:type="archimate:Driver"
         href="Driver_31062253-e2f0-472e-ba38-91382bc1c3dc.xml#31062253-e2f0-472e-ba38-91382bc1c3dc"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="704be438-06ce-46bb-b3fe-3e000d644a80">
+    <bounds
+        x="540"
+        y="84"
+        width="229"
+        height="97"/>
+    <archimateElement
+        xsi:type="archimate:Driver"
+        href="Driver_0cddbd15-37be-4b59-b2fc-7da266c6f9ff.xml#0cddbd15-37be-4b59-b2fc-7da266c6f9ff"/>
   </children>
 </archimate:ArchimateDiagramModel>
