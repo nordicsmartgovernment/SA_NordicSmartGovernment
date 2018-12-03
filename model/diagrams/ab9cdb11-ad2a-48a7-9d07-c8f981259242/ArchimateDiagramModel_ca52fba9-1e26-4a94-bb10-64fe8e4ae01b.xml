@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="EU Directives"
+    name="International Directives"
     id="ca52fba9-1e26-4a94-bb10-64fe8e4ae01b">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -38,5 +38,39 @@
     <archimateElement
         xsi:type="archimate:Driver"
         href="Driver_0cddbd15-37be-4b59-b2fc-7da266c6f9ff.xml#0cddbd15-37be-4b59-b2fc-7da266c6f9ff"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="9cd72b32-4b7e-4b0f-9588-11173367ece6"
+      targetConnections="27a72857-fd6d-4e78-b58f-606473a655c1">
+    <bounds
+        x="75"
+        y="216"
+        width="200"
+        height="73"/>
+    <archimateElement
+        xsi:type="archimate:Driver"
+        href="Driver_5c370b06-c60e-4155-b5b1-b52bf1fa7c15.xml#5c370b06-c60e-4155-b5b1-b52bf1fa7c15"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="d7251e71-2267-41e8-bc10-fcc204e4ea04">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="27a72857-fd6d-4e78-b58f-606473a655c1"
+        source="d7251e71-2267-41e8-bc10-fcc204e4ea04"
+        target="9cd72b32-4b7e-4b0f-9588-11173367ece6">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_f6a9bbc3-26a1-4299-9b75-30315edf1711.xml#f6a9bbc3-26a1-4299-9b75-30315edf1711"/>
+    </sourceConnections>
+    <bounds
+        x="84"
+        y="312"
+        width="181"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Meaning"
+        href="Meaning_4e845139-0257-4b12-b0ff-97636237c300.xml#4e845139-0257-4b12-b0ff-97636237c300"/>
   </children>
 </archimate:ArchimateDiagramModel>

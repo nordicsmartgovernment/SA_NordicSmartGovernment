@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Er det vurdert bruk av blokkjede?"
+    id="c95b5acd-4e6f-43a1-8996-a1913cf5fb74"
+    documentation="Det er vurdert dette i enkelte prosesser, f.eks. å sikre fakturaene/transasjonens integritet. Det vil gjøres noe PoC-ing på dette i 2019.  "/>
