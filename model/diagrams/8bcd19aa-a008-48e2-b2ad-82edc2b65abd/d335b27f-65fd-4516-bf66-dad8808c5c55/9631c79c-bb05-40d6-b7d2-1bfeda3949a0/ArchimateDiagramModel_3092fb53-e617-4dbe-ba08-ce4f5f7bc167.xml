@@ -59,7 +59,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="27523a81-db49-49df-a709-eb8f9cc8b1b0"
-      targetConnections="04abe5ea-736b-46e3-b3b4-a737a24f234a 5345c8f1-ceda-4ac6-8cdb-3a5becdc9334 3f4d25d3-db4a-4e90-b651-27e08387583e 9f6cf23b-b105-4b24-80c1-95e16d6e6152 0db4e3a3-072b-4de3-98bb-36a7a65f44f7">
+      targetConnections="04abe5ea-736b-46e3-b3b4-a737a24f234a 5345c8f1-ceda-4ac6-8cdb-3a5becdc9334 3f4d25d3-db4a-4e90-b651-27e08387583e 9f6cf23b-b105-4b24-80c1-95e16d6e6152 0db4e3a3-072b-4de3-98bb-36a7a65f44f7 b64a5428-3015-4638-ac6e-6ac116dfef55">
     <bounds
         x="-246"
         y="69"
@@ -532,7 +532,7 @@
       textAlignment="1"
       content="see View &quot;Invoice Data Model&quot; ">
     <bounds
-        x="-36"
+        x="-24"
         y="196"
         width="185"
         height="32"/>
@@ -557,5 +557,42 @@
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_5dd3c6c5-8486-45f6-9f75-c5362fbdaf09.xml#5dd3c6c5-8486-45f6-9f75-c5362fbdaf09"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="dc418374-a118-4d48-85b2-ae67ded8be5a"
+      targetConnections="f0262bf8-d5e3-4f0a-b0e2-40c3bbefb978">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="b64a5428-3015-4638-ac6e-6ac116dfef55"
+        source="dc418374-a118-4d48-85b2-ae67ded8be5a"
+        target="27523a81-db49-49df-a709-eb8f9cc8b1b0">
+      <archimateRelationship
+          xsi:type="archimate:SpecializationRelationship"
+          href="SpecializationRelationship_9eea69fc-1468-4fe2-b650-b7767d7006e6.xml#9eea69fc-1468-4fe2-b650-b7767d7006e6"/>
+    </sourceConnections>
+    <bounds
+        x="56"
+        y="552"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Constraint"
+        href="Constraint_4c891094-8c89-4ee5-a0bc-986f8c591d68.xml#4c891094-8c89-4ee5-a0bc-986f8c591d68"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="b6eb1d30-55ef-4d0f-9db6-1a54be1001c8"
+      textAlignment="1"
+      content="building industry">
+    <sourceConnections
+        id="f0262bf8-d5e3-4f0a-b0e2-40c3bbefb978"
+        source="b6eb1d30-55ef-4d0f-9db6-1a54be1001c8"
+        target="dc418374-a118-4d48-85b2-ae67ded8be5a"/>
+    <bounds
+        x="204"
+        y="552"
+        width="138"
+        height="27"/>
   </children>
 </archimate:ArchimateDiagramModel>
