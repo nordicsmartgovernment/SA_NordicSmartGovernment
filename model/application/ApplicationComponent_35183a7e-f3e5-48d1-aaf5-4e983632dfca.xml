@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BEAst Portal"
+    id="35183a7e-f3e5-48d1-aaf5-4e983632dfca"
+    documentation="a protal that can be used for companies that doenst hacan get report from their own ERP systems. Logon both from the purtchasing side and the supplier side. Also support scenaries where only one have system support. &#xA;&#xA;Process (main functions for buyers) &#xA;- Planning, send forecast&#xA;- Manage orders (Send orders and orderchanges) - prepare for shipping - respons to order...&#xA;- Monitor for expected deliveries (you will see what you need to unpack, know when it arrives)&#xA;- Receive goods, report deviations&#xA;- Recieve and automatically check invoice&#xA;&#xA;&#xA;Process (main functions for suppliers)&#xA;- Planning, receive forecast&#xA;- Confirm recieved orders/changes&#xA;- Pack the items to ship, print BEAst Label&#xA;- Send Dispatch advice before truck leaes the warehouse&#xA;- Send inovice based on Dispatch note and agreed prices"/>

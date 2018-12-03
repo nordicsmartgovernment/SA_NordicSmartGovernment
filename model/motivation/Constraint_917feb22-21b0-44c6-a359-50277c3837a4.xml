@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="EANCOM"
     id="917feb22-21b0-44c6-a359-50277c3837a4"
-    documentation="EANCOM are the most used standard – primary used in B2B sector."/>
+    documentation="GS1 EANCOM® is a GS1 subset of the UN/EDIFACT standard. It contains only the message elements required by business applications and mandated by the syntax. Omitted are optional elements not relevant for GS1 users. EANCOM is one of the leading international standard for the computerized interchange of data. EDIFACT is the basis for the EANCOM standard. Today the EANCOM standard is specialized for the implementation within supply chains.&#xA;&#xA;EANCOM are the most used standard – primary used in B2B sector (DK).&#xA;&#xA;Used for &#xA;* call-off on established contracts (quotations, orders, etc)&#xA;* Fulfilment, i.e. delivery and receipt of goods and services&#xA;* Invoicing"/>

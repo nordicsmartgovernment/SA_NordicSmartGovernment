@@ -1,0 +1,5 @@
+<archimate:Assessment
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Sikkerhet"
+    id="23878612-a7b8-4ae2-821d-b916bcdcfed3"
+    documentation="Viktig å adressere sikkerhet i arkitekturen. Mye sensitive forretningsdata og personopplysnigner.&#xA;&#xA;Næringslivet har invester betydelig i SAF-T standarden. Prosjektet bør væære forsiktie med å vurdere annet strukturert format i stedet for SAF-T.&#xA;- utvidelse eksisterende standards&#xA;- flere filstrukturer i tillegg til SAF-T&#xA;&#xA;Særlig for de som ikke bruker standard norsk kontoplan som utgangspunkt."/>

@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="På hvilken måde skal data flyttes mellem lande og internt ? Sikkerhed? Cyberangreb ??"
+    id="a9b893a2-9598-4b15-911f-8b4c71afad77"
+    documentation="Utgangspunktet er basert på at dataene forblir hos ERP-leverandøren (regnskapssystem). Det vil derfor være nødvendig å sikre disse endepunktene. "/>
