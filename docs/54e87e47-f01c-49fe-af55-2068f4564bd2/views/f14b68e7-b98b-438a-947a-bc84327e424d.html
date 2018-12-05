@@ -41,7 +41,8 @@
 				<ul class="nav nav-tabs" role="tablist">
 					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
 					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
-					<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
 				</ul>
 
 				<!-- Tab panes -->
@@ -62,26 +63,74 @@
 							</tbody>
 						</table>
 					</div>
-					<div role="tabpanel" class="tab-pane" id="elements">
-						<table class="table table-striped table-hover table-condensed">
-							<thead>
-								<tr>
-									<th class="i18n-name"></th>
-									<th class="i18n-type"></th>
-								</tr>
-							</thead>
-							<tbody>
-										<tr><td> <a href="../elements/16a369a1-90b5-4e20-8dc2-86a728fbe257.html" target="element"> Sales (order handling) and Marketing function </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
-												<tr><td> <a href="../elements/e61f0aa1-07d7-401c-9549-d05f6c653204.html" target="element"> Sales order processing </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
-												<tr><td> <a href="../elements/07946b71-a580-4cff-8f76-4905f963827f.html" target="element"> Shipping/delivery </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
-												<tr><td> <a href="../elements/8a61eb2f-1855-443a-8721-eeedeac3539e.html" target="element"> Managing invoices </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
-												<tr><td> <a href="../elements/ea1167e8-0aee-4310-a9de-1b75954412bf.html" target="element"> Sales queries </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
-										
-										<tr><td> <a href="../elements/2c4494bb-5a33-440a-9fc9-f939aba725e1.html" target="element"> Cash sales </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr><td> <a href="../elements/16a369a1-90b5-4e20-8dc2-86a728fbe257.html" target="element"> Sales (order handling) and Marketing function </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
+													<tr><td> <a href="../elements/e61f0aa1-07d7-401c-9549-d05f6c653204.html" target="element"> Sales order processing </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
+													<tr><td> <a href="../elements/07946b71-a580-4cff-8f76-4905f963827f.html" target="element"> Shipping/delivery </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
+													<tr><td> <a href="../elements/8a61eb2f-1855-443a-8721-eeedeac3539e.html" target="element"> Managing invoices </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
+													<tr><td> <a href="../elements/ea1167e8-0aee-4310-a9de-1b75954412bf.html" target="element"> Sales queries </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
+											
+											<tr><td> <a href="../elements/2c4494bb-5a33-440a-9fc9-f939aba725e1.html" target="element"> Cash sales </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
 
-							</tbody>
-						</table>
-					</div>
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/331dd87d-0670-4fef-9dcd-3207a5d17b87.html" target="element">  </a> </td>
+																		<td> <a href="../elements/331dd87d-0670-4fef-9dcd-3207a5d17b87.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/16a369a1-90b5-4e20-8dc2-86a728fbe257.html" target="element"> Sales (order handling) and Marketing function </a> </td>
+																		<td> <a href="../elements/07946b71-a580-4cff-8f76-4905f963827f.html" target="element"> Shipping/delivery </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/6b366e3e-b5e3-4eec-8694-68c28f270e6e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/6b366e3e-b5e3-4eec-8694-68c28f270e6e.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/16a369a1-90b5-4e20-8dc2-86a728fbe257.html" target="element"> Sales (order handling) and Marketing function </a> </td>
+																		<td> <a href="../elements/e61f0aa1-07d7-401c-9549-d05f6c653204.html" target="element"> Sales order processing </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/52d9d5ee-9d5e-4571-ac28-98027d9aac26.html" target="element">  </a> </td>
+																		<td> <a href="../elements/52d9d5ee-9d5e-4571-ac28-98027d9aac26.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/16a369a1-90b5-4e20-8dc2-86a728fbe257.html" target="element"> Sales (order handling) and Marketing function </a> </td>
+																		<td> <a href="../elements/8a61eb2f-1855-443a-8721-eeedeac3539e.html" target="element"> Managing invoices </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/5fd97ef1-0f0f-4c91-8ef3-e0f24cfdfc42.html" target="element">  </a> </td>
+																		<td> <a href="../elements/5fd97ef1-0f0f-4c91-8ef3-e0f24cfdfc42.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/16a369a1-90b5-4e20-8dc2-86a728fbe257.html" target="element"> Sales (order handling) and Marketing function </a> </td>
+																		<td> <a href="../elements/ea1167e8-0aee-4310-a9de-1b75954412bf.html" target="element"> Sales queries </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/72d66006-86f1-4138-9fea-9b72fa4e33b1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/72d66006-86f1-4138-9fea-9b72fa4e33b1.html" target="element" class="i18n-elementtype-SpecializationRelationship"></a> </td>
+																		<td> <a href="../elements/2c4494bb-5a33-440a-9fc9-f939aba725e1.html" target="element"> Cash sales </a> </td>
+																		<td> <a href="../elements/16a369a1-90b5-4e20-8dc2-86a728fbe257.html" target="element"> Sales (order handling) and Marketing function </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
 			  </div>
 			</div>
 		</div>
