@@ -1,11 +1,11 @@
-<archimate:AssociationRelationship
+<archimate:SpecializationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="09eff8b3-98a2-4c99-a312-7579c05bb4d0">
+    id="85c29c72-4bfe-4a15-b46e-7047980cc274">
   <source
-      xsi:type="archimate:Value"
-      href="Value_549ebad3-e954-41d5-acb9-7ff6260ca555.xml#549ebad3-e954-41d5-acb9-7ff6260ca555"/>
+      xsi:type="archimate:Stakeholder"
+      href="Stakeholder_d3c060b8-0fe1-4e77-9538-6104e6ee375d.xml#d3c060b8-0fe1-4e77-9538-6104e6ee375d"/>
   <target
       xsi:type="archimate:Stakeholder"
       href="Stakeholder_f061ead2-fdd6-4a9a-9200-f512c3f3d224.xml#f061ead2-fdd6-4a9a-9200-f512c3f3d224"/>
-</archimate:AssociationRelationship>
+</archimate:SpecializationRelationship>

@@ -4,23 +4,6 @@
     name="SmartGovernment SKD stakeholder"
     id="73dddaff-91c8-4a57-a28c-c26ceeef21f9">
   <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="7e496aa2-3814-4ad1-bcf6-32fba9f8d369"
-      targetConnections="5afbcefa-e928-491c-ba99-123f0f63ede8 f78834a3-339a-4190-ab0b-39cd88797470">
-    <sourceConnections
-        id="30f3502b-be5b-4849-8041-6566b007e8b8"
-        source="7e496aa2-3814-4ad1-bcf6-32fba9f8d369"
-        target="ec038320-b592-4deb-aea2-ec9a43a24557"/>
-    <bounds
-        x="120"
-        y="156"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:Stakeholder"
-        href="Stakeholder_934f7dba-b0b7-448c-a71e-4c4c0e56dcc3.xml#934f7dba-b0b7-448c-a71e-4c4c0e56dcc3"/>
-  </children>
-  <children
       xsi:type="archimate:DiagramModelNote"
       id="a5211f28-49d4-4d08-8a5d-728450a3345c"
       targetConnections="b87071ca-6369-4933-a6b3-6517d81c597c"
@@ -48,18 +31,18 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="9440657d-d8bc-4b4c-8d27-7f3e534ef66f">
     <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="5afbcefa-e928-491c-ba99-123f0f63ede8"
+        id="b87071ca-6369-4933-a6b3-6517d81c597c"
         source="9440657d-d8bc-4b4c-8d27-7f3e534ef66f"
-        target="7e496aa2-3814-4ad1-bcf6-32fba9f8d369">
+        target="a5211f28-49d4-4d08-8a5d-728450a3345c"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="19b11f7d-9804-4f3e-8e37-43818eb7aa55"
+        source="9440657d-d8bc-4b4c-8d27-7f3e534ef66f"
+        target="a59039ec-3665-465d-b6b4-9ad0f68e7427">
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_856edaaa-0a0b-49d4-8f70-71ecc25c1477.xml#856edaaa-0a0b-49d4-8f70-71ecc25c1477"/>
     </sourceConnections>
-    <sourceConnections
-        id="b87071ca-6369-4933-a6b3-6517d81c597c"
-        source="9440657d-d8bc-4b4c-8d27-7f3e534ef66f"
-        target="a5211f28-49d4-4d08-8a5d-728450a3345c"/>
     <bounds
         x="296"
         y="96"
@@ -74,9 +57,9 @@
       id="a4c1bc47-b6de-4b3c-8d2d-805cce569318">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="f78834a3-339a-4190-ab0b-39cd88797470"
+        id="f99f7ae0-31b0-47b6-b399-02376de2bab8"
         source="a4c1bc47-b6de-4b3c-8d2d-805cce569318"
-        target="7e496aa2-3814-4ad1-bcf6-32fba9f8d369">
+        target="a59039ec-3665-465d-b6b4-9ad0f68e7427">
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_6241ff8b-17f9-4e49-9fae-df1959275eac.xml#6241ff8b-17f9-4e49-9fae-df1959275eac"/>
@@ -101,5 +84,22 @@
         y="288"
         width="185"
         height="199"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="a59039ec-3665-465d-b6b4-9ad0f68e7427"
+      targetConnections="19b11f7d-9804-4f3e-8e37-43818eb7aa55 f99f7ae0-31b0-47b6-b399-02376de2bab8">
+    <sourceConnections
+        id="30f3502b-be5b-4849-8041-6566b007e8b8"
+        source="a59039ec-3665-465d-b6b4-9ad0f68e7427"
+        target="ec038320-b592-4deb-aea2-ec9a43a24557"/>
+    <bounds
+        x="132"
+        y="79"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Stakeholder"
+        href="Stakeholder_d3c060b8-0fe1-4e77-9538-6104e6ee375d.xml#d3c060b8-0fe1-4e77-9538-6104e6ee375d"/>
   </children>
 </archimate:ArchimateDiagramModel>
