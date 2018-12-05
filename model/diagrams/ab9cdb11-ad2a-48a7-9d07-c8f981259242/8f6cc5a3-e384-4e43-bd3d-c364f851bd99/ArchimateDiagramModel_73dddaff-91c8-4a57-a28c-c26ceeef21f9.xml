@@ -7,6 +7,10 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="7e496aa2-3814-4ad1-bcf6-32fba9f8d369"
       targetConnections="5afbcefa-e928-491c-ba99-123f0f63ede8 f78834a3-339a-4190-ab0b-39cd88797470">
+    <sourceConnections
+        id="30f3502b-be5b-4849-8041-6566b007e8b8"
+        source="7e496aa2-3814-4ad1-bcf6-32fba9f8d369"
+        target="ec038320-b592-4deb-aea2-ec9a43a24557"/>
     <bounds
         x="120"
         y="156"
@@ -85,5 +89,17 @@
     <archimateElement
         xsi:type="archimate:Requirement"
         href="Requirement_e3fd9ac4-1ad4-47b3-9b41-59f26e2b4c30.xml#e3fd9ac4-1ad4-47b3-9b41-59f26e2b4c30"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="ec038320-b592-4deb-aea2-ec9a43a24557"
+      targetConnections="30f3502b-be5b-4849-8041-6566b007e8b8"
+      textAlignment="1"
+      content="SKD: Renewing systems for VAT, Tax reporting? Standardized format&#xA;&#xA;OECD: &#xA;- Centralized data - cross reference difference data&#xA;- Secured chain - make sure that when a transaction take place it is securly taken part of">
+    <bounds
+        x="168"
+        y="288"
+        width="185"
+        height="199"/>
   </children>
 </archimate:ArchimateDiagramModel>
