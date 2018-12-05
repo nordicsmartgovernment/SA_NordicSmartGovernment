@@ -1,0 +1,13 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="defined by"
+    id="9ec8d91e-3ef8-407d-9064-570b1c3c6890"
+    documentation="One of the few prescriptive elements of the Directive’s technical standards mandates the use of ISO 20022 to define the data.">
+  <source
+      xsi:type="archimate:Driver"
+      href="Driver_31062253-e2f0-472e-ba38-91382bc1c3dc.xml#31062253-e2f0-472e-ba38-91382bc1c3dc"/>
+  <target
+      xsi:type="archimate:Constraint"
+      href="Constraint_81e5c995-25a8-45f7-872f-8c73c16a4416.xml#81e5c995-25a8-45f7-872f-8c73c16a4416"/>
+</archimate:AssociationRelationship>

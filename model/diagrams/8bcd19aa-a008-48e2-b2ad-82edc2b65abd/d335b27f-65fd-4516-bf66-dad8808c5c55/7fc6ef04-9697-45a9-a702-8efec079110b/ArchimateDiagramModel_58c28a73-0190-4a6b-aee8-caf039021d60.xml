@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Payment standards"
-    id="58c28a73-0190-4a6b-aee8-caf039021d60">
+    id="58c28a73-0190-4a6b-aee8-caf039021d60"
+    documentation="https://www.ey.com/Publication/vwLUAssets/Regulatory_agenda_updates_PSDII_Luxembourg/$FILE/Regulatory%20agenda%20updates_PSDII_Lux.pdf">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="9a079bd0-1d23-459e-9c80-afa03b212209"
@@ -60,14 +61,133 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="68455ad9-8e12-447b-8b22-4fc274de7f32">
+      id="68455ad9-8e12-447b-8b22-4fc274de7f32"
+      targetConnections="6bd470da-050d-4b58-98c5-7e664cfa398b 74eacfac-5ae4-4550-a5a1-dc03768a5ccc 05055a50-ce2d-458e-b603-8ed2b5feb41a">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="2136f7fa-7611-4579-823f-16ca75172b9e"
+        source="68455ad9-8e12-447b-8b22-4fc274de7f32"
+        target="57eec3cf-0166-4895-bef6-da45e2ec79a2">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_2571adaa-4f8e-48f5-acce-5c45745ec768.xml#2571adaa-4f8e-48f5-acce-5c45745ec768"/>
+    </sourceConnections>
     <bounds
-        x="96"
+        x="85"
         y="252"
-        width="181"
-        height="55"/>
+        width="216"
+        height="73"/>
     <archimateElement
         xsi:type="archimate:Driver"
         href="Driver_31062253-e2f0-472e-ba38-91382bc1c3dc.xml#31062253-e2f0-472e-ba38-91382bc1c3dc"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="db4d76d1-f768-4b1f-a28e-75289d9d1578">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="ffd4dd88-7301-4f90-a7b2-9b39fd83b4d9"
+        source="db4d76d1-f768-4b1f-a28e-75289d9d1578"
+        target="57eec3cf-0166-4895-bef6-da45e2ec79a2">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_64adc9ba-3311-44d7-ba82-16b444ca432a.xml#64adc9ba-3311-44d7-ba82-16b444ca432a"/>
+    </sourceConnections>
+    <bounds
+        x="492"
+        y="204"
+        width="277"
+        height="277"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="57eec3cf-0166-4895-bef6-da45e2ec79a2"
+        targetConnections="2136f7fa-7611-4579-823f-16ca75172b9e ffd4dd88-7301-4f90-a7b2-9b39fd83b4d9">
+      <bounds
+          x="24"
+          y="36"
+          width="169"
+          height="109"/>
+      <archimateElement
+          xsi:type="archimate:Product"
+          href="Product_9c60e61f-bbae-4875-b51d-6054f17248d0.xml#9c60e61f-bbae-4875-b51d-6054f17248d0"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_717e08d7-ed19-4058-9eca-43f0905b65c7.xml#717e08d7-ed19-4058-9eca-43f0905b65c7"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="6ba3cf1b-ace0-4b65-92c6-cfe738d9218a"
+      textAlignment="1"
+      content="Deadline from national implementation: 13 Jan. 2018">
+    <sourceConnections
+        id="6bd470da-050d-4b58-98c5-7e664cfa398b"
+        source="6ba3cf1b-ace0-4b65-92c6-cfe738d9218a"
+        target="68455ad9-8e12-447b-8b22-4fc274de7f32"/>
+    <bounds
+        x="144"
+        y="348"
+        width="185"
+        height="53"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="476f0691-ed64-4dad-87ca-bf7a1b0b79b1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="05055a50-ce2d-458e-b603-8ed2b5feb41a"
+        source="476f0691-ed64-4dad-87ca-bf7a1b0b79b1"
+        target="68455ad9-8e12-447b-8b22-4fc274de7f32">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_0a3140fd-52d5-475f-86e9-711a2900bd2c.xml#0a3140fd-52d5-475f-86e9-711a2900bd2c"/>
+    </sourceConnections>
+    <bounds
+        x="348"
+        y="324"
+        width="120"
+        height="61"/>
+    <archimateElement
+        xsi:type="archimate:Requirement"
+        href="Requirement_a962b2e0-c822-486f-b33a-50413ce9a233.xml#a962b2e0-c822-486f-b33a-50413ce9a233"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="eedfe91b-4dbc-4fa6-b528-c097c93ecfd3">
+    <bounds
+        x="822"
+        y="212"
+        width="163"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessRole"
+        href="BusinessRole_45a60d6b-6769-4833-a72d-5d3503479b69.xml#45a60d6b-6769-4833-a72d-5d3503479b69"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="0b055890-c9be-4f3b-957d-ea9fc8398742">
+    <bounds
+        x="826"
+        y="288"
+        width="159"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessRole"
+        href="BusinessRole_8bc284bd-2e13-4889-819a-dea81e2140a6.xml#8bc284bd-2e13-4889-819a-dea81e2140a6"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="1d661f7b-f717-415d-91b6-915ffc2fb596"
+      textAlignment="1"
+      content="Norway as an EEA country will implement the directive in Norwegian law in early 2019.">
+    <sourceConnections
+        id="74eacfac-5ae4-4550-a5a1-dc03768a5ccc"
+        source="1d661f7b-f717-415d-91b6-915ffc2fb596"
+        target="68455ad9-8e12-447b-8b22-4fc274de7f32"/>
+    <bounds
+        x="73"
+        y="419"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

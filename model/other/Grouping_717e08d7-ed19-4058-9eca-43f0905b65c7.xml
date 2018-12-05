@@ -1,0 +1,5 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Account information services - opening up APIs"
+    id="717e08d7-ed19-4058-9eca-43f0905b65c7"
+    documentation="The access to the payment service user’s account has to be granted to third party providers for account information aggregation services. PSD2 regulates the duties of the account information service providers (AISP) and those of the PSPs (Payment Service Providers)."/>

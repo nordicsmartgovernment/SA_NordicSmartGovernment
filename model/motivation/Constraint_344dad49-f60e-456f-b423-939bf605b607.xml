@@ -1,5 +1,5 @@
 <archimate:Constraint
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="PEPPOL BIS"
+    name="PEPPOL BIS 3"
     id="344dad49-f60e-456f-b423-939bf605b607"
-    documentation="Business Interoperability Specifications (BIS) for common eProcurement processes. &#xA;&#xA;The eProcurement specifications (PEPPOL BIS) maintained by OpenPEPPOL. &#xA;&#xA;The PEPPOL BIS are formal requirements to ensure pan-European interoperability of procurement documents, such as eInvoices.&#xA;&#xA;https://peppol.eu/what-is-peppol/peppol-profiles-specifications/"/>
+    documentation="Business Interoperability Specifications (BIS) for common eProcurement processes. &#xA;&#xA;The eProcurement specifications (PEPPOL BIS) maintained by OpenPEPPOL. &#xA;&#xA;The PEPPOL BIS are formal requirements to ensure pan-European interoperability of procurement documents, such as eInvoices.&#xA;&#xA;https://peppol.eu/what-is-peppol/peppol-profiles-specifications/&#xA;&#xA;Bis 3 comply to the european norm"/>
