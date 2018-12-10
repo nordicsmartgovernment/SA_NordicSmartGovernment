@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Masterdata"
+    name="Master data"
     id="8946283c-9e57-4ada-889a-2e2d4fc54143"
     documentation="Masterdata about businesses is stored in a government business registry. The SME may update its own contact information and other masterdata through an &quot;update business master data&quot; service. Anyone can retrieve business master data from the registry.">
   <children

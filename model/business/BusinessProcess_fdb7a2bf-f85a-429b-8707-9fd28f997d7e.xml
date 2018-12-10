@@ -1,5 +1,5 @@
 <archimate:BusinessProcess
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Fullfillment"
+    name="Fullfillment i.e. delivery and receipt of goods and services"
     id="fdb7a2bf-f85a-429b-8707-9fd28f997d7e"
     documentation="The process supports the generation of pick batches for releases that have been released to fulfillment but not yet included in a pick batch. Creation of a pick batch includes the creation of a pick slip, a pack slip for releases, and an invoice. After the order is shipped it tries to capture the payment. &#xD;&#xA;&#xD;&#xA;The inventory checking and allocation are usually done in the order capture sub-process. If an order contains backorder items or future order items, the inventory will be alllocated at the order processing sub-process."/>

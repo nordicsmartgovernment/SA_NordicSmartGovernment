@@ -39,7 +39,8 @@
 				<ul class="nav nav-tabs" role="tablist">
 					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
 					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
-					<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
 				</ul>
 
 				<!-- Tab panes -->
@@ -60,26 +61,50 @@
 							</tbody>
 						</table>
 					</div>
-					<div role="tabpanel" class="tab-pane" id="elements">
-						<table class="table table-striped table-hover table-condensed">
-							<thead>
-								<tr>
-									<th class="i18n-name"></th>
-									<th class="i18n-type"></th>
-								</tr>
-							</thead>
-							<tbody>
-										<tr><td> <a href="../elements/d0584860-8c97-4bcc-82d9-06a3a3fc621c.html" target="element"> Missing good handling of Ordering system/purchase invoices </a> </td><td class="i18n-elementtype-Assessment"></td></tr>
-										<tr><td> <a href="../elements/6a96c0a0-84a9-401a-ae08-6b800e63f3bb.html" target="element"> Missing good handling of Payments - bank account statements </a> </td><td class="i18n-elementtype-Assessment"></td></tr>
-										<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->	
-										<tr><td> <a href="../elements/96f86301-9eee-4426-83a8-92e3e0dff8f3.html" target="element"> (Purchase) Order </a> </td><td class="i18n-elementtype-BusinessObject"></td></tr>
-										<tr><td> <a href="../elements/b9940717-360b-4f72-b90d-bae94d82c2db.html" target="element"> Invoice </a> </td><td class="i18n-elementtype-BusinessObject"></td></tr>
-										<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->	
-										<tr><td> <a href="../elements/b2c4c592-6ec9-4be0-9a90-c9ad9da5c4e2.html" target="element"> A purchasing system manages the entire acquisition process, from requisition, to purchase order, to product receipt, to payment.  </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr><td> <a href="../elements/d0584860-8c97-4bcc-82d9-06a3a3fc621c.html" target="element"> Missing good handling of Ordering system/purchase invoices </a> </td><td class="i18n-elementtype-Assessment"></td></tr>
+											<tr><td> <a href="../elements/6a96c0a0-84a9-401a-ae08-6b800e63f3bb.html" target="element"> Missing good handling of Payments - bank account statements </a> </td><td class="i18n-elementtype-Assessment"></td></tr>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<tr><td> <a href="../elements/96f86301-9eee-4426-83a8-92e3e0dff8f3.html" target="element"> (Purchase) Order </a> </td><td class="i18n-elementtype-BusinessObject"></td></tr>
+											<tr><td> <a href="../elements/b9940717-360b-4f72-b90d-bae94d82c2db.html" target="element"> Invoice </a> </td><td class="i18n-elementtype-BusinessObject"></td></tr>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<tr><td> <a href="../elements/b2c4c592-6ec9-4be0-9a90-c9ad9da5c4e2.html" target="element"> A purchasing system manages the entire acquisition process, from requisition, to purchase order, to product receipt, to payment.  </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
 
-							</tbody>
-						</table>
-					</div>
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/dbbe3667-1024-42cb-85c8-44e6bf8bac70.html" target="element">  </a> </td>
+																		<td> <a href="../elements/dbbe3667-1024-42cb-85c8-44e6bf8bac70.html" target="element" class="i18n-elementtype-AssociationRelationship"></a> </td>
+																		<td> <a href="../elements/d0584860-8c97-4bcc-82d9-06a3a3fc621c.html" target="element"> Missing good handling of Ordering system/purchase invoices </a> </td>
+																		<td> <a href="../elements/b2c4c592-6ec9-4be0-9a90-c9ad9da5c4e2.html" target="element"> A purchasing system manages the entire acquisition process, from requisition, to purchase order, to product receipt, to payment.  </a> </td>
+																	</tr>
+
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+
+								</tbody>
+							</table>
+						</div>
 			  </div>
 			</div>
 		</div>

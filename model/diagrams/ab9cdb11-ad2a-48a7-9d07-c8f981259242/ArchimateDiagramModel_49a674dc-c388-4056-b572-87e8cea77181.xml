@@ -84,7 +84,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="13885dad-d2e8-4952-9123-0bfec146b900"
       textAlignment="1"
-      content="Goal (ønsket tilstand, ikke målbar)">
+      content="Goal (seeked state, not measurable)">
     <sourceConnections
         id="613fe44d-a4ee-4ae4-8211-db4995ce2e53"
         source="13885dad-d2e8-4952-9123-0bfec146b900"

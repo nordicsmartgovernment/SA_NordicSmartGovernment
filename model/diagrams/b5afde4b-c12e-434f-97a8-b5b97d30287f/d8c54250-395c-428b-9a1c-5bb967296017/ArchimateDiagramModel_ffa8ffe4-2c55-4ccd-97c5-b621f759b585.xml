@@ -261,7 +261,7 @@
           <bounds
               x="12"
               y="24"
-              width="120"
+              width="133"
               height="28"/>
           <archimateElement
               xsi:type="archimate:ApplicationService"
@@ -274,7 +274,7 @@
           <bounds
               x="12"
               y="132"
-              width="120"
+              width="133"
               height="28"/>
           <archimateElement
               xsi:type="archimate:ApplicationService"
@@ -287,7 +287,7 @@
           <bounds
               x="12"
               y="168"
-              width="120"
+              width="133"
               height="28"/>
           <archimateElement
               xsi:type="archimate:ApplicationService"
@@ -300,7 +300,7 @@
           <bounds
               x="12"
               y="60"
-              width="120"
+              width="133"
               height="28"/>
           <archimateElement
               xsi:type="archimate:ApplicationService"
@@ -313,7 +313,7 @@
           <bounds
               x="12"
               y="96"
-              width="120"
+              width="133"
               height="28"/>
           <archimateElement
               xsi:type="archimate:ApplicationService"
@@ -340,9 +340,9 @@
             href="ServingRelationship_ee73d573-f4a5-42a0-9bbb-e6a47185c99b.xml#ee73d573-f4a5-42a0-9bbb-e6a47185c99b"/>
       </sourceConnections>
       <bounds
-          x="24"
+          x="33"
           y="300"
-          width="120"
+          width="133"
           height="29"/>
       <archimateElement
           xsi:type="archimate:ApplicationService"

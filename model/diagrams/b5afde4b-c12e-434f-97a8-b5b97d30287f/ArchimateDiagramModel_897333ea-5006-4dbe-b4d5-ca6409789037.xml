@@ -1,0 +1,40 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Archtectural building blocks"
+    id="897333ea-5006-4dbe-b4d5-ca6409789037">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="c60cad1a-013e-475e-bded-bf2acc522b5f"
+      targetConnections="3c6cdc0b-365f-4ebd-8e70-b3a81ef6be6a">
+    <bounds
+        x="216"
+        y="156"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_c4496f98-f992-4a88-be4b-db9c841db1e7.xml#c4496f98-f992-4a88-be4b-db9c841db1e7"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="416fb9de-ae59-4e03-b4d6-f724289ed7e2">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="3c6cdc0b-365f-4ebd-8e70-b3a81ef6be6a"
+        source="416fb9de-ae59-4e03-b4d6-f724289ed7e2"
+        target="c60cad1a-013e-475e-bded-bf2acc522b5f">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_dd539d7d-ff83-49f9-bc51-14f43b864b37.xml#dd539d7d-ff83-49f9-bc51-14f43b864b37"/>
+    </sourceConnections>
+    <bounds
+        x="216"
+        y="68"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_b19d726f-8ab1-44e6-98b4-08d50bb34b14.xml#b19d726f-8ab1-44e6-98b4-08d50bb34b14"/>
+  </children>
+</archimate:ArchimateDiagramModel>

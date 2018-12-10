@@ -1,0 +1,40 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Bookeeping Voukko"
+    id="1618d303-0b6a-4c28-9e71-7bcac8c7d66c"
+    documentation="Documents=vouchers - salses invoices, purchase invocies, bank account ransactions, (payments),&#xA;Ajustmens (at least yearly), deprecations, reconcilations&#xA;Archiving rules&#xA;Reports= monthly/quaterly, VAT reports, yearly tax&#xA;&#xA;Minimum requirements for software to follow the rules">
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="da49292c-4502-4aff-bbac-172429f56a95"
+      textAlignment="1"
+      content="Bookkeeping&#xA;&#xA;Sales invoices (receivables)&#xA;- Every month we transfer from sales to bookeeping &#xA;&#xA;Purchase invoices (payables)&#xA;- invoice approval system&#xA;- Payables&#xA;- Payments&#xA;- Every month we transfer from payables to Bookeeping (GL)&#xA;&#xA;Salaries and wages&#xA;- Entries to bookeeping (summary by account) ">
+    <bounds
+        x="24"
+        y="24"
+        width="462"
+        height="205"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="fd643eef-3e8e-4fc8-9f6c-feaca4261821"
+      textAlignment="1"
+      content="VAT is handled in bookkeeping&#xA;VAT is separated from total amounts by&#xA;- vat codes or&#xA;- vat specific account numbers&#xA;- or ented manually&#xA;&#xA;VAT amounts end up to balance sheet accounts VAT payable and VAT receivale&#xA;VAT report is acalculation from bookiping entries&#xA;&#xA;VAT book keeping - focus on this - and everything else become bad quality&#xA;&#xA;">
+    <bounds
+        x="504"
+        y="24"
+        width="409"
+        height="205"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="dba8215d-c9af-49f9-acc7-89f5795cbd9e"
+      textAlignment="1"
+      content="What is the difference between traditional system and XBRL GL database?&#xA;&#xA;Traditional&#xA;- ERPs are Closed system (processes/modules are connected and cannot be replaced)&#xA;&#xA;Future: &#xA;&#x9;- purchase invoices/purchase orders, sales invoices, bank accounts are structured (XML)&#xA;&#x9;- standard interface &#xA;&#x9;- approval process (validation)&#xA;&#x9;- xml files is entered into one database - just files in XBRL GL taxonomy&#xA;&#x9;- date, docuemnt type, number, description, measurable code description, masure quantity, measurable unit of measure, tax amount, tax percenteage rate, amount, account main id, reporting code&#xA;&#x9;- individual applications - for sales, purchases, ... replacable&#xA;&#xA;Benefit: real-time is dayly and not one month and a half.">
+    <bounds
+        x="24"
+        y="240"
+        width="462"
+        height="289"/>
+  </children>
+</archimate:ArchimateDiagramModel>
