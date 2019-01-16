@@ -1,0 +1,5 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Falske faktura, med kjent leverandør som &quot;avsender&quot;"
+    id="e1c1f7ea-5cf2-4b1e-b603-6c3767458a59"
+    documentation="Hva bør sjekkes: Se gjennom regnskapshistorikk, og se om kontonummer stemmer med tidligere fakturaer fra samme leverandør.&#xA;Hva gjør jeg: Sjekk med leverandør om de har byttet konto. Dersom det avdekkes at det er falsk faktura, anmeld saken til politiet og legg ved fakturaen.&#xA;"/>

@@ -1,0 +1,5 @@
+<archimate:ApplicationInterface
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Load eInvoices"
+    id="05e1fe7e-253a-4bae-b0f5-d7d15c6fe024"
+    documentation="Transform the invoices in UBL to to XBRL GL based document. &#xA;Adds transactions to correct accounts."/>
