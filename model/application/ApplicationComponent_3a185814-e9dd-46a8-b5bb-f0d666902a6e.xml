@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Reporting service: statistics"
+    id="3a185814-e9dd-46a8-b5bb-f0d666902a6e"
+    documentation="(To be defined what kind of report is desired)&#xD;&#xA;-Read accounting entries&#xD;&#xA;-Aggregate data accordingly and create reports"/>

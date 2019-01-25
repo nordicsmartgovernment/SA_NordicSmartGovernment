@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Reporting service: financial statement"
+    id="99ab2e1f-1b97-4e2b-9bde-243305d2e7e6"
+    documentation="-Read accounting entries&#xD;&#xA;-Get National chart of accounts / financial statement mappings to XBRL&#xD;&#xA;-Aggregate entries and create XBRL reports&#xD;&#xA;-Send report (where?)"/>

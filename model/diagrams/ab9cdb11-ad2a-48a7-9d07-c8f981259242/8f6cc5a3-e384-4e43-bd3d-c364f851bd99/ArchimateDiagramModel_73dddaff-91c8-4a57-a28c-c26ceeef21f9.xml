@@ -10,8 +10,8 @@
       textAlignment="1"
       content="Businesses with less than NOK 5 million in turnover, or fewer than 600 documents a year, are exempt from this requirement.">
     <bounds
-        x="468"
-        y="48"
+        x="372"
+        y="24"
         width="217"
         height="80"/>
   </children>
@@ -19,8 +19,8 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="6f528eae-bdc6-4e8c-a6a3-5c79b9d6f9e8">
     <bounds
-        x="779"
-        y="133"
+        x="683"
+        y="109"
         width="120"
         height="55"/>
     <archimateElement
@@ -44,8 +44,8 @@
           href="AssociationRelationship_856edaaa-0a0b-49d4-8f70-71ecc25c1477.xml#856edaaa-0a0b-49d4-8f70-71ecc25c1477"/>
     </sourceConnections>
     <bounds
-        x="296"
-        y="96"
+        x="200"
+        y="72"
         width="120"
         height="55"/>
     <archimateElement
@@ -65,8 +65,8 @@
           href="AssociationRelationship_6241ff8b-17f9-4e49-9fae-df1959275eac.xml#6241ff8b-17f9-4e49-9fae-df1959275eac"/>
     </sourceConnections>
     <bounds
-        x="296"
-        y="187"
+        x="200"
+        y="163"
         width="120"
         height="55"/>
     <archimateElement
@@ -80,8 +80,8 @@
       textAlignment="1"
       content="SKD: Renewing systems for VAT, Tax reporting? Standardized format&#xA;&#xA;OECD: &#xA;- Centralized data - cross reference difference data&#xA;- Secured chain - make sure that when a transaction take place it is securly taken part of">
     <bounds
-        x="168"
-        y="288"
+        x="72"
+        y="264"
         width="185"
         height="199"/>
   </children>
@@ -94,8 +94,8 @@
         source="a59039ec-3665-465d-b6b4-9ad0f68e7427"
         target="ec038320-b592-4deb-aea2-ec9a43a24557"/>
     <bounds
-        x="132"
-        y="79"
+        x="36"
+        y="55"
         width="120"
         height="55"/>
     <archimateElement

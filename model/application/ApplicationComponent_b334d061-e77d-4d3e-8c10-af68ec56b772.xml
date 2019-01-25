@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Auditing service provider"
+    id="b334d061-e77d-4d3e-8c10-af68ec56b772"
+    documentation="-Get entry details&#xD;&#xA;-Perform audit&#xD;&#xA;&#xD;&#xA;(posibility to extend the FI pilot on auditing to cover the APIs aswell"/>

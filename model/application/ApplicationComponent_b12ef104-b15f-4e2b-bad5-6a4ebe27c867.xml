@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Reporting service: tax"
+    id="b12ef104-b15f-4e2b-bad5-6a4ebe27c867"
+    documentation="-Read accounting entries&#xD;&#xA;-Get National chart of accounts / tax statement mappings to XBRL&#xD;&#xA;-Aggregate entries and create XBRL reports or proprietary reports&#xD;&#xA;-Send report (where?)"/>
