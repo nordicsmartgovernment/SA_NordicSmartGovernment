@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Accounting service provider"
-    id="100a1ebc-e5b4-4386-b743-f040b9833fba"/>
+    id="100a1ebc-e5b4-4386-b743-f040b9833fba"
+    documentation="-Get entries&#xD;&#xA;-Add accounting details to entries&#xD;&#xA;-Update entries&#xD;&#xA;>> possibility to use FabricAI solution provider, accounting through machine learning and product information"/>

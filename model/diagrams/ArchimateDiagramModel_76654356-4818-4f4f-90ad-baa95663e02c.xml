@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Sandbox (copy)"
     id="76654356-4818-4f4f-90ad-baa95663e02c"
-    documentation="-Get entries&#xD;&#xA;-Add accounting details to entries&#xD;&#xA;-Update entries&#xD;&#xA;>> possibility to use FabricAI solution provider, accounting through machine learning and product information&#xD;&#xA;">
+    documentation="&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="2c17eff7-6d89-4869-88fa-f515a8043154">
@@ -132,8 +132,8 @@
           href="AssociationRelationship_be6bb8dc-22cf-473e-a4eb-007f4ffbf3d0.xml#be6bb8dc-22cf-473e-a4eb-007f4ffbf3d0"/>
     </sourceConnections>
     <bounds
-        x="144"
-        y="216"
+        x="156"
+        y="192"
         width="120"
         height="55"/>
     <archimateElement
