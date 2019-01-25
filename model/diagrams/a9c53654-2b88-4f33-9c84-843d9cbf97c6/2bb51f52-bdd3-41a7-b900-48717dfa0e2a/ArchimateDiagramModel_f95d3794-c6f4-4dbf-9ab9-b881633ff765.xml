@@ -507,7 +507,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="39cd35c1-1571-4370-a136-794e441f06d2"
-      targetConnections="cbf75c51-d3ee-4442-bd1b-5d77e098dc14">
+      targetConnections="cbf75c51-d3ee-4442-bd1b-5d77e098dc14 fc8d9ef2-853d-4595-8e8a-5cdf577d8fcd">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="392e5c58-dbdb-41f6-8ad3-5b51984f4d6c"
@@ -735,12 +735,120 @@
           href="RealizationRelationship_923bedf8-9db4-4b5f-aee8-fcacfdf53363.xml#923bedf8-9db4-4b5f-aee8-fcacfdf53363"/>
     </sourceConnections>
     <bounds
-        x="1066"
-        y="414"
+        x="1092"
+        y="426"
         width="120"
         height="55"/>
     <archimateElement
         xsi:type="archimate:CourseOfAction"
         href="CourseOfAction_701f1e90-b54c-42b4-ae19-f9499fb215ec.xml#701f1e90-b54c-42b4-ae19-f9499fb215ec"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="dfbeaaac-b325-4dc8-bd90-21c79e10ff65"
+      textAlignment="1"
+      content="Med fokus på Hvilken informasjon - og alle våre registerfunksjoner.">
+    <bounds
+        x="1368"
+        y="414"
+        width="185"
+        height="55"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="836d5aaa-28e8-49c6-b644-95c3cf0ddadd"
+      textAlignment="1"
+      content="Alle digitale tjenester ligger under &quot;Brukerdialog&quot;&#xD;&#xA;">
+    <bounds
+        x="1368"
+        y="324"
+        width="185"
+        height="49"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="7baade07-e4a9-4228-881b-7881c25343f4"
+      textAlignment="1"
+      content="De store risikoene håndteres av &quot;innsats&quot;. &quot;innsikt&quot;-avdeling ser på nye risikoer.">
+    <bounds
+        x="1368"
+        y="504"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="262c478e-c5db-4248-a5ce-47a9d22c493b">
+    <bounds
+        x="1426"
+        y="198"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:WorkPackage"
+        href="WorkPackage_c6c72f70-1ccc-4c05-9abf-a3252c9e8737.xml#c6c72f70-1ccc-4c05-9abf-a3252c9e8737"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="57233f67-e351-4052-8ab7-28a5a5cc30c4"
+      textAlignment="1"
+      content="&quot;Det er i sanfunnet at etterlevelse tapes og skapes&quot; - 10-15 år fokus fra kontroll til etterlevelse. Kilden til manglende etter&#xD;&#xA;1. digitalisering - virksomhetens produksjonsproses&#xD;&#xA;2. alle transaksjoner må være digitale&#xD;&#xA;3. aktører som har økonomisk dialog må være digital&#xD;&#xA;&#xD;&#xA;To distinkte måter å implementere dette på: &#xD;&#xA;- Russland - SKD sitter i enden, mer informasjon, sanntids overvåkning av samfunnet (centeralized data approach)  --> skaper fort knflikter som gjør det vanskelig&#xD;&#xA;- secure chain approach - sørge for at avvikene ikke oppstår">
+    <sourceConnections
+        id="fc8d9ef2-853d-4595-8e8a-5cdf577d8fcd"
+        source="57233f67-e351-4052-8ab7-28a5a5cc30c4"
+        target="39cd35c1-1571-4370-a136-794e441f06d2"/>
+    <bounds
+        x="696"
+        y="312"
+        width="185"
+        height="104"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="7af2c864-59bc-4bc9-b38b-2fb6e5e1f18a">
+    <bounds
+        x="1256"
+        y="414"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:WorkPackage"
+        href="WorkPackage_e511ef52-f783-4354-9ec1-1f09fabb9d18.xml#e511ef52-f783-4354-9ec1-1f09fabb9d18"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="2e9f7e2a-02cc-469e-badd-e6b11dbb1670">
+    <bounds
+        x="1355"
+        y="264"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Requirement"
+        href="Requirement_2401ab42-857f-4c1f-b852-7ed26b8d7fec.xml#2401ab42-857f-4c1f-b852-7ed26b8d7fec"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="d9fc66ea-40ca-4efb-b1c6-589ecb2f3551">
+    <bounds
+        x="1256"
+        y="480"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessProcess"
+        href="BusinessProcess_250cb1d7-bd62-4d04-a24d-f5c494d13ed6.xml#250cb1d7-bd62-4d04-a24d-f5c494d13ed6"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="4576e9bb-4239-4552-aa2d-f27c23f1d888">
+    <bounds
+        x="1285"
+        y="571"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:WorkPackage"
+        href="WorkPackage_44bfbcf3-675c-4ea9-81ac-af9fcfd41113.xml#44bfbcf3-675c-4ea9-81ac-af9fcfd41113"/>
   </children>
 </archimate:ArchimateDiagramModel>
