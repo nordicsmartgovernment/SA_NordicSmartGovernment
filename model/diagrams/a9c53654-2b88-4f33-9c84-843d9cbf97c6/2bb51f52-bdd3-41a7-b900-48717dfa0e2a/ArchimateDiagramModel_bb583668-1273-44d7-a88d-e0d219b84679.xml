@@ -1,0 +1,18 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="National Teams: Norway - Abelia"
+    id="bb583668-1273-44d7-a88d-e0d219b84679">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="9f1828ce-ef41-4626-a381-69df12825a59">
+    <bounds
+        x="210"
+        y="116"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Stakeholder"
+        href="Stakeholder_c80dd898-e64e-4752-ab4b-febc5fd54377.xml#c80dd898-e64e-4752-ab4b-febc5fd54377"/>
+  </children>
+</archimate:ArchimateDiagramModel>
