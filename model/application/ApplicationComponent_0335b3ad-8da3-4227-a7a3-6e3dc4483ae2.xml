@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Sales management system / order portal"
+    id="0335b3ad-8da3-4227-a7a3-6e3dc4483ae2"
+    documentation="(-Produce invoice from ordered products)&#xD;&#xA;(-Send invoice to buyer)&#xD;&#xA;-Transform created sales invoice to XBRL GL (standard converter) or create XBRL GL entries&#xD;&#xA;-Post entries&#xD;&#xA;(we could also trigger the payment here for demo..)"/>
