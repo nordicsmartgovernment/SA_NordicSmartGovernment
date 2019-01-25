@@ -1,4 +1,5 @@
 <archimate:ApplicationInterface
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Financial statements report (chart of accounts)"
-    id="184767ec-1af0-46ee-910a-69ebaf9c7667"/>
+    name="Update entries"
+    id="184767ec-1af0-46ee-910a-69ebaf9c7667"
+    documentation="Standard API"/>

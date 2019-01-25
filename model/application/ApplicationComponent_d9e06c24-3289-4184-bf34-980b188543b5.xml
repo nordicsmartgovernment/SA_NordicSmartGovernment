@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Syntetic bank statement generator"
+    id="d9e06c24-3289-4184-bf34-980b188543b5"
+    documentation="&quot;payments&quot; should mach the actual invoices/receipts. "/>
