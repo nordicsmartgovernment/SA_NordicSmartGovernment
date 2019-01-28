@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Purchasing management system"
     id="39deea09-a16b-425f-8f0a-66e9a0204588"
-    documentation="-Receive invoice&#xD;&#xA;-(Accept / Reject invoice)&#xD;&#xA;-(Add accounting details)&#xD;&#xA;-Create accounting entries (=recognize invoice format type, choose correct XSLT, Transform the invoices  to to XBRL GL document. )&#xD;&#xA;-Payment&#xD;&#xA;-Post accountin entries -> API"/>
+    documentation="-Receive invoice&#xD;&#xA;-(Accept / Reject invoice)&#xD;&#xA;-Add accounting details (-> FabricAI ?)&#xD;&#xA;-Create accounting entries (=recognize invoice format type, choose correct XSLT, Transform the invoices  to to XBRL GL document. )&#xD;&#xA;-Payment&#xD;&#xA;-Post accountin entries -> API"/>

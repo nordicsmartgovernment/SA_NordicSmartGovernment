@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Update entries"
     id="184767ec-1af0-46ee-910a-69ebaf9c7667"
-    documentation="Standard API"/>
+    documentation="Standard API&#xD;&#xA;> not all fields can be updated. List of non-editable fields? Audit trail must remain.&#xD;&#xA;>> Vuokko&#xD;&#xA;>> these must be defined"/>
