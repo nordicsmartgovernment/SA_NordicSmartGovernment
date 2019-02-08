@@ -1,6 +1,7 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="invoice"
     id="2fe7709f-b641-45b9-a8a4-eb8461f0f5e1">
   <source
       xsi:type="archimate:ApplicationComponent"
