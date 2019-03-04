@@ -10,7 +10,7 @@ To import the model into your local installation of Archi, please follow the fol
 ### Open the model in Archi
 1.  Select Collaboration-> Import remote model to workspace
 2.  Fill out the following
-  * URL: `https://github.com/Informasjonsforvaltning/NordicSmartGovernment.git`
+  * URL: `https://github.com/Informasjonsforvaltning/SA_NordicSmartGovernment.git`
   If you after a while want to publish changes on github, it is useful to fill out:
   * User Name: `<your username on Github>`
   * Password: `<your pass word on Github>`
