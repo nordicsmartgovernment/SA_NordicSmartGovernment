@@ -1,0 +1,11 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Annual Account"
+    id="6a649085-a9dd-4bbe-a254-ba9cb8ff7bf2">
+  <properties
+      key="prefLabel-no"
+      value="Årsregnskap"/>
+  <properties
+      key="prefLabel-en"
+      value="Annual Account"/>
+</archimate:Meaning>
