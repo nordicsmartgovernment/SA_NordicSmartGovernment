@@ -116,6 +116,8 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataElements.push({id:"dc34ea29-904e-4ee5-9ea4-d1f10a38f973", type:"Capability", name:decodeURL("Authorisation+and+access+control"), description:decodeURL("")});
 										dataElements.push({id:"1530d842-2c53-49c9-b207-eea165b340ce", type:"Capability", name:decodeURL("Error+correction"), description:decodeURL("")});
 										dataElements.push({id:"d07a80d4-9912-49f0-ae09-1c75f7e5fc63", type:"Capability", name:decodeURL("Clear+rules+of+responsibility+for+correctness%2Fquality+and+availability+of+the+data"), description:decodeURL("")});
+										dataElements.push({id:"4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f", type:"Resource", name:decodeURL("Business+systems"), description:decodeURL("")});
+										dataElements.push({id:"fb655412-ce21-45e4-a3ab-f7a6854a1397", type:"Resource", name:decodeURL("Authorization"), description:decodeURL("")});
 
 
 											dataElements.push({id:"d294f0af-314a-4503-9036-df2cd6905d03", type:"BusinessActor", name:decodeURL("Tyringe"), description:decodeURL("")});
@@ -1153,7 +1155,7 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataElements.push({id:"8c37908d-bfa6-4003-93aa-0d57d0e95a3e", type:"Requirement", name:decodeURL("Financial+reports+must+be+made+avaliable+for+lookups"), description:decodeURL("")});
 										dataElements.push({id:"e0de03aa-42a6-4e7d-84ab-12285e0beb15", type:"Requirement", name:decodeURL("Financial+raw+data+must+be+avaliable+for+lookup"), description:decodeURL("")});
 										dataElements.push({id:"43981727-789a-4022-b3f0-26c773753ef3", type:"Requirement", name:decodeURL("Invoices+must+be+recieved+digitally"), description:decodeURL("")});
-										dataElements.push({id:"aeb4f092-a733-4133-94da-32ed06158220", type:"Requirement", name:decodeURL("Company+must+be+in+control+of+their+data+"), description:decodeURL("")});
+										dataElements.push({id:"aeb4f092-a733-4133-94da-32ed06158220", type:"Requirement", name:decodeURL("Data+sharing+controlled+by+the+data+originator"), description:decodeURL("")});
 										dataElements.push({id:"30d15ae7-c830-4ca7-ac47-b1e01f6a12c2", type:"Requirement", name:decodeURL("Orders+must+be+digital"), description:decodeURL("")});
 										dataElements.push({id:"1261c8c5-60ae-4742-a666-8e1c2690a7a2", type:"Requirement", name:decodeURL("Orders+must+be+standardized+with+clear+semantics"), description:decodeURL("")});
 										dataElements.push({id:"ca90a7aa-02d4-4a16-b03e-c5f192161105", type:"Requirement", name:decodeURL("The+endpoint+of+an+organisation%27s+ERP+system+must+be+known"), description:decodeURL("")});
@@ -1163,7 +1165,7 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataElements.push({id:"7f19db87-48d0-4423-a361-c331697e8b02", type:"Principle", name:decodeURL("Built+to+evolve+"), description:decodeURL("")});
 										dataElements.push({id:"e01cc7d4-fa13-4397-93d5-a36d32e2f132", type:"Principle", name:decodeURL("Favor+imperfect+existing+standards+over+perfect+custom+standards"), description:decodeURL("")});
 										dataElements.push({id:"80c87a8f-ec39-45c2-8631-8ad9380b9979", type:"Principle", name:decodeURL("Enforce+data+portability"), description:decodeURL("")});
-										dataElements.push({id:"71376460-4cbb-4a29-92e3-441429820e3c", type:"Requirement", name:decodeURL("When+data+is+transfered+between+parties+its+integrity+is+preserved"), description:decodeURL("")});
+										dataElements.push({id:"71376460-4cbb-4a29-92e3-441429820e3c", type:"Requirement", name:decodeURL("Strong+enforcement+of+data+integrity"), description:decodeURL("")});
 										dataElements.push({id:"870de64e-552c-4946-978b-7500f8928858", type:"Requirement", name:decodeURL("Bank+account+statements+must+be+digital"), description:decodeURL("")});
 										dataElements.push({id:"b6d34c8f-d932-43fb-b2d7-21910f0b4588", type:"Meaning", name:decodeURL("Soliditetsansvar"), description:decodeURL("")});
 													dataProperties.push({conceptid:"b6d34c8f-d932-43fb-b2d7-21910f0b4588", propkey:decodeURL("prefLabel-no"), propvalue:decodeURL("Soliditetsansvar")});
@@ -1191,9 +1193,12 @@ The detailed objects in the model are under "model content", while archimate vie
 													dataProperties.push({conceptid:"c3781d11-ffff-4ee9-9893-a3f94f83f746", propkey:decodeURL("prefLabel-no"), propvalue:decodeURL("Konsolidering")});
 
 										dataElements.push({id:"369cc983-20d7-42ae-967a-c369f335eab8", type:"Meaning", name:decodeURL("Morselskap"), description:decodeURL("")});
-													dataProperties.push({conceptid:"369cc983-20d7-42ae-967a-c369f335eab8", propkey:decodeURL("prefLabel-no"), propvalue:decodeURL("Konsolidering")});
+													dataProperties.push({conceptid:"369cc983-20d7-42ae-967a-c369f335eab8", propkey:decodeURL("prefLabel-no"), propvalue:decodeURL("Morselskap")});
 
 										dataElements.push({id:"70cb470d-4a58-4bd2-8e9d-dd78a2ca3501", type:"Constraint", name:decodeURL("SIE"), description:decodeURL("Sweden Import Export")});
+										dataElements.push({id:"75a40da8-e65b-41de-8f1b-9d139a3d9bf0", type:"Meaning", name:decodeURL("Datterselskap"), description:decodeURL("")});
+													dataProperties.push({conceptid:"75a40da8-e65b-41de-8f1b-9d139a3d9bf0", propkey:decodeURL("prefLabel-no"), propvalue:decodeURL("Datterselskap")});
+
 
 
 										dataElements.push({id:"0d995de1-54d7-4a5b-8b2a-9aed4548c00d", type:"WorkPackage", name:decodeURL("WP4%3A+Automated+and+standardized+reporting"), description:decodeURL("")});
@@ -1268,7 +1273,10 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataElements.push({id:"eb9f6eaa-1ea2-43ce-a05c-c17153656270", type:"Grouping", name:decodeURL("WP1+Architecture+principles"), description:decodeURL("")});
 										dataElements.push({id:"d463a047-7d47-4cc5-8b71-8db4145893fc", type:"Grouping", name:decodeURL("WP2"), description:decodeURL("")});
 										dataElements.push({id:"aff04b8d-6b63-431c-8cd5-3dd1590a516a", type:"Grouping", name:decodeURL("WP4"), description:decodeURL("")});
-										dataElements.push({id:"f923b656-2a64-45bc-a666-667d2cab3ec1", type:"Grouping", name:decodeURL("Non-functional+capabilities"), description:decodeURL("")});
+										dataElements.push({id:"f923b656-2a64-45bc-a666-667d2cab3ec1", type:"Grouping", name:decodeURL("Quality+capabilities"), description:decodeURL("")});
+										dataElements.push({id:"20df57c4-d397-45e9-a472-1bf429208880", type:"Grouping", name:decodeURL("WP1+User+principles"), description:decodeURL("")});
+										dataElements.push({id:"25e6fae1-09b0-432e-bbc5-49030d47136c", type:"Grouping", name:decodeURL("WP3"), description:decodeURL("")});
+										dataElements.push({id:"5d350bad-7ecb-4bbc-8ab8-6a1de3affaeb", type:"Grouping", name:decodeURL("WP1+Desired+attributes"), description:decodeURL("")});
 
 
 										dataRelationships.push({id:"8f1ad1e6-ed79-4056-ab53-58101323fdef", type:"SpecializationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"b95c3b8c-9495-4c68-9153-96c22f2992cb", targetid:"bee906ef-6dc9-42f6-9b78-6f1541ad560b"});
@@ -2018,7 +2026,7 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataRelationships.push({id:"e2e487fa-847e-4a87-a3ad-5d25758a87c0", type:"RealizationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"24dcf7b1-aa5f-45a1-bca9-69772a097091", targetid:"43981727-789a-4022-b3f0-26c773753ef3"});
 										dataRelationships.push({id:"c0be8bac-4553-4b23-b75f-f51effce2624", type:"RealizationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"cdb659fb-3c4e-4387-9178-71a8b92c543a", targetid:"aeb4f092-a733-4133-94da-32ed06158220"});
 										dataRelationships.push({id:"e6d95156-cc2f-4e7b-80c3-54703aff398c", type:"RealizationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"24dcf7b1-aa5f-45a1-bca9-69772a097091", targetid:"30d15ae7-c830-4ca7-ac47-b1e01f6a12c2"});
-										dataRelationships.push({id:"fd4abb32-bdcc-46c3-bccd-f03fe0aec792", type:"RealizationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"b19d726f-8ab1-44e6-98b4-08d50bb34b14", targetid:"24dcf7b1-aa5f-45a1-bca9-69772a097091"});
+										dataRelationships.push({id:"fd4abb32-bdcc-46c3-bccd-f03fe0aec792", type:"RealizationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"b19d726f-8ab1-44e6-98b4-08d50bb34b14", targetid:"4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f"});
 										dataRelationships.push({id:"f91d5f7e-7e96-4ec5-846e-c01e973b0fb1", type:"RealizationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"7b86e9b9-613c-49d1-8a82-e553ca7b125c", targetid:"1261c8c5-60ae-4742-a666-8e1c2690a7a2"});
 										dataRelationships.push({id:"5a53ba2c-9a44-4dfc-9a36-08711bb4e0b3", type:"RealizationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"c522a68c-a382-4190-9790-cfd84fad9107", targetid:"ca90a7aa-02d4-4a16-b03e-c5f192161105"});
 										dataRelationships.push({id:"433fb7c8-dd56-4678-8769-81da461a0196", type:"RealizationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"1261c8c5-60ae-4742-a666-8e1c2690a7a2", targetid:"90512fae-0b56-4b33-a318-fc9156bc4c91"});
@@ -2058,6 +2066,16 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataRelationships.push({id:"d4e70b73-a3dc-4bc4-962a-0722b918f928", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"f923b656-2a64-45bc-a666-667d2cab3ec1", targetid:"1530d842-2c53-49c9-b207-eea165b340ce"});
 										dataRelationships.push({id:"e50a04bf-9423-4fc0-b599-eb301d0483a9", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"f923b656-2a64-45bc-a666-667d2cab3ec1", targetid:"d07a80d4-9912-49f0-ae09-1c75f7e5fc63"});
 										dataRelationships.push({id:"5a369bde-f8b8-4528-9a27-908127221b2a", type:"RealizationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"1edc1f68-bc8f-4e9e-b3cb-d60902da7c7c", targetid:"d07a80d4-9912-49f0-ae09-1c75f7e5fc63"});
+										dataRelationships.push({id:"122e58ae-e7e0-4b5e-83bc-cb872fc8f7f7", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"20df57c4-d397-45e9-a472-1bf429208880", targetid:"b5ac7e93-bb06-4f4a-a883-27335b66a54c"});
+										dataRelationships.push({id:"1879c567-2ac3-4ae8-8c2a-3f744e784a7a", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"20df57c4-d397-45e9-a472-1bf429208880", targetid:"d5cd50e8-d251-4ca9-8a09-5352a3a1b971"});
+										dataRelationships.push({id:"a5d19590-8164-4ff8-8adb-d9c81618410b", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"20df57c4-d397-45e9-a472-1bf429208880", targetid:"c87141cc-6e68-4fb0-bb6e-423a02680286"});
+										dataRelationships.push({id:"a7e5ffde-9f26-43fc-ae9e-6bbb50e6a8b2", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"20df57c4-d397-45e9-a472-1bf429208880", targetid:"c77cdedc-68a5-4281-a903-a95e05e01d6f"});
+										dataRelationships.push({id:"7bcdc0fc-704e-4156-8719-16631355b5bb", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"20df57c4-d397-45e9-a472-1bf429208880", targetid:"245cce39-8899-4074-9689-4a9c730ac1d4"});
+										dataRelationships.push({id:"f1759c9f-59a6-4ee0-aafe-c779035470c2", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"25e6fae1-09b0-432e-bbc5-49030d47136c", targetid:"ca90a7aa-02d4-4a16-b03e-c5f192161105"});
+										dataRelationships.push({id:"8947a986-0eb6-455d-a0c2-bf591386c7a2", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"5d350bad-7ecb-4bbc-8ab8-6a1de3affaeb", targetid:"aeb4f092-a733-4133-94da-32ed06158220"});
+										dataRelationships.push({id:"1b0e4eb2-d493-4895-932e-fa735226ea57", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"5d350bad-7ecb-4bbc-8ab8-6a1de3affaeb", targetid:"71376460-4cbb-4a29-92e3-441429820e3c"});
+										dataRelationships.push({id:"eff0c31a-e446-48ce-9ff9-ced9e822f0e2", type:"RealizationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"dc34ea29-904e-4ee5-9ea4-d1f10a38f973", targetid:"c77cdedc-68a5-4281-a903-a95e05e01d6f"});
+										dataRelationships.push({id:"972ed3af-c0f4-4829-9c26-adf6ff9889da", type:"AssignmentRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f", targetid:"24dcf7b1-aa5f-45a1-bca9-69772a097091"});
 
 
 												<!-- DEBUG: Skipping view SmartGovernment SKD stakeholder -->
