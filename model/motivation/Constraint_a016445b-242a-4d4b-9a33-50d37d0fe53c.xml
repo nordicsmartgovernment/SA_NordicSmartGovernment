@@ -1,4 +1,5 @@
 <archimate:Constraint
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="e-invoice"
-    id="a016445b-242a-4d4b-9a33-50d37d0fe53c"/>
+    name="e-invoice PEPPOL BIS Billing 3.0"
+    id="a016445b-242a-4d4b-9a33-50d37d0fe53c"
+    documentation="http://docs.peppol.eu/poacc/billing/3.0/"/>

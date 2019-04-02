@@ -6,6 +6,6 @@
       xsi:type="archimate:Constraint"
       href="Constraint_387ccf9c-3ffe-4f2f-ae6b-1a1381998cdc.xml#387ccf9c-3ffe-4f2f-ae6b-1a1381998cdc"/>
   <target
-      xsi:type="archimate:ServingRelationship"
-      href="ServingRelationship_b9e1d0a1-d182-4606-a1c4-2a8b5503b1e6.xml#b9e1d0a1-d182-4606-a1c4-2a8b5503b1e6"/>
+      xsi:type="archimate:RealizationRelationship"
+      href="RealizationRelationship_269ffb4d-7e83-4220-b761-07503d478817.xml#269ffb4d-7e83-4220-b761-07503d478817"/>
 </archimate:AssociationRelationship>
