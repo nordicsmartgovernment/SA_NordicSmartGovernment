@@ -122,5 +122,17 @@
         xsi:type="archimate:Meaning"
         href="Meaning_369cc983-20d7-42ae-967a-c369f335eab8.xml#369cc983-20d7-42ae-967a-c369f335eab8"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="5659a4e3-bb74-417e-b60a-a52c6486456b">
+    <bounds
+        x="552"
+        y="216"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Meaning"
+        href="Meaning_75a40da8-e65b-41de-8f1b-9d139a3d9bf0.xml#75a40da8-e65b-41de-8f1b-9d139a3d9bf0"/>
+  </children>
   <properties/>
 </archimate:ArchimateDiagramModel>

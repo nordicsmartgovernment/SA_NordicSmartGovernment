@@ -6,6 +6,6 @@
       xsi:type="archimate:BusinessRole"
       href="BusinessRole_1edc1f68-bc8f-4e9e-b3cb-d60902da7c7c.xml#1edc1f68-bc8f-4e9e-b3cb-d60902da7c7c"/>
   <target
-      xsi:type="archimate:Capability"
-      href="Capability_d07a80d4-9912-49f0-ae09-1c75f7e5fc63.xml#d07a80d4-9912-49f0-ae09-1c75f7e5fc63"/>
+      xsi:type="archimate:Resource"
+      href="Resource_5c890dfc-c3cc-4173-81f5-e1274a043281.xml#5c890dfc-c3cc-4173-81f5-e1274a043281"/>
 </archimate:RealizationRelationship>
