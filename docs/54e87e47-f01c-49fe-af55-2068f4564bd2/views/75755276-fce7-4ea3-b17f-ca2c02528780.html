@@ -2,7 +2,7 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>Capabilities</title>
+	<title>Capabilities requirements</title>
 
 	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
 	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
@@ -19,72 +19,97 @@
 
 <body>
 	<div class="panel panel-default root-panel">
+
 		<div class="panel-heading root-panel-heading">
-			<b>Capabilities</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Name -->
+               <b>Capabilities requirements</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
 		</div>
+
 		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/75755276-fce7-4ea3-b17f-ca2c02528780.png" alt="Capabilities" usemap="#75755276-fce7-4ea3-b17f-ca2c02528780map">
-			<map name="75755276-fce7-4ea3-b17f-ca2c02528780map">
-						<area shape="rect" coords="117,559,310,646" href="../elements/24dcf7b1-aa5f-45a1-bca9-69772a097091.html"  target="element">
-						<area shape="rect" coords="215,814,335,869" href="../elements/b19d726f-8ab1-44e6-98b4-08d50bb34b14.html"  target="element">
-						<area shape="rect" coords="322,559,487,645" href="../elements/7b86e9b9-613c-49d1-8a82-e553ca7b125c.html"  target="element">
-						<area shape="rect" coords="1342,565,1498,651" href="../elements/c522a68c-a382-4190-9790-cfd84fad9107.html"  target="element">
-								<area shape="rect" coords="58,34,226,118" href="../elements/90512fae-0b56-4b33-a318-fc9156bc4c91.html"  target="element">
-								<area shape="rect" coords="57,130,225,214" href="../elements/3a5f0d93-da42-4db0-b15b-c2e9d85368da.html"  target="element">
-								<area shape="rect" coords="430,33,610,117" href="../elements/23e37b75-6915-43f7-bcfe-1a44a284dcac.html"  target="element">
-								<area shape="rect" coords="238,130,419,213" href="../elements/7f19db87-48d0-4423-a361-c331697e8b02.html"  target="element">
-								<area shape="rect" coords="239,33,419,116" href="../elements/e01cc7d4-fa13-4397-93d5-a36d32e2f132.html"  target="element">
-								<area shape="rect" coords="430,130,610,214" href="../elements/80c87a8f-ec39-45c2-8631-8ad9380b9979.html"  target="element">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/75755276-fce7-4ea3-b17f-ca2c02528780.png" alt="Capabilities requirements" usemap="#75755276-fce7-4ea3-b17f-ca2c02528780map"/>
+			   <map name="75755276-fce7-4ea3-b17f-ca2c02528780map">
+				  		<area shape="rect" coords="22,583,179,670" href="../elements/24dcf7b1-aa5f-45a1-bca9-69772a097091.html"  target="element">
+				          <area shape="rect" coords="1666,706,1984,802" href="../objects/76ccf333-cf6d-4e80-85da-f2b9f4747f9d.html" target="element" >
+				          <area shape="rect" coords="10,514,107,557" href="../objects/b31129c6-e897-4857-9542-64e924a7c562.html" target="element" >
+				          <area shape="rect" coords="1666,559,1984,704" href="../objects/18ac3e97-4019-4490-b2b4-3fbb27185e4b.html" target="element" >
+				  		<area shape="rect" coords="46,826,166,881" href="../elements/b19d726f-8ab1-44e6-98b4-08d50bb34b14.html"  target="element">
+				  		<area shape="rect" coords="190,584,335,670" href="../elements/7b86e9b9-613c-49d1-8a82-e553ca7b125c.html"  target="element">
+				  		<area shape="rect" coords="1510,589,1646,675" href="../elements/c522a68c-a382-4190-9790-cfd84fad9107.html"  target="element">
+				  				<area shape="rect" coords="34,34,202,118" href="../elements/90512fae-0b56-4b33-a318-fc9156bc4c91.html"  target="element">
+				  				<area shape="rect" coords="33,130,201,214" href="../elements/3a5f0d93-da42-4db0-b15b-c2e9d85368da.html"  target="element">
+				  				<area shape="rect" coords="406,33,586,117" href="../elements/23e37b75-6915-43f7-bcfe-1a44a284dcac.html"  target="element">
+				  				<area shape="rect" coords="214,130,395,213" href="../elements/7f19db87-48d0-4423-a361-c331697e8b02.html"  target="element">
+				  				<area shape="rect" coords="215,33,395,116" href="../elements/e01cc7d4-fa13-4397-93d5-a36d32e2f132.html"  target="element">
+				  				<area shape="rect" coords="406,130,586,214" href="../elements/80c87a8f-ec39-45c2-8631-8ad9380b9979.html"  target="element">
 
-						<area shape="rect" coords="46,10,634,221" href="../elements/eb9f6eaa-1ea2-43ce-a05c-c17153656270.html"  target="element">
-								<area shape="rect" coords="58,293,227,377" href="../elements/43981727-789a-4022-b3f0-26c773753ef3.html"  target="element">
-								<area shape="rect" coords="238,292,430,377" href="../elements/870de64e-552c-4946-978b-7500f8928858.html"  target="element">
-								<area shape="rect" coords="442,292,622,377" href="../elements/1261c8c5-60ae-4742-a666-8e1c2690a7a2.html"  target="element">
-								<area shape="rect" coords="442,388,622,473" href="../elements/30d15ae7-c830-4ca7-ac47-b1e01f6a12c2.html"  target="element">
+				  		<area shape="rect" coords="22,10,610,221" href="../elements/eb9f6eaa-1ea2-43ce-a05c-c17153656270.html"  target="element">
+				  				<area shape="rect" coords="34,293,203,377" href="../elements/43981727-789a-4022-b3f0-26c773753ef3.html"  target="element">
+				  				<area shape="rect" coords="214,292,406,377" href="../elements/870de64e-552c-4946-978b-7500f8928858.html"  target="element">
+				  				<area shape="rect" coords="418,292,598,377" href="../elements/1261c8c5-60ae-4742-a666-8e1c2690a7a2.html"  target="element">
+				  				<area shape="rect" coords="418,388,598,473" href="../elements/30d15ae7-c830-4ca7-ac47-b1e01f6a12c2.html"  target="element">
 
-						<area shape="rect" coords="46,268,646,496" href="../elements/d463a047-7d47-4cc5-8b71-8db4145893fc.html"  target="element">
-								<area shape="rect" coords="1078,297,1258,381" href="../elements/8c37908d-bfa6-4003-93aa-0d57d0e95a3e.html"  target="element">
-								<area shape="rect" coords="874,298,1067,382" href="../elements/e0de03aa-42a6-4e7d-84ab-12285e0beb15.html"  target="element">
+				  		<area shape="rect" coords="22,268,622,489" href="../elements/d463a047-7d47-4cc5-8b71-8db4145893fc.html"  target="element">
+				  				<area shape="rect" coords="1212,289,1392,373" href="../elements/8c37908d-bfa6-4003-93aa-0d57d0e95a3e.html"  target="element">
+				  				<area shape="rect" coords="1080,385,1273,469" href="../elements/e0de03aa-42a6-4e7d-84ab-12285e0beb15.html"  target="element">
 
-						<area shape="rect" coords="862,274,1270,501" href="../elements/aff04b8d-6b63-431c-8cd5-3dd1590a516a.html"  target="element">
-						<area shape="rect" coords="58,814,178,869" href="../elements/49305898-2431-4b6a-ab59-561077316525.html"  target="element">
-								<area shape="rect" coords="1186,566,1320,651" href="../elements/38518878-b054-4de4-a562-db342f6d9b01.html"  target="element">
-								<area shape="rect" coords="898,566,1031,651" href="../elements/dc34ea29-904e-4ee5-9ea4-d1f10a38f973.html"  target="element">
-								<area shape="rect" coords="718,566,886,651" href="../elements/cdb659fb-3c4e-4387-9178-71a8b92c543a.html"  target="element">
-								<area shape="rect" coords="1042,566,1173,651" href="../elements/1530d842-2c53-49c9-b207-eea165b340ce.html"  target="element">
-								<area shape="rect" coords="526,566,706,651" href="../elements/d07a80d4-9912-49f0-ae09-1c75f7e5fc63.html"  target="element">
+				  		<area shape="rect" coords="1056,265,1428,492" href="../elements/aff04b8d-6b63-431c-8cd5-3dd1590a516a.html"  target="element">
+				  				<area shape="rect" coords="1091,586,1211,671" href="../elements/38518878-b054-4de4-a562-db342f6d9b01.html"  target="element">
+				  				<area shape="rect" coords="803,586,936,671" href="../elements/dc34ea29-904e-4ee5-9ea4-d1f10a38f973.html"  target="element">
+				  				<area shape="rect" coords="947,586,1079,671" href="../elements/cdb659fb-3c4e-4387-9178-71a8b92c543a.html"  target="element">
+				  				<area shape="rect" coords="359,586,511,671" href="../elements/d07a80d4-9912-49f0-ae09-1c75f7e5fc63.html"  target="element">
+				  				<area shape="rect" coords="520,584,660,669" href="../elements/1530d842-2c53-49c9-b207-eea165b340ce.html"  target="element">
+				  				<area shape="rect" coords="671,585,796,669" href="../elements/00153750-96fd-427c-a872-4e4be1a148de.html"  target="element">
+				  				<area shape="rect" coords="1223,585,1343,669" href="../elements/08e56bb6-c2be-4247-a796-87b1ca053b7d.html"  target="element">
+				  				<area shape="rect" coords="1355,586,1475,670" href="../elements/b1f50883-2034-413b-b7c7-0f6dc093aec5.html"  target="element">
 
-						<area shape="rect" coords="514,542,1330,694" href="../elements/f923b656-2a64-45bc-a666-667d2cab3ec1.html"  target="element">
-						<area shape="rect" coords="886,718,1019,773" href="../elements/df38ae9e-b491-4000-afd4-4d4d3e870e80.html"  target="element">
-						<area shape="rect" coords="695,718,815,773" href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html"  target="element">
-						<area shape="rect" coords="490,724,610,779" href="../elements/1edc1f68-bc8f-4e9e-b3cb-d60902da7c7c.html"  target="element">
-								<area shape="rect" coords="1282,34,1462,117" href="../elements/b5ac7e93-bb06-4f4a-a883-27335b66a54c.html"  target="element">
-								<area shape="rect" coords="1474,130,1677,214" href="../elements/d5cd50e8-d251-4ca9-8a09-5352a3a1b971.html"  target="element">
-								<area shape="rect" coords="1474,35,1677,117" href="../elements/c87141cc-6e68-4fb0-bb6e-423a02680286.html"  target="element">
-								<area shape="rect" coords="1067,141,1271,214" href="../elements/c77cdedc-68a5-4281-a903-a95e05e01d6f.html"  target="element">
-								<area shape="rect" coords="1067,34,1270,130" href="../elements/245cce39-8899-4074-9689-4a9c730ac1d4.html"  target="element">
+				  		<area shape="rect" coords="347,562,1499,690" href="../elements/f923b656-2a64-45bc-a666-667d2cab3ec1.html"  target="element">
+				  		<area shape="rect" coords="934,826,1067,881" href="../elements/df38ae9e-b491-4000-afd4-4d4d3e870e80.html"  target="element">
+				  		<area shape="rect" coords="1078,826,1198,881" href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html"  target="element">
+				  		<area shape="rect" coords="369,826,489,881" href="../elements/1edc1f68-bc8f-4e9e-b3cb-d60902da7c7c.html"  target="element">
+				  				<area shape="rect" coords="1114,34,1294,117" href="../elements/b5ac7e93-bb06-4f4a-a883-27335b66a54c.html"  target="element">
+				  				<area shape="rect" coords="1306,130,1509,214" href="../elements/d5cd50e8-d251-4ca9-8a09-5352a3a1b971.html"  target="element">
+				  				<area shape="rect" coords="1306,35,1509,117" href="../elements/c87141cc-6e68-4fb0-bb6e-423a02680286.html"  target="element">
+				  				<area shape="rect" coords="899,141,1103,214" href="../elements/c77cdedc-68a5-4281-a903-a95e05e01d6f.html"  target="element">
+				  				<area shape="rect" coords="899,34,1102,130" href="../elements/245cce39-8899-4074-9689-4a9c730ac1d4.html"  target="element">
 
-						<area shape="rect" coords="1054,10,1679,221" href="../elements/20df57c4-d397-45e9-a472-1bf429208880.html"  target="element">
-								<area shape="rect" coords="1291,304,1472,389" href="../elements/ca90a7aa-02d4-4a16-b03e-c5f192161105.html"  target="element">
+				  		<area shape="rect" coords="886,10,1511,221" href="../elements/20df57c4-d397-45e9-a472-1bf429208880.html"  target="element">
+				  				<area shape="rect" coords="1462,295,1643,380" href="../elements/ca90a7aa-02d4-4a16-b03e-c5f192161105.html"  target="element">
 
-						<area shape="rect" coords="1279,280,1679,496" href="../elements/25e6fae1-09b0-432e-bbc5-49030d47136c.html"  target="element">
-								<area shape="rect" coords="658,35,838,119" href="../elements/aeb4f092-a733-4133-94da-32ed06158220.html"  target="element">
-								<area shape="rect" coords="850,34,1030,119" href="../elements/71376460-4cbb-4a29-92e3-441429820e3c.html"  target="element">
+				  		<area shape="rect" coords="1450,271,1850,487" href="../elements/25e6fae1-09b0-432e-bbc5-49030d47136c.html"  target="element">
+				  				<area shape="rect" coords="634,35,814,119" href="../elements/aeb4f092-a733-4133-94da-32ed06158220.html"  target="element">
+				  				<area shape="rect" coords="634,131,814,216" href="../elements/71376460-4cbb-4a29-92e3-441429820e3c.html"  target="element">
 
-						<area shape="rect" coords="646,11,1046,221" href="../elements/5d350bad-7ecb-4bbc-8ab8-6a1de3affaeb.html"  target="element">
-						<area shape="rect" coords="130,718,274,773" href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html"  target="element">
-						<area shape="rect" coords="893,790,1030,845" href="../elements/fb655412-ce21-45e4-a3ab-f7a6854a1397.html"  target="element">
+				  		<area shape="rect" coords="622,11,874,221" href="../elements/5d350bad-7ecb-4bbc-8ab8-6a1de3affaeb.html"  target="element">
+				  		<area shape="rect" coords="22,718,178,773" href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html"  target="element">
+				  		<area shape="rect" coords="798,718,935,773" href="../elements/fb655412-ce21-45e4-a3ab-f7a6854a1397.html"  target="element">
+				  		<area shape="rect" coords="190,718,331,773" href="../elements/3dedcd9c-0a13-4fff-977d-43bb3499c54d.html"  target="element">
+				  		<area shape="rect" coords="358,718,502,773" href="../elements/5c890dfc-c3cc-4173-81f5-e1274a043281.html"  target="element">
+				  		<area shape="rect" coords="946,718,1083,773" href="../elements/f81f02af-4542-4f8c-b45b-1e78e570febf.html"  target="element">
+				  		<area shape="rect" coords="514,718,658,773" href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html"  target="element">
+				  		<area shape="rect" coords="670,718,794,773" href="../elements/530515bb-c000-4e10-96ae-610b72e5719c.html"  target="element">
+				  		<area shape="rect" coords="1090,718,1210,773" href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html"  target="element">
+				  		<area shape="rect" coords="1517,718,1654,773" href="../elements/12cdb5e1-b5bc-4d53-980c-2b2f07e996c3.html"  target="element">
 
-			</map>
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -114,58 +139,283 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/24dcf7b1-aa5f-45a1-bca9-69772a097091.html" target="element"> Digital acqusition of electronic transaction documents </a> </td><td class="i18n-elementtype-Capability"></td></tr>
-											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
-											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
-											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
-											<tr><td> <a href="../elements/b19d726f-8ab1-44e6-98b4-08d50bb34b14.html" target="element"> ERP </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
-											<tr><td> <a href="../elements/7b86e9b9-613c-49d1-8a82-e553ca7b125c.html" target="element"> Standardisation of eOrders </a> </td><td class="i18n-elementtype-Capability"></td></tr>
-											<tr><td> <a href="../elements/c522a68c-a382-4190-9790-cfd84fad9107.html" target="element"> API Adressing </a> </td><td class="i18n-elementtype-Capability"></td></tr>
-											<tr><td> <a href="../elements/eb9f6eaa-1ea2-43ce-a05c-c17153656270.html" target="element"> WP1 Architecture principles </a> </td><td class="i18n-elementtype-Grouping"></td></tr>
-													<tr><td> <a href="../elements/90512fae-0b56-4b33-a318-fc9156bc4c91.html" target="element"> Build on open standards </a> </td><td class="i18n-elementtype-Principle"></td></tr>
-													<tr><td> <a href="../elements/3a5f0d93-da42-4db0-b15b-c2e9d85368da.html" target="element"> Use clearly defined, global semantics </a> </td><td class="i18n-elementtype-Principle"></td></tr>
-													<tr><td> <a href="../elements/23e37b75-6915-43f7-bcfe-1a44a284dcac.html" target="element"> Protect user data </a> </td><td class="i18n-elementtype-Principle"></td></tr>
-													<tr><td> <a href="../elements/7f19db87-48d0-4423-a361-c331697e8b02.html" target="element"> Built to evolve  </a> </td><td class="i18n-elementtype-Principle"></td></tr>
-													<tr><td> <a href="../elements/e01cc7d4-fa13-4397-93d5-a36d32e2f132.html" target="element"> Favor imperfect existing standards over perfect custom standards </a> </td><td class="i18n-elementtype-Principle"></td></tr>
-													<tr><td> <a href="../elements/80c87a8f-ec39-45c2-8631-8ad9380b9979.html" target="element"> Enforce data portability </a> </td><td class="i18n-elementtype-Principle"></td></tr>
+											<tr>
+											    <td> <a href="../elements/24dcf7b1-aa5f-45a1-bca9-69772a097091.html" target="element"> Digital electronic documents acquisition - adoption </a> </td>
+											    <td> <a href="../elements/24dcf7b1-aa5f-45a1-bca9-69772a097091.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+											</tr>
+
+									        <tr>
+									           <td> <a href="../objects/76ccf333-cf6d-4e80-85da-f2b9f4747f9d.html" target="element">  </a> </td>
+									           <td> <a href="../objects/76ccf333-cf6d-4e80-85da-f2b9f4747f9d.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/b31129c6-e897-4857-9542-64e924a7c562.html" target="element">  </a> </td>
+									           <td> <a href="../objects/b31129c6-e897-4857-9542-64e924a7c562.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/18ac3e97-4019-4490-b2b4-3fbb27185e4b.html" target="element">  </a> </td>
+									           <td> <a href="../objects/18ac3e97-4019-4490-b2b4-3fbb27185e4b.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+											<tr>
+											    <td> <a href="../elements/b19d726f-8ab1-44e6-98b4-08d50bb34b14.html" target="element"> ERP </a> </td>
+											    <td> <a href="../elements/b19d726f-8ab1-44e6-98b4-08d50bb34b14.html" target="element" class="i18n-elementtype-ApplicationComponent"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/7b86e9b9-613c-49d1-8a82-e553ca7b125c.html" target="element"> Standardisation of eOrders </a> </td>
+											    <td> <a href="../elements/7b86e9b9-613c-49d1-8a82-e553ca7b125c.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/c522a68c-a382-4190-9790-cfd84fad9107.html" target="element"> API Adressing </a> </td>
+											    <td> <a href="../elements/c522a68c-a382-4190-9790-cfd84fad9107.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/eb9f6eaa-1ea2-43ce-a05c-c17153656270.html" target="element"> WP1 Architecture principles </a> </td>
+											    <td> <a href="../elements/eb9f6eaa-1ea2-43ce-a05c-c17153656270.html" target="element" class="i18n-elementtype-Grouping"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/90512fae-0b56-4b33-a318-fc9156bc4c91.html" target="element"> Build on open standards </a> </td>
+													    <td> <a href="../elements/90512fae-0b56-4b33-a318-fc9156bc4c91.html" target="element" class="i18n-elementtype-Principle"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/3a5f0d93-da42-4db0-b15b-c2e9d85368da.html" target="element"> Use clearly defined, global semantics </a> </td>
+													    <td> <a href="../elements/3a5f0d93-da42-4db0-b15b-c2e9d85368da.html" target="element" class="i18n-elementtype-Principle"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/23e37b75-6915-43f7-bcfe-1a44a284dcac.html" target="element"> Protect user data </a> </td>
+													    <td> <a href="../elements/23e37b75-6915-43f7-bcfe-1a44a284dcac.html" target="element" class="i18n-elementtype-Principle"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/7f19db87-48d0-4423-a361-c331697e8b02.html" target="element"> Built to evolve  </a> </td>
+													    <td> <a href="../elements/7f19db87-48d0-4423-a361-c331697e8b02.html" target="element" class="i18n-elementtype-Principle"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/e01cc7d4-fa13-4397-93d5-a36d32e2f132.html" target="element"> Favor imperfect existing standards over perfect custom standards </a> </td>
+													    <td> <a href="../elements/e01cc7d4-fa13-4397-93d5-a36d32e2f132.html" target="element" class="i18n-elementtype-Principle"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/80c87a8f-ec39-45c2-8631-8ad9380b9979.html" target="element"> Enforce data portability </a> </td>
+													    <td> <a href="../elements/80c87a8f-ec39-45c2-8631-8ad9380b9979.html" target="element" class="i18n-elementtype-Principle"> </a> </td>
+													</tr>
+
 											
-											<tr><td> <a href="../elements/d463a047-7d47-4cc5-8b71-8db4145893fc.html" target="element"> WP2 </a> </td><td class="i18n-elementtype-Grouping"></td></tr>
-													<tr><td> <a href="../elements/43981727-789a-4022-b3f0-26c773753ef3.html" target="element"> Invoices must be recieved digitally </a> </td><td class="i18n-elementtype-Requirement"></td></tr>
-													<tr><td> <a href="../elements/870de64e-552c-4946-978b-7500f8928858.html" target="element"> Bank account statements must be digital </a> </td><td class="i18n-elementtype-Requirement"></td></tr>
-													<tr><td> <a href="../elements/1261c8c5-60ae-4742-a666-8e1c2690a7a2.html" target="element"> Orders must be standardized with clear semantics </a> </td><td class="i18n-elementtype-Requirement"></td></tr>
-													<tr><td> <a href="../elements/30d15ae7-c830-4ca7-ac47-b1e01f6a12c2.html" target="element"> Orders must be digital </a> </td><td class="i18n-elementtype-Requirement"></td></tr>
+											<tr>
+											    <td> <a href="../elements/d463a047-7d47-4cc5-8b71-8db4145893fc.html" target="element"> WP2 </a> </td>
+											    <td> <a href="../elements/d463a047-7d47-4cc5-8b71-8db4145893fc.html" target="element" class="i18n-elementtype-Grouping"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/43981727-789a-4022-b3f0-26c773753ef3.html" target="element"> Invoices must be recieved digitally </a> </td>
+													    <td> <a href="../elements/43981727-789a-4022-b3f0-26c773753ef3.html" target="element" class="i18n-elementtype-Requirement"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/870de64e-552c-4946-978b-7500f8928858.html" target="element"> Bank account statements must be digital </a> </td>
+													    <td> <a href="../elements/870de64e-552c-4946-978b-7500f8928858.html" target="element" class="i18n-elementtype-Requirement"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/1261c8c5-60ae-4742-a666-8e1c2690a7a2.html" target="element"> Orders must be standardized with clear semantics </a> </td>
+													    <td> <a href="../elements/1261c8c5-60ae-4742-a666-8e1c2690a7a2.html" target="element" class="i18n-elementtype-Requirement"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/30d15ae7-c830-4ca7-ac47-b1e01f6a12c2.html" target="element"> Orders must be digital </a> </td>
+													    <td> <a href="../elements/30d15ae7-c830-4ca7-ac47-b1e01f6a12c2.html" target="element" class="i18n-elementtype-Requirement"> </a> </td>
+													</tr>
+
 											
-											<tr><td> <a href="../elements/aff04b8d-6b63-431c-8cd5-3dd1590a516a.html" target="element"> WP4 </a> </td><td class="i18n-elementtype-Grouping"></td></tr>
-													<tr><td> <a href="../elements/8c37908d-bfa6-4003-93aa-0d57d0e95a3e.html" target="element"> Financial reports must be made avaliable for lookups </a> </td><td class="i18n-elementtype-Requirement"></td></tr>
-													<tr><td> <a href="../elements/e0de03aa-42a6-4e7d-84ab-12285e0beb15.html" target="element"> Financial raw data must be avaliable for lookup </a> </td><td class="i18n-elementtype-Requirement"></td></tr>
+											<tr>
+											    <td> <a href="../elements/aff04b8d-6b63-431c-8cd5-3dd1590a516a.html" target="element"> WP4 </a> </td>
+											    <td> <a href="../elements/aff04b8d-6b63-431c-8cd5-3dd1590a516a.html" target="element" class="i18n-elementtype-Grouping"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/8c37908d-bfa6-4003-93aa-0d57d0e95a3e.html" target="element"> Financial reports must be made avaliable for lookups </a> </td>
+													    <td> <a href="../elements/8c37908d-bfa6-4003-93aa-0d57d0e95a3e.html" target="element" class="i18n-elementtype-Requirement"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/e0de03aa-42a6-4e7d-84ab-12285e0beb15.html" target="element"> Financial raw data must be avaliable for lookup </a> </td>
+													    <td> <a href="../elements/e0de03aa-42a6-4e7d-84ab-12285e0beb15.html" target="element" class="i18n-elementtype-Requirement"> </a> </td>
+													</tr>
+
 											
-											<tr><td> <a href="../elements/49305898-2431-4b6a-ab59-561077316525.html" target="element"> Peppol </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
-											<tr><td> <a href="../elements/f923b656-2a64-45bc-a666-667d2cab3ec1.html" target="element"> Quality capabilities </a> </td><td class="i18n-elementtype-Grouping"></td></tr>
-													<tr><td> <a href="../elements/38518878-b054-4de4-a562-db342f6d9b01.html" target="element"> 24/7 avaliability  </a> </td><td class="i18n-elementtype-Capability"></td></tr>
-													<tr><td> <a href="../elements/dc34ea29-904e-4ee5-9ea4-d1f10a38f973.html" target="element"> Authorisation and access control </a> </td><td class="i18n-elementtype-Capability"></td></tr>
-													<tr><td> <a href="../elements/cdb659fb-3c4e-4387-9178-71a8b92c543a.html" target="element"> User consent for B2B sharing </a> </td><td class="i18n-elementtype-Capability"></td></tr>
-													<tr><td> <a href="../elements/1530d842-2c53-49c9-b207-eea165b340ce.html" target="element"> Error correction </a> </td><td class="i18n-elementtype-Capability"></td></tr>
-													<tr><td> <a href="../elements/d07a80d4-9912-49f0-ae09-1c75f7e5fc63.html" target="element"> Clear rules of responsibility for correctness/quality and availability of the data </a> </td><td class="i18n-elementtype-Capability"></td></tr>
+											<tr>
+											    <td> <a href="../elements/f923b656-2a64-45bc-a666-667d2cab3ec1.html" target="element"> Quality capabilities </a> </td>
+											    <td> <a href="../elements/f923b656-2a64-45bc-a666-667d2cab3ec1.html" target="element" class="i18n-elementtype-Grouping"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/38518878-b054-4de4-a562-db342f6d9b01.html" target="element"> 24/7 avaliability  </a> </td>
+													    <td> <a href="../elements/38518878-b054-4de4-a562-db342f6d9b01.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/dc34ea29-904e-4ee5-9ea4-d1f10a38f973.html" target="element"> Authorisation and access control </a> </td>
+													    <td> <a href="../elements/dc34ea29-904e-4ee5-9ea4-d1f10a38f973.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/cdb659fb-3c4e-4387-9178-71a8b92c543a.html" target="element"> User consent for B2B sharing </a> </td>
+													    <td> <a href="../elements/cdb659fb-3c4e-4387-9178-71a8b92c543a.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/d07a80d4-9912-49f0-ae09-1c75f7e5fc63.html" target="element"> Clear rules of responsibility for correctness/quality and availability of the data </a> </td>
+													    <td> <a href="../elements/d07a80d4-9912-49f0-ae09-1c75f7e5fc63.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/1530d842-2c53-49c9-b207-eea165b340ce.html" target="element"> Error detection and correction </a> </td>
+													    <td> <a href="../elements/1530d842-2c53-49c9-b207-eea165b340ce.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/00153750-96fd-427c-a872-4e4be1a148de.html" target="element"> Authentication </a> </td>
+													    <td> <a href="../elements/00153750-96fd-427c-a872-4e4be1a148de.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/08e56bb6-c2be-4247-a796-87b1ca053b7d.html" target="element"> Encryption </a> </td>
+													    <td> <a href="../elements/08e56bb6-c2be-4247-a796-87b1ca053b7d.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/b1f50883-2034-413b-b7c7-0f6dc093aec5.html" target="element"> Integrity </a> </td>
+													    <td> <a href="../elements/b1f50883-2034-413b-b7c7-0f6dc093aec5.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+													</tr>
+
 											
-											<tr><td> <a href="../elements/df38ae9e-b491-4000-afd4-4d4d3e870e80.html" target="element"> Authorization SBB </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
-											<tr><td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-											<tr><td> <a href="../elements/1edc1f68-bc8f-4e9e-b3cb-d60902da7c7c.html" target="element"> Lawmaker </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-											<tr><td> <a href="../elements/20df57c4-d397-45e9-a472-1bf429208880.html" target="element"> WP1 User principles </a> </td><td class="i18n-elementtype-Grouping"></td></tr>
-													<tr><td> <a href="../elements/b5ac7e93-bb06-4f4a-a883-27335b66a54c.html" target="element"> SME's should be able to have control over how the data they share with others are handled </a> </td><td class="i18n-elementtype-Principle"></td></tr>
-													<tr><td> <a href="../elements/d5cd50e8-d251-4ca9-8a09-5352a3a1b971.html" target="element"> SME's should be able to have control over the transaction-data for all transaction where they are a part </a> </td><td class="i18n-elementtype-Principle"></td></tr>
-													<tr><td> <a href="../elements/c87141cc-6e68-4fb0-bb6e-423a02680286.html" target="element"> SME's should be confident that the data they put into their ERP-systems will be available to themselves </a> </td><td class="i18n-elementtype-Principle"></td></tr>
-													<tr><td> <a href="../elements/c77cdedc-68a5-4281-a903-a95e05e01d6f.html" target="element"> SME's should be confident that the data they put into their ERP-systems will not be available to others </a> </td><td class="i18n-elementtype-Principle"></td></tr>
-													<tr><td> <a href="../elements/245cce39-8899-4074-9689-4a9c730ac1d4.html" target="element"> It should be just as easy to send an invoice or pay a bill independent of whether the other party is in your own or in another Nordic country </a> </td><td class="i18n-elementtype-Principle"></td></tr>
+											<tr>
+											    <td> <a href="../elements/df38ae9e-b491-4000-afd4-4d4d3e870e80.html" target="element"> Authorization SBB </a> </td>
+											    <td> <a href="../elements/df38ae9e-b491-4000-afd4-4d4d3e870e80.html" target="element" class="i18n-elementtype-ApplicationComponent"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td>
+											    <td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/1edc1f68-bc8f-4e9e-b3cb-d60902da7c7c.html" target="element"> Lawmaker </a> </td>
+											    <td> <a href="../elements/1edc1f68-bc8f-4e9e-b3cb-d60902da7c7c.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/20df57c4-d397-45e9-a472-1bf429208880.html" target="element"> WP1 User principles </a> </td>
+											    <td> <a href="../elements/20df57c4-d397-45e9-a472-1bf429208880.html" target="element" class="i18n-elementtype-Grouping"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/b5ac7e93-bb06-4f4a-a883-27335b66a54c.html" target="element"> SME's should be able to have control over how the data they share with others are handled </a> </td>
+													    <td> <a href="../elements/b5ac7e93-bb06-4f4a-a883-27335b66a54c.html" target="element" class="i18n-elementtype-Principle"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/d5cd50e8-d251-4ca9-8a09-5352a3a1b971.html" target="element"> SME's should be able to have control over the transaction-data for all transaction where they are a part </a> </td>
+													    <td> <a href="../elements/d5cd50e8-d251-4ca9-8a09-5352a3a1b971.html" target="element" class="i18n-elementtype-Principle"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/c87141cc-6e68-4fb0-bb6e-423a02680286.html" target="element"> SME's should be confident that the data they put into their ERP-systems will be available to themselves </a> </td>
+													    <td> <a href="../elements/c87141cc-6e68-4fb0-bb6e-423a02680286.html" target="element" class="i18n-elementtype-Principle"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/c77cdedc-68a5-4281-a903-a95e05e01d6f.html" target="element"> SME's should be confident that the data they put into their ERP-systems will not be available to others </a> </td>
+													    <td> <a href="../elements/c77cdedc-68a5-4281-a903-a95e05e01d6f.html" target="element" class="i18n-elementtype-Principle"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/245cce39-8899-4074-9689-4a9c730ac1d4.html" target="element"> It should be just as easy to send an invoice or pay a bill independent of whether the other party is in your own or in another Nordic country </a> </td>
+													    <td> <a href="../elements/245cce39-8899-4074-9689-4a9c730ac1d4.html" target="element" class="i18n-elementtype-Principle"> </a> </td>
+													</tr>
+
 											
-											<tr><td> <a href="../elements/25e6fae1-09b0-432e-bbc5-49030d47136c.html" target="element"> WP3 </a> </td><td class="i18n-elementtype-Grouping"></td></tr>
-													<tr><td> <a href="../elements/ca90a7aa-02d4-4a16-b03e-c5f192161105.html" target="element"> The endpoint of an organisation's ERP system must be known </a> </td><td class="i18n-elementtype-Requirement"></td></tr>
+											<tr>
+											    <td> <a href="../elements/25e6fae1-09b0-432e-bbc5-49030d47136c.html" target="element"> WP3 </a> </td>
+											    <td> <a href="../elements/25e6fae1-09b0-432e-bbc5-49030d47136c.html" target="element" class="i18n-elementtype-Grouping"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/ca90a7aa-02d4-4a16-b03e-c5f192161105.html" target="element"> The endpoint of an organisation's ERP system must be known </a> </td>
+													    <td> <a href="../elements/ca90a7aa-02d4-4a16-b03e-c5f192161105.html" target="element" class="i18n-elementtype-Requirement"> </a> </td>
+													</tr>
+
 											
-											<tr><td> <a href="../elements/5d350bad-7ecb-4bbc-8ab8-6a1de3affaeb.html" target="element"> WP1 Desired attributes </a> </td><td class="i18n-elementtype-Grouping"></td></tr>
-													<tr><td> <a href="../elements/aeb4f092-a733-4133-94da-32ed06158220.html" target="element"> Data sharing controlled by the data originator </a> </td><td class="i18n-elementtype-Requirement"></td></tr>
-													<tr><td> <a href="../elements/71376460-4cbb-4a29-92e3-441429820e3c.html" target="element"> Strong enforcement of data integrity </a> </td><td class="i18n-elementtype-Requirement"></td></tr>
+											<tr>
+											    <td> <a href="../elements/5d350bad-7ecb-4bbc-8ab8-6a1de3affaeb.html" target="element"> WP1 Desired attributes </a> </td>
+											    <td> <a href="../elements/5d350bad-7ecb-4bbc-8ab8-6a1de3affaeb.html" target="element" class="i18n-elementtype-Grouping"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/aeb4f092-a733-4133-94da-32ed06158220.html" target="element"> Data sharing controlled by the data originator </a> </td>
+													    <td> <a href="../elements/aeb4f092-a733-4133-94da-32ed06158220.html" target="element" class="i18n-elementtype-Requirement"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/71376460-4cbb-4a29-92e3-441429820e3c.html" target="element"> Strong enforcement of data integrity </a> </td>
+													    <td> <a href="../elements/71376460-4cbb-4a29-92e3-441429820e3c.html" target="element" class="i18n-elementtype-Requirement"> </a> </td>
+													</tr>
+
 											
-											<tr><td> <a href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html" target="element"> Business systems </a> </td><td class="i18n-elementtype-Resource"></td></tr>
-											<tr><td> <a href="../elements/fb655412-ce21-45e4-a3ab-f7a6854a1397.html" target="element"> Authorization </a> </td><td class="i18n-elementtype-Resource"></td></tr>
+											<tr>
+											    <td> <a href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html" target="element"> Business systems </a> </td>
+											    <td> <a href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html" target="element" class="i18n-elementtype-Resource"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/fb655412-ce21-45e4-a3ab-f7a6854a1397.html" target="element"> Authorization/power of mandates SBB </a> </td>
+											    <td> <a href="../elements/fb655412-ce21-45e4-a3ab-f7a6854a1397.html" target="element" class="i18n-elementtype-Resource"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/3dedcd9c-0a13-4fff-977d-43bb3499c54d.html" target="element"> Standardisation organisation </a> </td>
+											    <td> <a href="../elements/3dedcd9c-0a13-4fff-977d-43bb3499c54d.html" target="element" class="i18n-elementtype-Resource"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/5c890dfc-c3cc-4173-81f5-e1274a043281.html" target="element"> Lawmaker </a> </td>
+											    <td> <a href="../elements/5c890dfc-c3cc-4173-81f5-e1274a043281.html" target="element" class="i18n-elementtype-Resource"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/f81f02af-4542-4f8c-b45b-1e78e570febf.html" target="element"> Users consent SBB </a> </td>
+											    <td> <a href="../elements/f81f02af-4542-4f8c-b45b-1e78e570febf.html" target="element" class="i18n-elementtype-Resource"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html" target="element"> Business systems </a> </td>
+											    <td> <a href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html" target="element" class="i18n-elementtype-Resource"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/530515bb-c000-4e10-96ae-610b72e5719c.html" target="element"> Authentication SBB </a> </td>
+											    <td> <a href="../elements/530515bb-c000-4e10-96ae-610b72e5719c.html" target="element" class="i18n-elementtype-Resource"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html" target="element"> Business systems </a> </td>
+											    <td> <a href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html" target="element" class="i18n-elementtype-Resource"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/12cdb5e1-b5bc-4d53-980c-2b2f07e996c3.html" target="element"> API Adressing SBB </a> </td>
+											    <td> <a href="../elements/12cdb5e1-b5bc-4d53-980c-2b2f07e996c3.html" target="element" class="i18n-elementtype-Resource"> </a> </td>
+											</tr>
+
 
 								</tbody>
 							</table>
@@ -184,19 +434,19 @@
 																	<tr>
 																		<td> <a href="../elements/e2e487fa-847e-4a87-a3ad-5d25758a87c0.html" target="element">  </a> </td>
 																		<td> <a href="../elements/e2e487fa-847e-4a87-a3ad-5d25758a87c0.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
-																		<td> <a href="../elements/24dcf7b1-aa5f-45a1-bca9-69772a097091.html" target="element"> Digital acqusition of electronic transaction documents </a> </td>
+																		<td> <a href="../elements/24dcf7b1-aa5f-45a1-bca9-69772a097091.html" target="element"> Digital electronic documents acquisition - adoption </a> </td>
 																		<td> <a href="../elements/43981727-789a-4022-b3f0-26c773753ef3.html" target="element"> Invoices must be recieved digitally </a> </td>
 																	</tr>
 																	<tr>
 																		<td> <a href="../elements/e6d95156-cc2f-4e7b-80c3-54703aff398c.html" target="element">  </a> </td>
 																		<td> <a href="../elements/e6d95156-cc2f-4e7b-80c3-54703aff398c.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
-																		<td> <a href="../elements/24dcf7b1-aa5f-45a1-bca9-69772a097091.html" target="element"> Digital acqusition of electronic transaction documents </a> </td>
+																		<td> <a href="../elements/24dcf7b1-aa5f-45a1-bca9-69772a097091.html" target="element"> Digital electronic documents acquisition - adoption </a> </td>
 																		<td> <a href="../elements/30d15ae7-c830-4ca7-ac47-b1e01f6a12c2.html" target="element"> Orders must be digital </a> </td>
 																	</tr>
 																	<tr>
 																		<td> <a href="../elements/8a20a68b-0efe-4a8c-99b3-7392fac45bfa.html" target="element">  </a> </td>
 																		<td> <a href="../elements/8a20a68b-0efe-4a8c-99b3-7392fac45bfa.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
-																		<td> <a href="../elements/24dcf7b1-aa5f-45a1-bca9-69772a097091.html" target="element"> Digital acqusition of electronic transaction documents </a> </td>
+																		<td> <a href="../elements/24dcf7b1-aa5f-45a1-bca9-69772a097091.html" target="element"> Digital electronic documents acquisition - adoption </a> </td>
 																		<td> <a href="../elements/870de64e-552c-4946-978b-7500f8928858.html" target="element"> Bank account statements must be digital </a> </td>
 																	</tr>
 
@@ -337,13 +587,31 @@
 																		<td> <a href="../elements/d4e70b73-a3dc-4bc4-962a-0722b918f928.html" target="element">  </a> </td>
 																		<td> <a href="../elements/d4e70b73-a3dc-4bc4-962a-0722b918f928.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
 																		<td> <a href="../elements/f923b656-2a64-45bc-a666-667d2cab3ec1.html" target="element"> Quality capabilities </a> </td>
-																		<td> <a href="../elements/1530d842-2c53-49c9-b207-eea165b340ce.html" target="element"> Error correction </a> </td>
+																		<td> <a href="../elements/1530d842-2c53-49c9-b207-eea165b340ce.html" target="element"> Error detection and correction </a> </td>
 																	</tr>
 																	<tr>
 																		<td> <a href="../elements/e50a04bf-9423-4fc0-b599-eb301d0483a9.html" target="element">  </a> </td>
 																		<td> <a href="../elements/e50a04bf-9423-4fc0-b599-eb301d0483a9.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
 																		<td> <a href="../elements/f923b656-2a64-45bc-a666-667d2cab3ec1.html" target="element"> Quality capabilities </a> </td>
 																		<td> <a href="../elements/d07a80d4-9912-49f0-ae09-1c75f7e5fc63.html" target="element"> Clear rules of responsibility for correctness/quality and availability of the data </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/367fba07-1835-4cc1-ad90-740ed130be8e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/367fba07-1835-4cc1-ad90-740ed130be8e.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/f923b656-2a64-45bc-a666-667d2cab3ec1.html" target="element"> Quality capabilities </a> </td>
+																		<td> <a href="../elements/00153750-96fd-427c-a872-4e4be1a148de.html" target="element"> Authentication </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/2b1ca45f-5c2c-4481-8cbf-ea35bb6d2238.html" target="element">  </a> </td>
+																		<td> <a href="../elements/2b1ca45f-5c2c-4481-8cbf-ea35bb6d2238.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/f923b656-2a64-45bc-a666-667d2cab3ec1.html" target="element"> Quality capabilities </a> </td>
+																		<td> <a href="../elements/08e56bb6-c2be-4247-a796-87b1ca053b7d.html" target="element"> Encryption </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/355967f6-c78b-49b7-b427-afd2dc498219.html" target="element">  </a> </td>
+																		<td> <a href="../elements/355967f6-c78b-49b7-b427-afd2dc498219.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/f923b656-2a64-45bc-a666-667d2cab3ec1.html" target="element"> Quality capabilities </a> </td>
+																		<td> <a href="../elements/b1f50883-2034-413b-b7c7-0f6dc093aec5.html" target="element"> Integrity </a> </td>
 																	</tr>
 
 																			<tr>
@@ -384,27 +652,27 @@
 																		<td> <a href="../elements/c8f40258-4223-432c-850b-c78c825b5b83.html" target="element">  </a> </td>
 																		<td> <a href="../elements/c8f40258-4223-432c-850b-c78c825b5b83.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
 																		<td> <a href="../elements/df38ae9e-b491-4000-afd4-4d4d3e870e80.html" target="element"> Authorization SBB </a> </td>
-																		<td> <a href="../elements/dc34ea29-904e-4ee5-9ea4-d1f10a38f973.html" target="element"> Authorisation and access control </a> </td>
+																		<td> <a href="../elements/fb655412-ce21-45e4-a3ab-f7a6854a1397.html" target="element"> Authorization/power of mandates SBB </a> </td>
 																	</tr>
 																	<tr>
-																		<td> <a href="../elements/ed073b9e-2e87-41a9-aa98-0afd327f2861.html" target="element">  </a> </td>
-																		<td> <a href="../elements/ed073b9e-2e87-41a9-aa98-0afd327f2861.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/ea3ce5a8-b0ce-4bcc-bed1-fbc224f93397.html" target="element">  </a> </td>
+																		<td> <a href="../elements/ea3ce5a8-b0ce-4bcc-bed1-fbc224f93397.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
 																		<td> <a href="../elements/df38ae9e-b491-4000-afd4-4d4d3e870e80.html" target="element"> Authorization SBB </a> </td>
-																		<td> <a href="../elements/cdb659fb-3c4e-4387-9178-71a8b92c543a.html" target="element"> User consent for B2B sharing </a> </td>
+																		<td> <a href="../elements/f81f02af-4542-4f8c-b45b-1e78e570febf.html" target="element"> Users consent SBB </a> </td>
 																	</tr>
 
 																	<tr>
 																		<td> <a href="../elements/0bd8a2d9-daed-4c53-a542-884a860aea19.html" target="element">  </a> </td>
 																		<td> <a href="../elements/0bd8a2d9-daed-4c53-a542-884a860aea19.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
 																		<td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td>
-																		<td> <a href="../elements/cdb659fb-3c4e-4387-9178-71a8b92c543a.html" target="element"> User consent for B2B sharing </a> </td>
+																		<td> <a href="../elements/f81f02af-4542-4f8c-b45b-1e78e570febf.html" target="element"> Users consent SBB </a> </td>
 																	</tr>
 
 																	<tr>
 																		<td> <a href="../elements/5a369bde-f8b8-4528-9a27-908127221b2a.html" target="element">  </a> </td>
 																		<td> <a href="../elements/5a369bde-f8b8-4528-9a27-908127221b2a.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
 																		<td> <a href="../elements/1edc1f68-bc8f-4e9e-b3cb-d60902da7c7c.html" target="element"> Lawmaker </a> </td>
-																		<td> <a href="../elements/d07a80d4-9912-49f0-ae09-1c75f7e5fc63.html" target="element"> Clear rules of responsibility for correctness/quality and availability of the data </a> </td>
+																		<td> <a href="../elements/5c890dfc-c3cc-4173-81f5-e1274a043281.html" target="element"> Lawmaker </a> </td>
 																	</tr>
 
 																	<tr>
@@ -472,7 +740,63 @@
 																		<td> <a href="../elements/972ed3af-c0f4-4829-9c26-adf6ff9889da.html" target="element">  </a> </td>
 																		<td> <a href="../elements/972ed3af-c0f4-4829-9c26-adf6ff9889da.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
 																		<td> <a href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html" target="element"> Business systems </a> </td>
-																		<td> <a href="../elements/24dcf7b1-aa5f-45a1-bca9-69772a097091.html" target="element"> Digital acqusition of electronic transaction documents </a> </td>
+																		<td> <a href="../elements/24dcf7b1-aa5f-45a1-bca9-69772a097091.html" target="element"> Digital electronic documents acquisition - adoption </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/4de107d2-1071-4b02-a873-72b6c8515280.html" target="element">  </a> </td>
+																		<td> <a href="../elements/4de107d2-1071-4b02-a873-72b6c8515280.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/fb655412-ce21-45e4-a3ab-f7a6854a1397.html" target="element"> Authorization/power of mandates SBB </a> </td>
+																		<td> <a href="../elements/dc34ea29-904e-4ee5-9ea4-d1f10a38f973.html" target="element"> Authorisation and access control </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/22591bce-b4d9-4faf-8cac-0e790c193556.html" target="element">  </a> </td>
+																		<td> <a href="../elements/22591bce-b4d9-4faf-8cac-0e790c193556.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/3dedcd9c-0a13-4fff-977d-43bb3499c54d.html" target="element"> Standardisation organisation </a> </td>
+																		<td> <a href="../elements/7b86e9b9-613c-49d1-8a82-e553ca7b125c.html" target="element"> Standardisation of eOrders </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/22e70958-5750-41fe-aaa0-325a1467d255.html" target="element">  </a> </td>
+																		<td> <a href="../elements/22e70958-5750-41fe-aaa0-325a1467d255.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/5c890dfc-c3cc-4173-81f5-e1274a043281.html" target="element"> Lawmaker </a> </td>
+																		<td> <a href="../elements/d07a80d4-9912-49f0-ae09-1c75f7e5fc63.html" target="element"> Clear rules of responsibility for correctness/quality and availability of the data </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/1a1717f4-f166-49b5-835b-c58283812850.html" target="element">  </a> </td>
+																		<td> <a href="../elements/1a1717f4-f166-49b5-835b-c58283812850.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/f81f02af-4542-4f8c-b45b-1e78e570febf.html" target="element"> Users consent SBB </a> </td>
+																		<td> <a href="../elements/cdb659fb-3c4e-4387-9178-71a8b92c543a.html" target="element"> User consent for B2B sharing </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/1dc37223-1593-43c4-8b99-95c69fec2183.html" target="element">  </a> </td>
+																		<td> <a href="../elements/1dc37223-1593-43c4-8b99-95c69fec2183.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html" target="element"> Business systems </a> </td>
+																		<td> <a href="../elements/1530d842-2c53-49c9-b207-eea165b340ce.html" target="element"> Error detection and correction </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/61211431-3f4b-45df-a76f-da74ad72ea66.html" target="element">  </a> </td>
+																		<td> <a href="../elements/61211431-3f4b-45df-a76f-da74ad72ea66.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/530515bb-c000-4e10-96ae-610b72e5719c.html" target="element"> Authentication SBB </a> </td>
+																		<td> <a href="../elements/00153750-96fd-427c-a872-4e4be1a148de.html" target="element"> Authentication </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/35251afb-20e9-4414-bf04-5aca71bdeb7f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/35251afb-20e9-4414-bf04-5aca71bdeb7f.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html" target="element"> Business systems </a> </td>
+																		<td> <a href="../elements/38518878-b054-4de4-a562-db342f6d9b01.html" target="element"> 24/7 avaliability  </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/38c11818-ae69-4fe6-b6e0-2396669472cc.html" target="element">  </a> </td>
+																		<td> <a href="../elements/38c11818-ae69-4fe6-b6e0-2396669472cc.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/12cdb5e1-b5bc-4d53-980c-2b2f07e996c3.html" target="element"> API Adressing SBB </a> </td>
+																		<td> <a href="../elements/c522a68c-a382-4190-9790-cfd84fad9107.html" target="element"> API Adressing </a> </td>
 																	</tr>
 
 

@@ -19,28 +19,41 @@
 
 <body>
 	<div class="panel panel-default root-panel">
-		<div class="panel-heading root-panel-heading">
-			<b>Economic Investigation and prosecution Reporting</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
-		</div>
-		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/7d3cb257-9703-446c-aed9-3ecca665e269.png" alt="Economic Investigation and prosecution Reporting" usemap="#7d3cb257-9703-446c-aed9-3ecca665e269map">
-			<map name="7d3cb257-9703-446c-aed9-3ecca665e269map">
-						<area shape="rect" coords="605,132,725,205" href="../elements/8a8655d0-94a8-44e8-90e8-f314837da334.html"  target="element">
-						<area shape="rect" coords="10,10,130,65" href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html"  target="element">
-						<area shape="rect" coords="10,132,130,187" href="../elements/95ae001e-9c6b-48f1-b7ba-358bafc7b26d.html"  target="element">
-						<area shape="rect" coords="314,116,434,171" href="../elements/70cb05f9-42ad-4aa0-8f75-f7980936f0b9.html"  target="element">
-						<area shape="rect" coords="314,180,434,235" href="../elements/5020ad7a-e55a-40e7-94a1-d5fc3af81f73.html"  target="element">
 
-			</map>
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Economic Investigation and prosecution Reporting</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/7d3cb257-9703-446c-aed9-3ecca665e269.png" alt="Economic Investigation and prosecution Reporting" usemap="#7d3cb257-9703-446c-aed9-3ecca665e269map"/>
+			   <map name="7d3cb257-9703-446c-aed9-3ecca665e269map">
+				  		<area shape="rect" coords="605,132,725,205" href="../elements/8a8655d0-94a8-44e8-90e8-f314837da334.html"  target="element">
+				  		<area shape="rect" coords="10,10,130,65" href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html"  target="element">
+				  		<area shape="rect" coords="10,132,130,187" href="../elements/95ae001e-9c6b-48f1-b7ba-358bafc7b26d.html"  target="element">
+				  		<area shape="rect" coords="314,116,434,171" href="../elements/70cb05f9-42ad-4aa0-8f75-f7980936f0b9.html"  target="element">
+				  		<area shape="rect" coords="314,180,434,235" href="../elements/5020ad7a-e55a-40e7-94a1-d5fc3af81f73.html"  target="element">
+
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -70,11 +83,31 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/8a8655d0-94a8-44e8-90e8-f314837da334.html" target="element"> Economic Investigation and prosecution </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-											<tr><td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-											<tr><td> <a href="../elements/95ae001e-9c6b-48f1-b7ba-358bafc7b26d.html" target="element"> SME in financial sector </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-											<tr><td> <a href="../elements/70cb05f9-42ad-4aa0-8f75-f7980936f0b9.html" target="element"> Periodic Financial reporting </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
-											<tr><td> <a href="../elements/5020ad7a-e55a-40e7-94a1-d5fc3af81f73.html" target="element"> Other reporting </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
+											<tr>
+											    <td> <a href="../elements/8a8655d0-94a8-44e8-90e8-f314837da334.html" target="element"> Economic Investigation and prosecution </a> </td>
+											    <td> <a href="../elements/8a8655d0-94a8-44e8-90e8-f314837da334.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td>
+											    <td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/95ae001e-9c6b-48f1-b7ba-358bafc7b26d.html" target="element"> SME in financial sector </a> </td>
+											    <td> <a href="../elements/95ae001e-9c6b-48f1-b7ba-358bafc7b26d.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/70cb05f9-42ad-4aa0-8f75-f7980936f0b9.html" target="element"> Periodic Financial reporting </a> </td>
+											    <td> <a href="../elements/70cb05f9-42ad-4aa0-8f75-f7980936f0b9.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/5020ad7a-e55a-40e7-94a1-d5fc3af81f73.html" target="element"> Other reporting </a> </td>
+											    <td> <a href="../elements/5020ad7a-e55a-40e7-94a1-d5fc3af81f73.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+											</tr>
+
 
 								</tbody>
 							</table>
