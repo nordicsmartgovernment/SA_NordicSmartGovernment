@@ -826,6 +826,12 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataElements.push({id:"6d34d8ce-5844-44c1-afd1-757658bb35fa", type:"Representation", name:decodeURL("kvitteringsfiler+%28returfiler%29+fra+bank+til+kunde+%28pain+002+og+pain+003%29."), documentation:decodeURL("FIToFIPaymentStatusReportV08%0AFIToFICustomerDirectDebitV07")});
 									dataFoldersContent.push({folderid:"61411a97-ce81-411b-a845-3f1a5cdbd8b1", contentid:"9488520a-da5c-49a7-88bb-c22056f33a8b", contenttype:"Representation"});
 										dataElements.push({id:"9488520a-da5c-49a7-88bb-c22056f33a8b", type:"Representation", name:decodeURL("Kontoutskrift+%28camt.053%29"), documentation:decodeURL("camt.053.001.06")});
+									dataFoldersContent.push({folderid:"61411a97-ce81-411b-a845-3f1a5cdbd8b1", contentid:"abba84eb-996b-4773-96e0-10fe90174ffa", contenttype:"Representation"});
+										dataElements.push({id:"abba84eb-996b-4773-96e0-10fe90174ffa", type:"Representation", name:decodeURL("e-invoice"), documentation:decodeURL("")});
+									dataFoldersContent.push({folderid:"61411a97-ce81-411b-a845-3f1a5cdbd8b1", contentid:"65a5a1da-5ddd-4d8a-95c1-a70c5e7dde53", contenttype:"Representation"});
+										dataElements.push({id:"65a5a1da-5ddd-4d8a-95c1-a70c5e7dde53", type:"Representation", name:decodeURL("Bank+statement"), documentation:decodeURL("")});
+									dataFoldersContent.push({folderid:"61411a97-ce81-411b-a845-3f1a5cdbd8b1", contentid:"bb8b56c2-e42a-4d72-a7cd-38209fd97054", contenttype:"Representation"});
+										dataElements.push({id:"bb8b56c2-e42a-4d72-a7cd-38209fd97054", type:"Representation", name:decodeURL("e-order"), documentation:decodeURL("")});
 
 								dataFoldersContent.push({folderid:"54e87e47-f01c-49fe-af55-2068f4564bd2", contentid:"abb4de4e-91e8-4486-861a-3be944f6a04b", contenttype:"Folder"});
 								dataFolders.push({id:"abb4de4e-91e8-4486-861a-3be944f6a04b", type:"Folder", name:decodeURL("Application"), documentation:decodeURL("")});
@@ -1091,6 +1097,10 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataElements.push({id:"ead182f2-3b41-454e-b487-5b2e73fac43c", type:"ApplicationInterface", name:decodeURL("InnvoiceAPI"), documentation:decodeURL("")});
 									dataFoldersContent.push({folderid:"abb4de4e-91e8-4486-861a-3be944f6a04b", contentid:"f6d46354-f718-4d25-aef1-c21eeb2ffcad", contenttype:"ApplicationInterface"});
 										dataElements.push({id:"f6d46354-f718-4d25-aef1-c21eeb2ffcad", type:"ApplicationInterface", name:decodeURL("BankStatementAPI"), documentation:decodeURL("")});
+									dataFoldersContent.push({folderid:"abb4de4e-91e8-4486-861a-3be944f6a04b", contentid:"7a466117-f71f-4522-8902-a4542173fcd5", contenttype:"ApplicationInterface"});
+										dataElements.push({id:"7a466117-f71f-4522-8902-a4542173fcd5", type:"ApplicationInterface", name:decodeURL("TransactionAPI"), documentation:decodeURL("")});
+									dataFoldersContent.push({folderid:"abb4de4e-91e8-4486-861a-3be944f6a04b", contentid:"f5d4e234-e87a-427b-bc09-b491123d1d80", contenttype:"ApplicationInterface"});
+										dataElements.push({id:"f5d4e234-e87a-427b-bc09-b491123d1d80", type:"ApplicationInterface", name:decodeURL("OrderAPI"), documentation:decodeURL("")});
 
 								dataFoldersContent.push({folderid:"54e87e47-f01c-49fe-af55-2068f4564bd2", contentid:"14281ef5-1162-4233-9da2-7f829e0d7e1e", contenttype:"Folder"});
 								dataFolders.push({id:"14281ef5-1162-4233-9da2-7f829e0d7e1e", type:"Folder", name:decodeURL("Technology+%26+Physical"), documentation:decodeURL("")});
@@ -1266,7 +1276,7 @@ The detailed objects in the model are under "model content", while archimate vie
 									dataFoldersContent.push({folderid:"80c1724f-5f45-4efd-a4f6-19683d1182a8", contentid:"42599288-b3ba-4f4a-8c24-ac1aa55f6acb", contenttype:"Constraint"});
 										dataElements.push({id:"42599288-b3ba-4f4a-8c24-ac1aa55f6acb", type:"Constraint", name:decodeURL("SWIFT"), documentation:decodeURL("")});
 									dataFoldersContent.push({folderid:"80c1724f-5f45-4efd-a4f6-19683d1182a8", contentid:"455729e0-5b98-4e40-9b45-61b75ba8f657", contenttype:"Constraint"});
-										dataElements.push({id:"455729e0-5b98-4e40-9b45-61b75ba8f657", type:"Constraint", name:decodeURL("e-ordre"), documentation:decodeURL("")});
+										dataElements.push({id:"455729e0-5b98-4e40-9b45-61b75ba8f657", type:"Constraint", name:decodeURL("e-order"), documentation:decodeURL("")});
 									dataFoldersContent.push({folderid:"80c1724f-5f45-4efd-a4f6-19683d1182a8", contentid:"4c891094-8c89-4ee5-a0bc-986f8c591d68", contenttype:"Constraint"});
 										dataElements.push({id:"4c891094-8c89-4ee5-a0bc-986f8c591d68", type:"Constraint", name:decodeURL("BEAst+Invoicing"), documentation:decodeURL("XML%0A")});
 									dataFoldersContent.push({folderid:"80c1724f-5f45-4efd-a4f6-19683d1182a8", contentid:"5145ad05-a097-4251-965d-95f6295c656d", contenttype:"Constraint"});
@@ -1975,8 +1985,6 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataRelationships.push({id:"1628e329-2b36-4533-b974-f6e191898d67", type:"AssociationRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"42ceb9ed-fcd4-4709-a3c2-9dc802f9b6af", targetid:"21efa32b-952d-4021-bb21-b75cc9b5077e"});
 									dataFoldersContent.push({folderid:"4688b571-297a-444f-bf10-40a31b203f74", contentid:"1756b1ed-7c3f-458d-bf94-ae41d473c2c2", contenttype:"AssociationRelationship"});
 										dataRelationships.push({id:"1756b1ed-7c3f-458d-bf94-ae41d473c2c2", type:"AssociationRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"12c6a177-009f-4c87-ac1b-68ac46a4ff13", targetid:"d1d6c18d-02db-428a-9db0-838de21086d7"});
-									dataFoldersContent.push({folderid:"4688b571-297a-444f-bf10-40a31b203f74", contentid:"18c1ef71-d743-4604-a32a-09f3122edb00", contenttype:"AssociationRelationship"});
-										dataRelationships.push({id:"18c1ef71-d743-4604-a32a-09f3122edb00", type:"AssociationRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"387ccf9c-3ffe-4f2f-ae6b-1a1381998cdc", targetid:"269ffb4d-7e83-4220-b761-07503d478817"});
 									dataFoldersContent.push({folderid:"4688b571-297a-444f-bf10-40a31b203f74", contentid:"19230be2-3cbe-4217-aae5-50ae4acc8a94", contenttype:"AssociationRelationship"});
 										dataRelationships.push({id:"19230be2-3cbe-4217-aae5-50ae4acc8a94", type:"AssociationRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"9aaa61d3-8ca8-4706-94e5-40777ef2dd7c", targetid:"d2517242-c445-4f91-9639-afe1e44e88e1"});
 									dataFoldersContent.push({folderid:"4688b571-297a-444f-bf10-40a31b203f74", contentid:"1d5ed53d-20d8-407a-9563-a1755ca489ad", contenttype:"AssociationRelationship"});
@@ -1999,8 +2007,6 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataRelationships.push({id:"345b6a6f-8b84-48ac-baeb-c51b2dc5c50d", type:"AssociationRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"743d46b7-3986-4411-a82f-aa6969186bbd", targetid:"8309ed90-6391-4fd5-bc55-e3957d90e2d8"});
 									dataFoldersContent.push({folderid:"4688b571-297a-444f-bf10-40a31b203f74", contentid:"38786ef9-61f7-4470-949d-ae9bbb28d562", contenttype:"AssociationRelationship"});
 										dataRelationships.push({id:"38786ef9-61f7-4470-949d-ae9bbb28d562", type:"AssociationRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"12c6a177-009f-4c87-ac1b-68ac46a4ff13", targetid:"688c4b8d-468c-4318-8a17-7595ece8d9d6"});
-									dataFoldersContent.push({folderid:"4688b571-297a-444f-bf10-40a31b203f74", contentid:"3a89a592-b948-4fb8-bb50-caf523f6ae07", contenttype:"AssociationRelationship"});
-										dataRelationships.push({id:"3a89a592-b948-4fb8-bb50-caf523f6ae07", type:"AssociationRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"a016445b-242a-4d4b-9a33-50d37d0fe53c", targetid:"087f108a-f9c9-41c7-9b68-ee32d908e758"});
 									dataFoldersContent.push({folderid:"4688b571-297a-444f-bf10-40a31b203f74", contentid:"3a94af14-35ec-45b6-87f1-f8f26694031a", contenttype:"AssociationRelationship"});
 										dataRelationships.push({id:"3a94af14-35ec-45b6-87f1-f8f26694031a", type:"AssociationRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"97ac092d-38d5-4032-9955-f6025d166ddc", targetid:"045aa24f-42fd-4c9e-8a37-257159e42ac7"});
 									dataFoldersContent.push({folderid:"4688b571-297a-444f-bf10-40a31b203f74", contentid:"3abf138b-8eb2-44a2-a9ed-14b57956047f", contenttype:"AssociationRelationship"});
@@ -3423,6 +3429,22 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataRelationships.push({id:"087f108a-f9c9-41c7-9b68-ee32d908e758", type:"RealizationRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"2362773c-cdba-4679-8146-b3eb46daf54d", targetid:"ead182f2-3b41-454e-b487-5b2e73fac43c"});
 									dataFoldersContent.push({folderid:"4688b571-297a-444f-bf10-40a31b203f74", contentid:"269ffb4d-7e83-4220-b761-07503d478817", contenttype:"RealizationRelationship"});
 										dataRelationships.push({id:"269ffb4d-7e83-4220-b761-07503d478817", type:"RealizationRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"2362773c-cdba-4679-8146-b3eb46daf54d", targetid:"f6d46354-f718-4d25-aef1-c21eeb2ffcad"});
+									dataFoldersContent.push({folderid:"4688b571-297a-444f-bf10-40a31b203f74", contentid:"65b8015e-3d2f-4ceb-a1ac-edfe60c02a44", contenttype:"RealizationRelationship"});
+										dataRelationships.push({id:"65b8015e-3d2f-4ceb-a1ac-edfe60c02a44", type:"RealizationRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"2362773c-cdba-4679-8146-b3eb46daf54d", targetid:"7a466117-f71f-4522-8902-a4542173fcd5"});
+									dataFoldersContent.push({folderid:"4688b571-297a-444f-bf10-40a31b203f74", contentid:"3a472361-6910-4aba-87c0-35431268aeb6", contenttype:"RealizationRelationship"});
+										dataRelationships.push({id:"3a472361-6910-4aba-87c0-35431268aeb6", type:"RealizationRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"abba84eb-996b-4773-96e0-10fe90174ffa", targetid:"a016445b-242a-4d4b-9a33-50d37d0fe53c"});
+									dataFoldersContent.push({folderid:"4688b571-297a-444f-bf10-40a31b203f74", contentid:"b80e5c82-2976-43d9-a83c-3a9d153b8a72", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"b80e5c82-2976-43d9-a83c-3a9d153b8a72", type:"AssociationRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"abba84eb-996b-4773-96e0-10fe90174ffa", targetid:"087f108a-f9c9-41c7-9b68-ee32d908e758"});
+									dataFoldersContent.push({folderid:"4688b571-297a-444f-bf10-40a31b203f74", contentid:"56045a56-3926-4705-9a00-1f8d4894c3dd", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"56045a56-3926-4705-9a00-1f8d4894c3dd", type:"AssociationRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"65a5a1da-5ddd-4d8a-95c1-a70c5e7dde53", targetid:"269ffb4d-7e83-4220-b761-07503d478817"});
+									dataFoldersContent.push({folderid:"4688b571-297a-444f-bf10-40a31b203f74", contentid:"d4d48e10-6500-411e-8713-11df5fd21b9b", contenttype:"RealizationRelationship"});
+										dataRelationships.push({id:"d4d48e10-6500-411e-8713-11df5fd21b9b", type:"RealizationRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"65a5a1da-5ddd-4d8a-95c1-a70c5e7dde53", targetid:"387ccf9c-3ffe-4f2f-ae6b-1a1381998cdc"});
+									dataFoldersContent.push({folderid:"4688b571-297a-444f-bf10-40a31b203f74", contentid:"346c234e-4c88-45f3-a8e0-392fd06e2bfd", contenttype:"RealizationRelationship"});
+										dataRelationships.push({id:"346c234e-4c88-45f3-a8e0-392fd06e2bfd", type:"RealizationRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"2362773c-cdba-4679-8146-b3eb46daf54d", targetid:"f5d4e234-e87a-427b-bc09-b491123d1d80"});
+									dataFoldersContent.push({folderid:"4688b571-297a-444f-bf10-40a31b203f74", contentid:"c7d23e6f-e093-4498-8c58-891ef4960fe3", contenttype:"AssociationRelationship"});
+										dataRelationships.push({id:"c7d23e6f-e093-4498-8c58-891ef4960fe3", type:"AssociationRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"bb8b56c2-e42a-4d72-a7cd-38209fd97054", targetid:"346c234e-4c88-45f3-a8e0-392fd06e2bfd"});
+									dataFoldersContent.push({folderid:"4688b571-297a-444f-bf10-40a31b203f74", contentid:"6690914b-5c8f-4ad2-a50c-a5bb5a21ffb1", contenttype:"RealizationRelationship"});
+										dataRelationships.push({id:"6690914b-5c8f-4ad2-a50c-a5bb5a21ffb1", type:"RealizationRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"bb8b56c2-e42a-4d72-a7cd-38209fd97054", targetid:"455729e0-5b98-4e40-9b45-61b75ba8f657"});
 
 								dataFoldersContent.push({folderid:"54e87e47-f01c-49fe-af55-2068f4564bd2", contentid:"9243370e-a173-4bd0-be56-936b490c3e60", contenttype:"Folder"});
 								dataFolders.push({id:"9243370e-a173-4bd0-be56-936b490c3e60", type:"Folder", name:decodeURL("Views"), documentation:decodeURL("")});
@@ -6892,17 +6914,21 @@ The detailed objects in the model are under "model content", while archimate vie
 												dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"07d8eda3-1a82-4c71-a1ae-972642429081", contenttype:"DiagramModelArchimateObject"});
 												dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"dea5b72a-c2e6-4cde-9e99-81a086259f12", contenttype:"DiagramModelArchimateObject"});
 												dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"eb71dec9-cff4-46ae-aa82-b48fd510b284", contenttype:"DiagramModelArchimateObject"});
+												dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"923ef272-8b59-4aae-9173-9da79e916f4a", contenttype:"DiagramModelArchimateObject"});
+												dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"b0fab5bd-288e-4021-936e-201b9f1d089f", contenttype:"DiagramModelArchimateObject"});
+												dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"f79fea56-a6de-4d7f-a295-f28abd773e75", contenttype:"DiagramModelArchimateObject"});
+												dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"e73e88be-e77b-4809-abab-aee3b9f9df66", contenttype:"DiagramModelArchimateObject"});
+												dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"d741a927-cf9c-41a4-b05c-2617b74823fa", contenttype:"DiagramModelArchimateObject"});
 
-																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"bc30ddf5-4b0a-490d-af8e-35a5382a4c26", contenttype:"DiagramModelArchimateConnection"});
 																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"7ee8b6aa-7434-4d7d-95df-7ee8ca2ab318", contenttype:"DiagramModelArchimateConnection"});
 																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"1f502c6b-3b65-40c7-ad40-a542155cdfb7", contenttype:"DiagramModelArchimateConnection"});
 																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"e4444538-37c5-41cd-90c9-650062e0aca1", contenttype:"DiagramModelArchimateConnection"});
 																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"00535e49-a391-4cdd-b440-c1369e2b3e17", contenttype:"DiagramModelArchimateConnection"});
 																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"58090390-34f1-46c0-9f71-1407c8a0bb83", contenttype:"DiagramModelArchimateConnection"});
+																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"6609e2f4-1f57-4744-8915-65c8f6faf9af", contenttype:"DiagramModelArchimateConnection"});
+																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"21bedb1c-3e73-464d-a0c4-cc1881c778b2", contenttype:"DiagramModelArchimateConnection"});
 
 																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"dd18303e-2883-47e9-9de8-0ab35e9aadb2", contenttype:"DiagramModelArchimateConnection"});
-
-																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"452217f2-7731-43ba-94b5-41c7b69d645d", contenttype:"DiagramModelArchimateConnection"});
 
 																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"44d7ecb6-f7b8-41a3-b00e-eb9303b9e7d4", contenttype:"DiagramModelArchimateConnection"});
 
@@ -6918,13 +6944,9 @@ The detailed objects in the model are under "model content", while archimate vie
 																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"6e27beb6-b57f-4c2d-afff-2b61c60c7ee3", contenttype:"DiagramModelArchimateConnection"});
 																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"9c52d415-3401-4b86-955b-d5697c350aff", contenttype:"DiagramModelArchimateConnection"});
 
-																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"d6c747fb-5eae-4e03-9a1b-4b7de92ceb66", contenttype:"DiagramModelArchimateConnection"});
-
 																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"52cd9ad1-b3e4-46e3-a406-e2e85e76bfc4", contenttype:"DiagramModelArchimateConnection"});
 																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"bdda6755-05e8-4ea3-a8e4-45abdb6ee09b", contenttype:"DiagramModelArchimateConnection"});
 																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"ab329014-eeda-4e3a-b2f4-38006873abdb", contenttype:"DiagramModelArchimateConnection"});
-
-																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"cff450e7-0c6d-46fb-8e37-a66ca0458ed1", contenttype:"DiagramModelArchimateConnection"});
 
 																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"7e6a6f3e-32ad-46e9-a555-76283e09e290", contenttype:"DiagramModelArchimateConnection"});
 
@@ -6938,6 +6960,15 @@ The detailed objects in the model are under "model content", while archimate vie
 																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"5909078b-61f4-4cb3-ad97-e67674f4059b", contenttype:"DiagramModelArchimateConnection"});
 
 																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"93e5b199-12fc-4a9b-9d42-1bd79e9da116", contenttype:"DiagramModelArchimateConnection"});
+
+																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"f9dcc351-7d5b-4b8e-a17b-d772e338b6c5", contenttype:"DiagramModelArchimateConnection"});
+																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"e423d080-0094-49e6-b8c6-9d6d1055db7d", contenttype:"DiagramModelArchimateConnection"});
+
+																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"7d58736f-ec61-4f03-89d0-874f32134498", contenttype:"DiagramModelArchimateConnection"});
+																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"58581dda-7f66-4113-b7e9-b24fa34ff24c", contenttype:"DiagramModelArchimateConnection"});
+
+																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"f1ba0003-37a4-4201-8d6e-c55db69e14d9", contenttype:"DiagramModelArchimateConnection"});
+																		dataViewsContent.push({viewid:"c095ad5e-c8cc-4638-b977-c7028c8b5d23", contentid:"4192016e-6382-492d-b5c5-43d8bf25c401", contenttype:"DiagramModelArchimateConnection"});
 
 
 
