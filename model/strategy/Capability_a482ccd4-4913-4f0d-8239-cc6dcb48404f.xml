@@ -1,4 +1,5 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Data quality"
-    id="a482ccd4-4913-4f0d-8239-cc6dcb48404f"/>
+    id="a482ccd4-4913-4f0d-8239-cc6dcb48404f"
+    documentation="The ability to execute the data governance policies and apply data standards to make the data fit for re-use.&#xA;Includes collecting, cleansing, transforming, migrating data from a variety of sources, and applying retention&#xA;policies. Also includes the ability to develop new data by analysis, design, implementation, testing, deployment, and&#xA;maintenance."/>

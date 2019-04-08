@@ -1,0 +1,5 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Accounts payable"
+    id="be6ce4b8-1d69-460d-8ef5-eefcda84d5ed"
+    documentation="The ability to manage payments for operational expenses and other supplier charges. This includes verifying&#xA;accounts payable with vendor records, maintaining and managing electronic commerce, auditing invoices, and&#xA;approving payments, processing financial accruals and reversals, processing payments and taxes, researching and&#xA;resolving exceptions and adjusting accounting records. Also included are policies and procedure development&#xA;around accounts payable processing and all related operations."/>

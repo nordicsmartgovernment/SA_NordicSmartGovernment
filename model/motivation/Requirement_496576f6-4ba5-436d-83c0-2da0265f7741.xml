@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Financial reports must be aggregated over dimentions like products, clients, suppliers, countries, locations, qualities, quantities."
+    id="496576f6-4ba5-436d-83c0-2da0265f7741"
+    documentation="Use Case for #1: Report summarizing invoices pertaining to specific products, clients/suppliers, countries, locations, qualities, quantities, or other relevant categories. Key use case to be explored further: Supplier/Client account statements, allowing a customer or supplier to see past and future invoices (receivables/payables) in the database.&#xA;"/>

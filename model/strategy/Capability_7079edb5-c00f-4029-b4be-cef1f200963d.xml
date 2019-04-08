@@ -1,4 +1,5 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Reference and master data"
-    id="7079edb5-c00f-4029-b4be-cef1f200963d"/>
+    name="Reference and master data management"
+    id="7079edb5-c00f-4029-b4be-cef1f200963d"
+    documentation="The ability to research, recommend, approve, and use reference data throughout the enterprise. These can be data&#xA;standards from international, national and local data standards authoritative bodies, or by the enterprise data&#xA;governance body. The ability to manage all the processes to declare master data values as golden (authoritative)&#xA;and processes to manage replicated data. The ability to use reference data and master data throughout all&#xA;enterprise processes, especially to support service delivery to clients, business intelligence and business analysis"/>

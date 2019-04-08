@@ -1,4 +1,5 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Data security"
-    id="90205bbb-917d-4493-ab55-b19397a48dac"/>
+    id="90205bbb-917d-4493-ab55-b19397a48dac"
+    documentation="The ability to plan, develop and execute security policies and procedures for insuring privacy, confidentiality,&#xA;authentication, authorization, appropriate access, auditing of data and information assets, and monitoring and&#xA;management of security breaches."/>

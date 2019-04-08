@@ -1,4 +1,5 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Asset management"
-    id="29e016c6-1f24-4fb6-8297-b9082981be7a"/>
+    id="29e016c6-1f24-4fb6-8297-b9082981be7a"
+    documentation="The ability to assess the operational performance and to monitor the age/quality/value of the assets in its portfolio.&#xA;Includes reflecting on the performance of the processes and policies."/>

@@ -1,4 +1,5 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Data management"
-    id="c308826e-4932-4863-8087-a83e520cb94c"/>
+    id="c308826e-4932-4863-8087-a83e520cb94c"
+    documentation="The ability to develop strategies, policies, programs, and services to plan for, control and deliver data and&#xA;information assets held by the government. It includes the governance of data and information collection,&#xA;arrangement, storage, maintenance, retrieval, dissemination, and destruction. It also includes maintaining the&#xA;policies, guidelines and standards regarding data and information management and governance. Data&#xA;management is also known by many other terms (generally synonymous): information management, information&#xA;resource management, information asset management."/>
