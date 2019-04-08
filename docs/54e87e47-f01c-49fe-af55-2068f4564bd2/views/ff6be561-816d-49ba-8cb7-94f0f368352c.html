@@ -19,26 +19,39 @@
 
 <body>
 	<div class="panel panel-default root-panel">
-		<div class="panel-heading root-panel-heading">
-			<b>Industry associations</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
-		</div>
-		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/ff6be561-816d-49ba-8cb7-94f0f368352c.png" alt="Industry associations" usemap="#ff6be561-816d-49ba-8cb7-94f0f368352cmap">
-			<map name="ff6be561-816d-49ba-8cb7-94f0f368352cmap">
-						<area shape="rect" coords="10,10,130,65" href="../elements/dca0a4f1-89bb-44d8-a0bb-b4ec66fdd58b.html"  target="element">
-						<area shape="rect" coords="502,10,622,65" href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html"  target="element">
-						<area shape="rect" coords="250,10,370,65" href="../elements/88465e9c-c9a5-45e7-9d21-9b6e3f68643b.html"  target="element">
 
-			</map>
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Industry associations</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/ff6be561-816d-49ba-8cb7-94f0f368352c.png" alt="Industry associations" usemap="#ff6be561-816d-49ba-8cb7-94f0f368352cmap"/>
+			   <map name="ff6be561-816d-49ba-8cb7-94f0f368352cmap">
+				  		<area shape="rect" coords="10,10,130,65" href="../elements/dca0a4f1-89bb-44d8-a0bb-b4ec66fdd58b.html"  target="element">
+				  		<area shape="rect" coords="502,10,622,65" href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html"  target="element">
+				  		<area shape="rect" coords="250,10,370,65" href="../elements/88465e9c-c9a5-45e7-9d21-9b6e3f68643b.html"  target="element">
+
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -68,9 +81,21 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/dca0a4f1-89bb-44d8-a0bb-b4ec66fdd58b.html" target="element"> Industry assosiation </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-											<tr><td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-											<tr><td> <a href="../elements/88465e9c-c9a5-45e7-9d21-9b6e3f68643b.html" target="element"> Provide political influence </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
+											<tr>
+											    <td> <a href="../elements/dca0a4f1-89bb-44d8-a0bb-b4ec66fdd58b.html" target="element"> Industry assosiation </a> </td>
+											    <td> <a href="../elements/dca0a4f1-89bb-44d8-a0bb-b4ec66fdd58b.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td>
+											    <td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/88465e9c-c9a5-45e7-9d21-9b6e3f68643b.html" target="element"> Provide political influence </a> </td>
+											    <td> <a href="../elements/88465e9c-c9a5-45e7-9d21-9b6e3f68643b.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+											</tr>
+
 
 								</tbody>
 							</table>

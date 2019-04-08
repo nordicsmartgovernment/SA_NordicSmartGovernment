@@ -19,26 +19,39 @@
 
 <body>
 	<div class="panel panel-default root-panel">
-		<div class="panel-heading root-panel-heading">
-			<b>Auditor</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
-		</div>
-		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/80554891-2aab-49d1-a6cd-453db07e4c43.png" alt="Auditor" usemap="#80554891-2aab-49d1-a6cd-453db07e4c43map">
-			<map name="80554891-2aab-49d1-a6cd-453db07e4c43map">
-						<area shape="rect" coords="10,13,130,68" href="../elements/b95c3b8c-9495-4c68-9153-96c22f2992cb.html"  target="element">
-						<area shape="rect" coords="526,13,646,68" href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html"  target="element">
-						<area shape="rect" coords="239,10,359,65" href="../elements/1f743c22-f2bd-46f6-b408-9001e96674ba.html"  target="element">
 
-			</map>
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Auditor</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/80554891-2aab-49d1-a6cd-453db07e4c43.png" alt="Auditor" usemap="#80554891-2aab-49d1-a6cd-453db07e4c43map"/>
+			   <map name="80554891-2aab-49d1-a6cd-453db07e4c43map">
+				  		<area shape="rect" coords="10,13,130,68" href="../elements/b95c3b8c-9495-4c68-9153-96c22f2992cb.html"  target="element">
+				  		<area shape="rect" coords="526,13,646,68" href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html"  target="element">
+				  		<area shape="rect" coords="239,10,359,65" href="../elements/1f743c22-f2bd-46f6-b408-9001e96674ba.html"  target="element">
+
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -68,9 +81,21 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/b95c3b8c-9495-4c68-9153-96c22f2992cb.html" target="element"> Auditor </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-											<tr><td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-											<tr><td> <a href="../elements/1f743c22-f2bd-46f6-b408-9001e96674ba.html" target="element"> Financial service offering </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
+											<tr>
+											    <td> <a href="../elements/b95c3b8c-9495-4c68-9153-96c22f2992cb.html" target="element"> Auditor </a> </td>
+											    <td> <a href="../elements/b95c3b8c-9495-4c68-9153-96c22f2992cb.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td>
+											    <td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/1f743c22-f2bd-46f6-b408-9001e96674ba.html" target="element"> Financial service offering </a> </td>
+											    <td> <a href="../elements/1f743c22-f2bd-46f6-b408-9001e96674ba.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+											</tr>
+
 
 								</tbody>
 							</table>

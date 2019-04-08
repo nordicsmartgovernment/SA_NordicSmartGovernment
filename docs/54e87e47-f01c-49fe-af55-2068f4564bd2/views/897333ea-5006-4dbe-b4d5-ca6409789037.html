@@ -19,25 +19,38 @@
 
 <body>
 	<div class="panel panel-default root-panel">
-		<div class="panel-heading root-panel-heading">
-			<b>Archtectural building blocks</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
-		</div>
-		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/897333ea-5006-4dbe-b4d5-ca6409789037.png" alt="Archtectural building blocks" usemap="#897333ea-5006-4dbe-b4d5-ca6409789037map">
-			<map name="897333ea-5006-4dbe-b4d5-ca6409789037map">
-						<area shape="rect" coords="10,98,130,153" href="../elements/c4496f98-f992-4a88-be4b-db9c841db1e7.html"  target="element">
-						<area shape="rect" coords="10,10,130,65" href="../elements/b19d726f-8ab1-44e6-98b4-08d50bb34b14.html"  target="element">
 
-			</map>
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Archtectural building blocks</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/897333ea-5006-4dbe-b4d5-ca6409789037.png" alt="Archtectural building blocks" usemap="#897333ea-5006-4dbe-b4d5-ca6409789037map"/>
+			   <map name="897333ea-5006-4dbe-b4d5-ca6409789037map">
+				  		<area shape="rect" coords="10,98,130,153" href="../elements/c4496f98-f992-4a88-be4b-db9c841db1e7.html"  target="element">
+				  		<area shape="rect" coords="10,10,130,65" href="../elements/b19d726f-8ab1-44e6-98b4-08d50bb34b14.html"  target="element">
+
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -67,8 +80,16 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/c4496f98-f992-4a88-be4b-db9c841db1e7.html" target="element"> Bookkeeping </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
-											<tr><td> <a href="../elements/b19d726f-8ab1-44e6-98b4-08d50bb34b14.html" target="element"> ERP </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
+											<tr>
+											    <td> <a href="../elements/c4496f98-f992-4a88-be4b-db9c841db1e7.html" target="element"> Bookkeeping </a> </td>
+											    <td> <a href="../elements/c4496f98-f992-4a88-be4b-db9c841db1e7.html" target="element" class="i18n-elementtype-ApplicationComponent"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/b19d726f-8ab1-44e6-98b4-08d50bb34b14.html" target="element"> ERP </a> </td>
+											    <td> <a href="../elements/b19d726f-8ab1-44e6-98b4-08d50bb34b14.html" target="element" class="i18n-elementtype-ApplicationComponent"> </a> </td>
+											</tr>
+
 
 								</tbody>
 							</table>

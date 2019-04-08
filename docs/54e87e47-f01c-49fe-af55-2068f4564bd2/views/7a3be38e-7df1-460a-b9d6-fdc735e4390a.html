@@ -19,26 +19,39 @@
 
 <body>
 	<div class="panel panel-default root-panel">
-		<div class="panel-heading root-panel-heading">
-			<b>Annual Accounts</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
-		</div>
-		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/7a3be38e-7df1-460a-b9d6-fdc735e4390a.png" alt="Annual Accounts" usemap="#7a3be38e-7df1-460a-b9d6-fdc735e4390amap">
-			<map name="7a3be38e-7df1-460a-b9d6-fdc735e4390amap">
-						<area shape="rect" coords="10,11,130,66" href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html"  target="element">
-						<area shape="rect" coords="567,11,687,66" href="../elements/c45c39af-7a5e-4f71-a11b-fe688426cfa1.html"  target="element">
-						<area shape="rect" coords="280,10,400,65" href="../elements/c9f41f57-d7fd-4259-9a09-9ec7642914a9.html"  target="element">
 
-			</map>
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Annual Accounts</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/7a3be38e-7df1-460a-b9d6-fdc735e4390a.png" alt="Annual Accounts" usemap="#7a3be38e-7df1-460a-b9d6-fdc735e4390amap"/>
+			   <map name="7a3be38e-7df1-460a-b9d6-fdc735e4390amap">
+				  		<area shape="rect" coords="10,11,130,66" href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html"  target="element">
+				  		<area shape="rect" coords="567,11,687,66" href="../elements/c45c39af-7a5e-4f71-a11b-fe688426cfa1.html"  target="element">
+				  		<area shape="rect" coords="280,10,400,65" href="../elements/c9f41f57-d7fd-4259-9a09-9ec7642914a9.html"  target="element">
+
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -68,9 +81,21 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-											<tr><td> <a href="../elements/c45c39af-7a5e-4f71-a11b-fe688426cfa1.html" target="element"> Accounting registry </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-											<tr><td> <a href="../elements/c9f41f57-d7fd-4259-9a09-9ec7642914a9.html" target="element"> Annual Reporting </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
+											<tr>
+											    <td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td>
+											    <td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/c45c39af-7a5e-4f71-a11b-fe688426cfa1.html" target="element"> Accounting registry </a> </td>
+											    <td> <a href="../elements/c45c39af-7a5e-4f71-a11b-fe688426cfa1.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/c9f41f57-d7fd-4259-9a09-9ec7642914a9.html" target="element"> Annual Reporting </a> </td>
+											    <td> <a href="../elements/c9f41f57-d7fd-4259-9a09-9ec7642914a9.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+											</tr>
+
 
 								</tbody>
 							</table>
