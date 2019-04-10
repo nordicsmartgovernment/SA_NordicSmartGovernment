@@ -2,7 +2,7 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>Reference and master data</title>
+	<title>Reference and master data management</title>
 
 	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
 	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
@@ -19,34 +19,27 @@
 
 <body>
 	<div class="panel panel-default root-panel">
-
 		<div class="panel-heading root-panel-heading">
-            <!-- Name -->
-               <b>Reference and master data</b>
-
-            <!-- If a View with Viewpoint -->
-			   (<span class="i18n-elementtype-Capability"></span>)
-			   <a class="glyphicon glyphicon-info-sign" id="hint-Capability" target="hint"></a>
+			<b>Reference and master data management</b>
+			(<span class="i18n-elementtype-Capability"></span>)
+			<a class="glyphicon glyphicon-info-sign" id="hint-Capability" target="hint"></a>
 		</div>
-
 		<div class="panel-body root-panel-body">
-		    <!-- If this is a digram model (has children and no bounds) show the image -->
-
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-                    <!-- Purpose / Documentation / Content -->
-					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-
-                    <!-- Properties -->
-                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
-
+					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
 				</ul>
 
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<textarea id="docsrc" style="display:none"></textarea>
+						<textarea id="docsrc" style="display:none">The ability to research, recommend, approve, and use reference data throughout the enterprise. These can be data
+standards from international, national and local data standards authoritative bodies, or by the enterprise data
+governance body. The ability to manage all the processes to declare master data values as golden (authoritative)
+and processes to manage replicated data. The ability to use reference data and master data throughout all
+enterprise processes, especially to support service delivery to clients, business intelligence and business analysis</textarea>
 						<div id="doctgt" style="white-space:pre-wrap"></div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
