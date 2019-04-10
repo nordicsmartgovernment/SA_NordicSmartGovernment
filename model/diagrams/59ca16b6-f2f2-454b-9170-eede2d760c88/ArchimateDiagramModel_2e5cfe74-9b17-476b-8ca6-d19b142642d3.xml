@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Capability 7"
+    name="Capability 05 - User consent for B2B sharing"
     id="2e5cfe74-9b17-476b-8ca6-d19b142642d3">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -16,7 +16,7 @@
           href="AssignmentRelationship_1a1717f4-f166-49b5-835b-c58283812850.xml#1a1717f4-f166-49b5-835b-c58283812850"/>
     </sourceConnections>
     <bounds
-        x="108"
+        x="192"
         y="252"
         width="120"
         height="55"/>
@@ -66,7 +66,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="7530da8f-d630-4998-96aa-7f94627adf26"
-        targetConnections="15a89142-0fac-4d6e-9a82-5fce2bb6d9ed bd528b54-b945-4ed9-8047-488f64542228">
+        targetConnections="15a89142-0fac-4d6e-9a82-5fce2bb6d9ed bd528b54-b945-4ed9-8047-488f64542228 c094deaa-9a96-4070-bd56-3e4128f888ed"
+        fillColor="#fbca36">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="f6d247e8-5719-45f3-bb15-f3ac77435cbd"
@@ -101,5 +102,26 @@
     <archimateElement
         xsi:type="archimate:Principle"
         href="Principle_23e37b75-6915-43f7-bcfe-1a44a284dcac.xml#23e37b75-6915-43f7-bcfe-1a44a284dcac"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="076f3732-b335-499e-af40-b4d266fe39b6">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="c094deaa-9a96-4070-bd56-3e4128f888ed"
+        source="076f3732-b335-499e-af40-b4d266fe39b6"
+        target="7530da8f-d630-4998-96aa-7f94627adf26">
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_e92228c6-6290-493b-b054-3c3e8d2a6121.xml#e92228c6-6290-493b-b054-3c3e8d2a6121"/>
+    </sourceConnections>
+    <bounds
+        x="60"
+        y="252"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Resource"
+        href="Resource_4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.xml#4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f"/>
   </children>
 </archimate:ArchimateDiagramModel>

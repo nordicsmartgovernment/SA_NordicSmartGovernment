@@ -1,0 +1,5 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Report on the price levels of products"
+    id="a12ead85-f228-47e4-9603-601574a06207"
+    documentation="Report (for internal use) on the price levels of products, financial report for a given period (“raw”, i.e. not filtered and ordered into accounts)"/>

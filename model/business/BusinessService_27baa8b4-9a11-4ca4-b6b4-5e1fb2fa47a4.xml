@@ -1,0 +1,5 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Stock management"
+    id="27baa8b4-9a11-4ca4-b6b4-5e1fb2fa47a4"
+    documentation="stock management (and internal reports that allows SME to determine when any given product is out of stock (WP2)"/>

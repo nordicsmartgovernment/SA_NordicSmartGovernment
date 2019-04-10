@@ -1,0 +1,5 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Report summarizing receipts pertaining to specific products"
+    id="5145c02d-3ad9-482e-a942-0a07d775dbeb"
+    documentation="Report (for internal use) summarizing receipts pertaining to specific products, clients/suppliers, countries, locations, qualities, quantities, or other relevant categories"/>

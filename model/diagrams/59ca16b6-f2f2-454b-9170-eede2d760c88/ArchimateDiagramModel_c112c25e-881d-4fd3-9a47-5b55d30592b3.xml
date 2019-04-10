@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Capability 10"
+    name="Capability 07 - Encryption"
     id="c112c25e-881d-4fd3-9a47-5b55d30592b3">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -16,8 +16,8 @@
           href="AssignmentRelationship_da731124-e9bc-4a43-afac-ec8d278e8894.xml#da731124-e9bc-4a43-afac-ec8d278e8894"/>
     </sourceConnections>
     <bounds
-        x="212"
-        y="264"
+        x="90"
+        y="192"
         width="120"
         height="55"/>
     <archimateElement
@@ -29,9 +29,9 @@
       id="fb3562a2-2646-463b-9f8f-54923c2aafe7"
       targetConnections="5d5476d3-7069-4907-91f5-ed6475d09fa5">
     <bounds
-        x="432"
-        y="132"
-        width="120"
+        x="310"
+        y="60"
+        width="255"
         height="55"/>
     <archimateElement
         xsi:type="archimate:Requirement"
@@ -50,14 +50,15 @@
           href="CompositionRelationship_c0c6164e-9174-41b3-99c6-9628198cc176.xml#c0c6164e-9174-41b3-99c6-9628198cc176"/>
     </sourceConnections>
     <bounds
-        x="170"
-        y="120"
+        x="48"
+        y="48"
         width="203"
         height="115"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="0dd10aea-bd77-446b-9c61-525a35e6cdb8"
-        targetConnections="cec0d139-9c39-4217-ae8e-7ca6c035c021 648f3e09-4d9a-4b82-8b34-3d75e363af4e">
+        targetConnections="cec0d139-9c39-4217-ae8e-7ca6c035c021 648f3e09-4d9a-4b82-8b34-3d75e363af4e"
+        fillColor="#fbca36">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="5d5476d3-7069-4907-91f5-ed6475d09fa5"

@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="The information must be represented in a generic and system-independent way to record all of the details in any kind of ledger.and bookkeeping"
     id="a865f654-12c5-4680-ad60-81ae451c011b"
-    documentation="You need to capture, archive, transmit and aggregate all of the information contained in the original ledgers, as well as what’s in the general ledger, journal entries etc.&#xA;&#xA;https://www.xbrl.org/the-standard/what/global-ledger/"/>
+    documentation="You need to capture, archive, transmit and aggregate all of the information contained in the original ledgers, as well as what’s in the general ledger, journal entries etc.&#xA;&#xA;https://www.xbrl.org/the-standard/what/global-ledger/&#xA;&#xA;A global representation would allow for all data to be represented in a way that it can be queried"/>

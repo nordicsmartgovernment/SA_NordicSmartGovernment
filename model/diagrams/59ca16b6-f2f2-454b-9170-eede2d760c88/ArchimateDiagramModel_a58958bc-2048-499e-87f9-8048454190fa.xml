@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Capability 2"
+    name="Capability 11 - Standardisation of eOrders"
     id="a58958bc-2048-499e-87f9-8048454190fa">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -17,7 +17,7 @@
     </sourceConnections>
     <bounds
         x="73"
-        y="372"
+        y="240"
         width="120"
         height="55"/>
     <archimateElement
@@ -48,7 +48,7 @@
     </sourceConnections>
     <bounds
         x="276"
-        y="238"
+        y="106"
         width="277"
         height="37"/>
     <archimateElement
@@ -61,7 +61,7 @@
       targetConnections="a61fb015-ac3b-46ff-bc2d-26d9577a1af7">
     <bounds
         x="576"
-        y="216"
+        y="84"
         width="265"
         height="33"/>
     <archimateElement
@@ -74,7 +74,7 @@
       targetConnections="aedb17d4-0202-4a02-ad57-1735ff9ac999">
     <bounds
         x="576"
-        y="264"
+        y="132"
         width="265"
         height="32"/>
     <archimateElement
@@ -95,7 +95,7 @@
     </sourceConnections>
     <bounds
         x="24"
-        y="192"
+        y="60"
         width="218"
         height="129"/>
     <children

@@ -1,0 +1,5 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Dynamic financing"
+    id="a0dc147a-8986-4e3a-b22d-9d50576f7f74"
+    documentation="Use Case for #4: Tradeshift dynamic financing https://tradeshift.com/supply-chain-finance &#xA;or Buffer - https://www.spv.no/bedrift/laane-og-finansiere/buffer &#xA;Potential Know Your Customer (KYC) use case: Ascertain whether your customer will have liquidity on a given due date - and extend credit or shorten the due-date period accordingly.&#xA;"/>

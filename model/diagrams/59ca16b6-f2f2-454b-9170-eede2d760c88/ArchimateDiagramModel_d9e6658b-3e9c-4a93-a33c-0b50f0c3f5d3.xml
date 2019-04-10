@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Capability 9"
+    name="Capability 06 - Integrity"
     id="d9e6658b-3e9c-4a93-a33c-0b50f0c3f5d3">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -57,7 +57,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="66a6011a-399b-47f1-8694-400225d7fff3"
-        targetConnections="c9f810fb-4064-48c6-8f26-68f396fe992e 6cad2ce0-8291-41d9-8416-de489cc4170c">
+        targetConnections="c9f810fb-4064-48c6-8f26-68f396fe992e 6cad2ce0-8291-41d9-8416-de489cc4170c"
+        fillColor="#fbca36">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="c929a2bb-b430-4b2a-ab8a-2a0c6f165d68"

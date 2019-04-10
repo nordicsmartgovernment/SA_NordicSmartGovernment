@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Capability 8"
+    name="Capability 12 - 24/7 availability"
     id="af519ca8-a892-4627-a0f6-77b055f32da1">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -70,7 +70,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="103ff51d-fed8-4c6e-841d-00efa507188c"
-        targetConnections="44f5be7b-3b6f-4331-9d58-c382ae2800f8 fe443d74-6d74-4286-975f-c390e96b9d85">
+        targetConnections="44f5be7b-3b6f-4331-9d58-c382ae2800f8 fe443d74-6d74-4286-975f-c390e96b9d85"
+        fillColor="#fbca36">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="5d1906d5-7edf-417e-96ec-754f80abeb6b"

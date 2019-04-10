@@ -1,0 +1,5 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Summaries of invoices pertaining specific products"
+    id="7cb6ccd9-b690-4455-b043-fdc14e6c4ab6"
+    documentation=" Report summarizing invoices pertaining to specific products, clients/suppliers, countries, locations, qualities, quantities, or other relevant categories. Key use case to be explored further: Supplier/Client account statements, allowing a customer or supplier to see past and future invoices (receivables/payables) in the database.&#xA;(for internal use - or for two SMEs trading with each other)&#xA;"/>
