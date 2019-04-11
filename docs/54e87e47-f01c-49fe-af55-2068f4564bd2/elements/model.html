@@ -389,7 +389,7 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataElements.push({id:"87ef8cbd-e3da-4c73-8c17-a433d3874881", type:"BusinessFunction", name:decodeURL("Business+analytics"), description:decodeURL("")});
 										dataElements.push({id:"81fa20df-31d9-45cc-9d85-dd181273c4d3", type:"Product", name:decodeURL("Nordic+API+gateway"), description:decodeURL("")});
 										dataElements.push({id:"452f7e89-2c89-413a-91cd-5151c841b63d", type:"BusinessObject", name:decodeURL("Catalogue"), description:decodeURL("")});
-										dataElements.push({id:"f3605fc2-bae3-41c6-bdb5-f509d2a487f4", type:"BusinessService", name:decodeURL("Replace+ERP"), description:decodeURL("")});
+										dataElements.push({id:"f3605fc2-bae3-41c6-bdb5-f509d2a487f4", type:"BusinessService", name:decodeURL("Portability"), description:decodeURL("")});
 										dataElements.push({id:"9c7aecb5-e436-40f6-8916-d64bd8c53dac", type:"BusinessFunction", name:decodeURL("VAT+reporting"), description:decodeURL("")});
 										dataElements.push({id:"6d34d8ce-5844-44c1-afd1-757658bb35fa", type:"Representation", name:decodeURL("kvitteringsfiler+%28returfiler%29+fra+bank+til+kunde+%28pain+002+og+pain+003%29."), description:decodeURL("FIToFIPaymentStatusReportV08
 								FIToFICustomerDirectDebitV07")});
@@ -617,7 +617,9 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataElements.push({id:"27baa8b4-9a11-4ca4-b6b4-5e1fb2fa47a4", type:"BusinessService", name:decodeURL("Stock+management"), description:decodeURL("stock management (and internal reports that allows SME to determine when any given product is out of stock (WP2)")});
 										dataElements.push({id:"d9cb3123-c6c7-43eb-956f-1e90350c98fb", type:"BusinessService", name:decodeURL("Report+on+sales+or+purchases+for+product+groups"), description:decodeURL("")});
 										dataElements.push({id:"d07ac06c-76ee-4629-b098-b0969213a4bb", type:"BusinessService", name:decodeURL("Report+on+specific+keywords+across+invoices"), description:decodeURL("")});
-										dataElements.push({id:"72f28dd5-3a76-47f0-a212-cfd189319d7e", type:"BusinessService", name:decodeURL("Progonosis+and+"), description:decodeURL("")});
+										dataElements.push({id:"72f28dd5-3a76-47f0-a212-cfd189319d7e", type:"BusinessService", name:decodeURL("Dashboard+and+Progonosis"), description:decodeURL("")});
+										dataElements.push({id:"32dd474d-fd73-49dc-aafa-0c9f53cffef9", type:"BusinessService", name:decodeURL("Show+my+partner+that+I+am+solvent"), description:decodeURL("")});
+										dataElements.push({id:"463f23ed-58ff-4ddd-af76-96a19362850a", type:"BusinessRole", name:decodeURL("Other+business"), description:decodeURL("")});
 
 
 												dataElements.push({id:"946e45cf-aab3-4a21-98d1-ba659e6ec177", type:"ApplicationService", name:decodeURL("e-Catalogue"), description:decodeURL("")});
@@ -2393,6 +2395,9 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataRelationships.push({id:"52e10074-b586-4e68-bc5c-b39b6f3fd1dd", type:"AssignmentRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"942bbac4-713b-4726-b184-3790fddf9926", targetid:"72f28dd5-3a76-47f0-a212-cfd189319d7e"});
 										dataRelationships.push({id:"d0739202-7bee-44aa-990f-0c0f0eb0d84b", type:"ServingRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"72f28dd5-3a76-47f0-a212-cfd189319d7e", targetid:"aad57129-7682-469e-9e37-a5596f074a2b"});
 										dataRelationships.push({id:"d0c0ed98-0efc-4b2d-afc5-d31287a7bd87", type:"RealizationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"abba84eb-996b-4773-96e0-10fe90174ffa", targetid:"5cc7c7b9-35ab-4385-ae1e-752f9b4f51bc"});
+										dataRelationships.push({id:"380e0806-f9b9-4581-ba08-21cacd80beee", type:"ServingRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"32dd474d-fd73-49dc-aafa-0c9f53cffef9", targetid:"463f23ed-58ff-4ddd-af76-96a19362850a"});
+										dataRelationships.push({id:"406a562f-e380-41dc-bcf9-06d302c82437", type:"AssignmentRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"aad57129-7682-469e-9e37-a5596f074a2b", targetid:"32dd474d-fd73-49dc-aafa-0c9f53cffef9"});
+										dataRelationships.push({id:"ab4ec647-13c9-42ce-900c-cb8335811eda", type:"AssignmentRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f", targetid:"b026764e-0552-4f87-a6ca-7bd822133745"});
 
 
 												<!-- DEBUG: Skipping view SmartGovernment SKD stakeholder -->
@@ -2474,23 +2479,25 @@ The detailed objects in the model are under "model content", while archimate vie
 											<!-- DEBUG: Skipping view Project organization and resources -->
 
 
-											<!-- DEBUG: Skipping view Capability 03 - Authentication -->
+											<!-- DEBUG: Skipping view Capability 04 - Authentication -->
 											<!-- DEBUG: Skipping view Needs -->
-											<!-- DEBUG: Skipping view Capability 04 - Authorisation and access control -->
-											<!-- DEBUG: Skipping view Capability 07 - Encryption -->
+											<!-- DEBUG: Skipping view Capability 05 - Authorisation and access control -->
+											<!-- DEBUG: Skipping view Capability 08 - Encryption -->
 											<!-- DEBUG: Skipping view Capabilities high level -->
 											<!-- DEBUG: Skipping view Capabilities requirement mapping -->
 											<!-- DEBUG: Skipping view Capabilities all (not to be used) -->
 											<!-- DEBUG: Skipping view Capability 01 - Digital electronic documents acquision - adoption -->
-											<!-- DEBUG: Skipping view Capability 09 - Error detection and correction -->
-											<!-- DEBUG: Skipping view Capability 10 - API addressing -->
-											<!-- DEBUG: Skipping view Capability 08 - Clear rules of responability for correctness/quality and avaliablity of the data -->
-											<!-- DEBUG: Skipping view Capability 12 - 24/7 availability -->
-											<!-- DEBUG: Skipping view Capability 06 - Integrity -->
-											<!-- DEBUG: Skipping view Capability 11 - Standardisation of eOrders -->
-											<!-- DEBUG: Skipping view Capability 05 - User consent for B2B sharing -->
-											<!-- DEBUG: Skipping view Capability 02 - Product information - available -->
-											<!-- DEBUG: Skipping view Capability 13 - Common  -->
+											<!-- DEBUG: Skipping view Capability 10 - Error detection and correction -->
+											<!-- DEBUG: Skipping view Capability 11 - Addressing -->
+											<!-- DEBUG: Skipping view Capability 09 - Clear descriptions of different levels of correctness -->
+											<!-- DEBUG: Skipping view Capability 14 - High availability -->
+											<!-- DEBUG: Skipping view Capability 07 - Integrity -->
+											<!-- DEBUG: Skipping view Capability 12 - Standardisation of eOrders -->
+											<!-- DEBUG: Skipping view Capability 06 - User consent for B2B sharing -->
+											<!-- DEBUG: Skipping view Capability 03 - Product information - available -->
+											<!-- DEBUG: Skipping view Capability 13 - Common representation -->
+											<!-- DEBUG: Skipping view Capability 02 - Process all kinds of transactions -->
+											<!-- DEBUG: Skipping view Capabilities of the business system -->
 
 
 												<!-- DEBUG: Skipping view National Teams: Norway -->
@@ -2542,7 +2549,6 @@ The detailed objects in the model are under "model content", while archimate vie
 
 										<!-- DEBUG: Skipping view Reference implementation -->
 										<!-- DEBUG: Skipping view Concepts -->
-										<!-- DEBUG: Skipping view Capabilities of the business system -->
 
 
 
