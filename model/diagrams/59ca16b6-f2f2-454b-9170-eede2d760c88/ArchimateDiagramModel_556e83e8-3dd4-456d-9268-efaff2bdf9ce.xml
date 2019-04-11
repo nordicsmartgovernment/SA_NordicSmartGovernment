@@ -255,11 +255,20 @@
               xsi:type="archimate:CompositionRelationship"
               href="CompositionRelationship_97ffcefb-513c-4146-845e-2a321676292b.xml#97ffcefb-513c-4146-845e-2a321676292b"/>
         </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="dfac1f68-db45-4d7d-aa28-82eed360b3ab"
+            source="d008cfdc-d9d6-472f-8787-254f0c6dd9a2"
+            target="8eb5b0fb-d710-4168-9cf1-4ae6de745d3b">
+          <archimateRelationship
+              xsi:type="archimate:CompositionRelationship"
+              href="CompositionRelationship_4afcb92a-5a81-474c-88a6-135111bcc8e8.xml#4afcb92a-5a81-474c-88a6-135111bcc8e8"/>
+        </sourceConnections>
         <bounds
             x="12"
             y="36"
             width="169"
-            height="169"/>
+            height="229"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="16fd0c97-e8d4-48fc-b32b-1bb5eb009559"
@@ -281,12 +290,26 @@
             fillColor="#fbca36">
           <bounds
               x="13"
-              y="108"
+              y="162"
               width="147"
               height="55"/>
           <archimateElement
               xsi:type="archimate:Capability"
               href="Capability_e5ce389f-c652-4dff-93ae-1af5e06bca9d.xml#e5ce389f-c652-4dff-93ae-1af5e06bca9d"/>
+        </children>
+        <children
+            xsi:type="archimate:DiagramModelArchimateObject"
+            id="8eb5b0fb-d710-4168-9cf1-4ae6de745d3b"
+            targetConnections="dfac1f68-db45-4d7d-aa28-82eed360b3ab"
+            fillColor="#fbca36">
+          <bounds
+              x="14"
+              y="108"
+              width="146"
+              height="55"/>
+          <archimateElement
+              xsi:type="archimate:Capability"
+              href="Capability_b026764e-0552-4f87-a6ca-7bd822133745.xml#b026764e-0552-4f87-a6ca-7bd822133745"/>
         </children>
         <archimateElement
             xsi:type="archimate:Capability"

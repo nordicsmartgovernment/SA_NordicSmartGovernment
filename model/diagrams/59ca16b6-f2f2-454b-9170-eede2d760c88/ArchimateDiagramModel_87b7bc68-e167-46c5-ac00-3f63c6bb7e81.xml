@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Capability 04 - Authorisation and access control"
+    name="Capability 05 - Authorisation and access control"
     id="87b7bc68-e167-46c5-ac00-3f63c6bb7e81">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
