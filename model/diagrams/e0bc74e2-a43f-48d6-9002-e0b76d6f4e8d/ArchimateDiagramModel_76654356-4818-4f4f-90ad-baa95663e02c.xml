@@ -6,7 +6,8 @@
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="1a1630fa-42a0-47a1-acf6-4adab8731424"
-      name="WP3-2">
+      name="WP3-2"
+      textAlignment="1">
     <bounds
         x="24"
         y="60"
@@ -60,7 +61,8 @@
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="b4a1cfb8-033f-4d21-b282-aa61831a1652"
-      name="WP3-1">
+      name="WP3-1"
+      textAlignment="1">
     <bounds
         x="384"
         y="60"
