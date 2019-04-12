@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Capability 09 - Error detection and correction"
+    name="Capability 10 - Error detection and correction"
     id="d50f3e55-1a7b-4c89-a532-c674e8d5da29">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"

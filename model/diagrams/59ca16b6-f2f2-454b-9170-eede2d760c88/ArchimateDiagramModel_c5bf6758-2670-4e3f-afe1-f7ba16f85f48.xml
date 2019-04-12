@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Capability 08 - Clear rules of responability for correctness/quality and avaliablity of the data"
+    name="Capability 09 - Clear descriptions of different levels of correctness"
     id="c5bf6758-2670-4e3f-afe1-f7ba16f85f48">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"

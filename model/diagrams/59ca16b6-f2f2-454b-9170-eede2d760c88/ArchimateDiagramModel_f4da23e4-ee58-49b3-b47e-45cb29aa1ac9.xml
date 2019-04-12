@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Capability 13 - Common "
+    name="Capability 13 - Common representation"
     id="f4da23e4-ee58-49b3-b47e-45cb29aa1ac9">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -36,7 +36,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="c0c9346a-e601-4288-9849-8e98a3b96e88"
-        targetConnections="e3947c78-b080-4535-a5af-c206c6cc123d bdde6bf6-5f58-45a9-9666-64e1e9f926ac">
+        targetConnections="e3947c78-b080-4535-a5af-c206c6cc123d bdde6bf6-5f58-45a9-9666-64e1e9f926ac"
+        fillColor="#fbca36">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="3359731d-f468-4112-b47e-3d595112682e"
