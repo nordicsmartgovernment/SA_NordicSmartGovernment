@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Transaction processing"
     id="916c10b9-7547-4d25-9214-e29cb701d4ff"
-    documentation="recording purchases and sales, reconciling bank statements."/>
+    documentation="recording purchases and sales, reconciling bank statements.&#xA;Sometimes described as part of financial accounting.">
+  <properties
+      key="altLabel"
+      value="Transaction management"/>
+</archimate:Capability>
