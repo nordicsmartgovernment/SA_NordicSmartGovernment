@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Capability 07 - Integrity"
+    name="Capability 07 - Keeping the data safe"
     id="d9e6658b-3e9c-4a93-a33c-0b50f0c3f5d3">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -16,9 +16,9 @@
           href="AssignmentRelationship_888a162b-595f-4ec5-9766-f9dad395faa5.xml#888a162b-595f-4ec5-9766-f9dad395faa5"/>
     </sourceConnections>
     <bounds
-        x="96"
+        x="72"
         y="252"
-        width="120"
+        width="145"
         height="55"/>
     <archimateElement
         xsi:type="archimate:Resource"
@@ -31,7 +31,7 @@
     <bounds
         x="312"
         y="141"
-        width="120"
+        width="241"
         height="55"/>
     <archimateElement
         xsi:type="archimate:Requirement"
