@@ -1,0 +1,41 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Capability 13 - Handle life cycle of transations"
+    id="6f156b03-6698-4bbe-9376-d3339ff0cd4c">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="25fa12ea-e449-42c7-9e31-dfe4929a4a0d">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="f8c37110-b2c7-4b2c-9594-8be0ceb955dc"
+        source="25fa12ea-e449-42c7-9e31-dfe4929a4a0d"
+        target="19842205-c091-49e9-9ca5-4bf39fb735d5">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_1a397f94-c143-4f50-8610-47958fe68444.xml#1a397f94-c143-4f50-8610-47958fe68444"/>
+    </sourceConnections>
+    <bounds
+        x="48"
+        y="24"
+        width="182"
+        height="113"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="19842205-c091-49e9-9ca5-4bf39fb735d5"
+        targetConnections="f8c37110-b2c7-4b2c-9594-8be0ceb955dc"
+        fillColor="#fbca36">
+      <bounds
+          x="36"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Capability"
+          href="Capability_289d7482-e071-47b6-b1a9-ad358ab551a0.xml#289d7482-e071-47b6-b1a9-ad358ab551a0"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:Capability"
+        href="Capability_52bf9a89-1e94-405a-a9d5-36e509b8d891.xml#52bf9a89-1e94-405a-a9d5-36e509b8d891"/>
+  </children>
+</archimate:ArchimateDiagramModel>

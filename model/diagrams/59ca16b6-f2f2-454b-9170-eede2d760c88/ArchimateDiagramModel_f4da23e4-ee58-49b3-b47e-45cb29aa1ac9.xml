@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Capability 13 - Common representation"
+    name="Capability 10 - Common representation"
     id="f4da23e4-ee58-49b3-b47e-45cb29aa1ac9">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -11,7 +11,7 @@
         x="300"
         y="105"
         width="289"
-        height="55"/>
+        height="76"/>
     <archimateElement
         xsi:type="archimate:Requirement"
         href="Requirement_a865f654-12c5-4680-ad60-81ae451c011b.xml#a865f654-12c5-4680-ad60-81ae451c011b"/>
