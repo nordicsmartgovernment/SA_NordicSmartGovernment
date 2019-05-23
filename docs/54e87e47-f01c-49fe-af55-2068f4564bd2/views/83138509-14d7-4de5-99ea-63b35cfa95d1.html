@@ -19,27 +19,40 @@
 
 <body>
 	<div class="panel panel-default root-panel">
-		<div class="panel-heading root-panel-heading">
-			<b>Insurance</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
-		</div>
-		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/83138509-14d7-4de5-99ea-63b35cfa95d1.png" alt="Insurance" usemap="#83138509-14d7-4de5-99ea-63b35cfa95d1map">
-			<map name="83138509-14d7-4de5-99ea-63b35cfa95d1map">
-						<area shape="rect" coords="10,10,130,65" href="../elements/2a13f18e-57e2-44a7-8b88-523c0ab81a14.html"  target="element">
-						<area shape="rect" coords="10,130,130,185" href="../elements/5c325c04-85c6-40fd-aed8-2f8b1d4afe5f.html"  target="element">
-						<area shape="rect" coords="226,130,346,185" href="../elements/7a6be3a4-6d13-470f-ab49-8a132d230bb1.html"  target="element">
-						<area shape="rect" coords="430,130,550,185" href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html"  target="element">
 
-			</map>
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Insurance</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/83138509-14d7-4de5-99ea-63b35cfa95d1.png" alt="Insurance" usemap="#83138509-14d7-4de5-99ea-63b35cfa95d1map"/>
+			   <map name="83138509-14d7-4de5-99ea-63b35cfa95d1map">
+				  		<area shape="rect" coords="10,10,130,65" href="../elements/2a13f18e-57e2-44a7-8b88-523c0ab81a14.html"  target="element">
+				  		<area shape="rect" coords="10,130,130,185" href="../elements/5c325c04-85c6-40fd-aed8-2f8b1d4afe5f.html"  target="element">
+				  		<area shape="rect" coords="226,130,346,185" href="../elements/7a6be3a4-6d13-470f-ab49-8a132d230bb1.html"  target="element">
+				  		<area shape="rect" coords="430,130,550,185" href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html"  target="element">
+
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -69,10 +82,26 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/2a13f18e-57e2-44a7-8b88-523c0ab81a14.html" target="element"> Insurance agency </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-											<tr><td> <a href="../elements/5c325c04-85c6-40fd-aed8-2f8b1d4afe5f.html" target="element"> Credit Insurance agency </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-											<tr><td> <a href="../elements/7a6be3a4-6d13-470f-ab49-8a132d230bb1.html" target="element"> Insuring credit </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
-											<tr><td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
+											<tr>
+											    <td> <a href="../elements/2a13f18e-57e2-44a7-8b88-523c0ab81a14.html" target="element"> Insurance agency </a> </td>
+											    <td> <a href="../elements/2a13f18e-57e2-44a7-8b88-523c0ab81a14.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/5c325c04-85c6-40fd-aed8-2f8b1d4afe5f.html" target="element"> Credit Insurance agency </a> </td>
+											    <td> <a href="../elements/5c325c04-85c6-40fd-aed8-2f8b1d4afe5f.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/7a6be3a4-6d13-470f-ab49-8a132d230bb1.html" target="element"> Insuring credit </a> </td>
+											    <td> <a href="../elements/7a6be3a4-6d13-470f-ab49-8a132d230bb1.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td>
+											    <td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
 
 								</tbody>
 							</table>

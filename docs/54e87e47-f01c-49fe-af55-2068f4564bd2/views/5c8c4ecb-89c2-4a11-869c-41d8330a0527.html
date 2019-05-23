@@ -19,27 +19,40 @@
 
 <body>
 	<div class="panel panel-default root-panel">
-		<div class="panel-heading root-panel-heading">
-			<b>Statistics reporting</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
-		</div>
-		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/5c8c4ecb-89c2-4a11-869c-41d8330a0527.png" alt="Statistics reporting" usemap="#5c8c4ecb-89c2-4a11-869c-41d8330a0527map">
-			<map name="5c8c4ecb-89c2-4a11-869c-41d8330a0527map">
-						<area shape="rect" coords="622,46,742,101" href="../elements/eeda0068-26cb-4c21-8230-9383d1c08ecc.html"  target="element">
-						<area shape="rect" coords="10,46,130,101" href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html"  target="element">
-						<area shape="rect" coords="298,10,467,65" href="../elements/c9f41f57-d7fd-4259-9a09-9ec7642914a9.html"  target="element">
-						<area shape="rect" coords="298,82,467,137" href="../elements/913f4172-4594-4942-864b-4b3d5ff446bf.html"  target="element">
 
-			</map>
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Statistics reporting</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/5c8c4ecb-89c2-4a11-869c-41d8330a0527.png" alt="Statistics reporting" usemap="#5c8c4ecb-89c2-4a11-869c-41d8330a0527map"/>
+			   <map name="5c8c4ecb-89c2-4a11-869c-41d8330a0527map">
+				  		<area shape="rect" coords="622,46,742,101" href="../elements/eeda0068-26cb-4c21-8230-9383d1c08ecc.html"  target="element">
+				  		<area shape="rect" coords="10,46,130,101" href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html"  target="element">
+				  		<area shape="rect" coords="298,10,467,65" href="../elements/c9f41f57-d7fd-4259-9a09-9ec7642914a9.html"  target="element">
+				  		<area shape="rect" coords="298,82,467,137" href="../elements/913f4172-4594-4942-864b-4b3d5ff446bf.html"  target="element">
+
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -69,10 +82,26 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/eeda0068-26cb-4c21-8230-9383d1c08ecc.html" target="element"> Statistics agency </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-											<tr><td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-											<tr><td> <a href="../elements/c9f41f57-d7fd-4259-9a09-9ec7642914a9.html" target="element"> Annual Reporting </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
-											<tr><td> <a href="../elements/913f4172-4594-4942-864b-4b3d5ff446bf.html" target="element"> Custom reporting (on request for data capture by Statistics) </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
+											<tr>
+											    <td> <a href="../elements/eeda0068-26cb-4c21-8230-9383d1c08ecc.html" target="element"> Statistics agency </a> </td>
+											    <td> <a href="../elements/eeda0068-26cb-4c21-8230-9383d1c08ecc.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td>
+											    <td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/c9f41f57-d7fd-4259-9a09-9ec7642914a9.html" target="element"> Annual Reporting </a> </td>
+											    <td> <a href="../elements/c9f41f57-d7fd-4259-9a09-9ec7642914a9.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/913f4172-4594-4942-864b-4b3d5ff446bf.html" target="element"> Custom reporting (on request for data capture by Statistics) </a> </td>
+											    <td> <a href="../elements/913f4172-4594-4942-864b-4b3d5ff446bf.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+											</tr>
+
 
 								</tbody>
 							</table>

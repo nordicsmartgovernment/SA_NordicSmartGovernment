@@ -2,7 +2,7 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>Capability 07 - Integrity</title>
+	<title>Capability 07 - Keeping the data safe</title>
 
 	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
 	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
@@ -19,28 +19,41 @@
 
 <body>
 	<div class="panel panel-default root-panel">
+
 		<div class="panel-heading root-panel-heading">
-			<b>Capability 07 - Integrity</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Name -->
+               <b>Capability 07 - Keeping the data safe</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
 		</div>
+
 		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/d9e6658b-3e9c-4a93-a33c-0b50f0c3f5d3.png" alt="Capability 07 - Integrity" usemap="#d9e6658b-3e9c-4a93-a33c-0b50f0c3f5d3map">
-			<map name="d9e6658b-3e9c-4a93-a33c-0b50f0c3f5d3map">
-						<area shape="rect" coords="63,154,183,209" href="../elements/198f4cdd-aa79-4556-b8d6-ea28634a6ace.html"  target="element">
-						<area shape="rect" coords="279,43,399,98" href="../elements/71376460-4cbb-4a29-92e3-441429820e3c.html"  target="element">
-								<area shape="rect" coords="58,46,178,101" href="../elements/b1f50883-2034-413b-b7c7-0f6dc093aec5.html"  target="element">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/d9e6658b-3e9c-4a93-a33c-0b50f0c3f5d3.png" alt="Capability 07 - Keeping the data safe" usemap="#d9e6658b-3e9c-4a93-a33c-0b50f0c3f5d3map"/>
+			   <map name="d9e6658b-3e9c-4a93-a33c-0b50f0c3f5d3map">
+				  		<area shape="rect" coords="39,154,184,209" href="../elements/198f4cdd-aa79-4556-b8d6-ea28634a6ace.html"  target="element">
+				  		<area shape="rect" coords="279,43,520,98" href="../elements/71376460-4cbb-4a29-92e3-441429820e3c.html"  target="element">
+				  				<area shape="rect" coords="58,46,178,101" href="../elements/b1f50883-2034-413b-b7c7-0f6dc093aec5.html"  target="element">
 
-						<area shape="rect" coords="10,10,231,131" href="../elements/90205bbb-917d-4493-ab55-b19397a48dac.html"  target="element">
+				  		<area shape="rect" coords="10,10,231,131" href="../elements/90205bbb-917d-4493-ab55-b19397a48dac.html"  target="element">
 
-			</map>
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -70,10 +83,26 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/198f4cdd-aa79-4556-b8d6-ea28634a6ace.html" target="element"> Infrastructure for document exchange SBB </a> </td><td class="i18n-elementtype-Resource"></td></tr>
-											<tr><td> <a href="../elements/71376460-4cbb-4a29-92e3-441429820e3c.html" target="element"> Strong enforcement of data integrity </a> </td><td class="i18n-elementtype-Requirement"></td></tr>
-											<tr><td> <a href="../elements/90205bbb-917d-4493-ab55-b19397a48dac.html" target="element"> Data security </a> </td><td class="i18n-elementtype-Capability"></td></tr>
-													<tr><td> <a href="../elements/b1f50883-2034-413b-b7c7-0f6dc093aec5.html" target="element"> Integrity </a> </td><td class="i18n-elementtype-Capability"></td></tr>
+											<tr>
+											    <td> <a href="../elements/198f4cdd-aa79-4556-b8d6-ea28634a6ace.html" target="element"> Infrastructure for document exchange SBB </a> </td>
+											    <td> <a href="../elements/198f4cdd-aa79-4556-b8d6-ea28634a6ace.html" target="element" class="i18n-elementtype-Resource"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/71376460-4cbb-4a29-92e3-441429820e3c.html" target="element"> Strong enforcement of data integrity </a> </td>
+											    <td> <a href="../elements/71376460-4cbb-4a29-92e3-441429820e3c.html" target="element" class="i18n-elementtype-Requirement"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/90205bbb-917d-4493-ab55-b19397a48dac.html" target="element"> Data security </a> </td>
+											    <td> <a href="../elements/90205bbb-917d-4493-ab55-b19397a48dac.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/b1f50883-2034-413b-b7c7-0f6dc093aec5.html" target="element"> Keeping the data safe </a> </td>
+													    <td> <a href="../elements/b1f50883-2034-413b-b7c7-0f6dc093aec5.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+													</tr>
+
 											
 
 								</tbody>
@@ -94,20 +123,20 @@
 																		<td> <a href="../elements/888a162b-595f-4ec5-9766-f9dad395faa5.html" target="element">  </a> </td>
 																		<td> <a href="../elements/888a162b-595f-4ec5-9766-f9dad395faa5.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
 																		<td> <a href="../elements/198f4cdd-aa79-4556-b8d6-ea28634a6ace.html" target="element"> Infrastructure for document exchange SBB </a> </td>
-																		<td> <a href="../elements/b1f50883-2034-413b-b7c7-0f6dc093aec5.html" target="element"> Integrity </a> </td>
+																		<td> <a href="../elements/b1f50883-2034-413b-b7c7-0f6dc093aec5.html" target="element"> Keeping the data safe </a> </td>
 																	</tr>
 
 																	<tr>
 																		<td> <a href="../elements/8aebd491-cc9b-48e0-9db5-ff2471f7f164.html" target="element">  </a> </td>
 																		<td> <a href="../elements/8aebd491-cc9b-48e0-9db5-ff2471f7f164.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
 																		<td> <a href="../elements/90205bbb-917d-4493-ab55-b19397a48dac.html" target="element"> Data security </a> </td>
-																		<td> <a href="../elements/b1f50883-2034-413b-b7c7-0f6dc093aec5.html" target="element"> Integrity </a> </td>
+																		<td> <a href="../elements/b1f50883-2034-413b-b7c7-0f6dc093aec5.html" target="element"> Keeping the data safe </a> </td>
 																	</tr>
 
 																			<tr>
 																				<td> <a href="../elements/de021c8f-b67f-4f53-9650-8ce0b6691ec0.html" target="element">  </a> </td>
 																				<td> <a href="../elements/de021c8f-b67f-4f53-9650-8ce0b6691ec0.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
-																				<td> <a href="../elements/b1f50883-2034-413b-b7c7-0f6dc093aec5.html" target="element"> Integrity </a> </td>
+																				<td> <a href="../elements/b1f50883-2034-413b-b7c7-0f6dc093aec5.html" target="element"> Keeping the data safe </a> </td>
 																				<td> <a href="../elements/71376460-4cbb-4a29-92e3-441429820e3c.html" target="element"> Strong enforcement of data integrity </a> </td>
 																			</tr>
 

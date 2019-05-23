@@ -19,30 +19,43 @@
 
 <body>
 	<div class="panel panel-default root-panel">
+
 		<div class="panel-heading root-panel-heading">
-			<b>Customer relationship managment</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Name -->
+               <b>Customer relationship managment</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
 		</div>
+
 		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/e4d750dd-f058-4c21-ac0f-cef0275dd5a7.png" alt="Customer relationship managment" usemap="#e4d750dd-f058-4c21-ac0f-cef0275dd5a7map">
-			<map name="e4d750dd-f058-4c21-ac0f-cef0275dd5a7map">
-								<area shape="rect" coords="48,46,168,101" href="../elements/208071c6-d715-4119-8af3-c11b7bec3109.html"  target="element">
-								<area shape="rect" coords="178,46,298,101" href="../elements/93c97900-c35b-4094-a94e-1601d21c7424.html"  target="element">
-								<area shape="rect" coords="310,46,430,101" href="../elements/25389b22-ef9b-45e9-886a-62d1b4accc3d.html"  target="element">
-								<area shape="rect" coords="442,46,562,101" href="../elements/10c25e93-0140-42f4-836e-3a01c82bd9f8.html"  target="element">
-								<area shape="rect" coords="574,46,694,101" href="../elements/001bfa44-9efb-49eb-a995-faa03b4452d8.html"  target="element">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/e4d750dd-f058-4c21-ac0f-cef0275dd5a7.png" alt="Customer relationship managment" usemap="#e4d750dd-f058-4c21-ac0f-cef0275dd5a7map"/>
+			   <map name="e4d750dd-f058-4c21-ac0f-cef0275dd5a7map">
+				  				<area shape="rect" coords="48,46,168,101" href="../elements/208071c6-d715-4119-8af3-c11b7bec3109.html"  target="element">
+				  				<area shape="rect" coords="178,46,298,101" href="../elements/93c97900-c35b-4094-a94e-1601d21c7424.html"  target="element">
+				  				<area shape="rect" coords="310,46,430,101" href="../elements/25389b22-ef9b-45e9-886a-62d1b4accc3d.html"  target="element">
+				  				<area shape="rect" coords="442,46,562,101" href="../elements/10c25e93-0140-42f4-836e-3a01c82bd9f8.html"  target="element">
+				  				<area shape="rect" coords="574,46,694,101" href="../elements/001bfa44-9efb-49eb-a995-faa03b4452d8.html"  target="element">
 
-						<area shape="rect" coords="10,10,731,119" href="../elements/216a825e-1645-41cc-8323-a9afc3f72052.html"  target="element">
+				  		<area shape="rect" coords="10,10,731,119" href="../elements/216a825e-1645-41cc-8323-a9afc3f72052.html"  target="element">
 
-			</map>
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -72,12 +85,36 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/216a825e-1645-41cc-8323-a9afc3f72052.html" target="element"> Customer Relationship Management (CRM) Function  </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
-													<tr><td> <a href="../elements/208071c6-d715-4119-8af3-c11b7bec3109.html" target="element"> Account and contact management </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
-													<tr><td> <a href="../elements/93c97900-c35b-4094-a94e-1601d21c7424.html" target="element"> Lead and Opportunity management </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
-													<tr><td> <a href="../elements/25389b22-ef9b-45e9-886a-62d1b4accc3d.html" target="element"> Forecasting and analytics </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
-													<tr><td> <a href="../elements/10c25e93-0140-42f4-836e-3a01c82bd9f8.html" target="element"> Marketing </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
-													<tr><td> <a href="../elements/001bfa44-9efb-49eb-a995-faa03b4452d8.html" target="element"> Sale force management </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
+											<tr>
+											    <td> <a href="../elements/216a825e-1645-41cc-8323-a9afc3f72052.html" target="element"> Customer Relationship Management (CRM) Function  </a> </td>
+											    <td> <a href="../elements/216a825e-1645-41cc-8323-a9afc3f72052.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/208071c6-d715-4119-8af3-c11b7bec3109.html" target="element"> Account and contact management </a> </td>
+													    <td> <a href="../elements/208071c6-d715-4119-8af3-c11b7bec3109.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/93c97900-c35b-4094-a94e-1601d21c7424.html" target="element"> Lead and Opportunity management </a> </td>
+													    <td> <a href="../elements/93c97900-c35b-4094-a94e-1601d21c7424.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/25389b22-ef9b-45e9-886a-62d1b4accc3d.html" target="element"> Forecasting and analytics </a> </td>
+													    <td> <a href="../elements/25389b22-ef9b-45e9-886a-62d1b4accc3d.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/10c25e93-0140-42f4-836e-3a01c82bd9f8.html" target="element"> Marketing </a> </td>
+													    <td> <a href="../elements/10c25e93-0140-42f4-836e-3a01c82bd9f8.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/001bfa44-9efb-49eb-a995-faa03b4452d8.html" target="element"> Sale force management </a> </td>
+													    <td> <a href="../elements/001bfa44-9efb-49eb-a995-faa03b4452d8.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+													</tr>
+
 											
 
 								</tbody>
