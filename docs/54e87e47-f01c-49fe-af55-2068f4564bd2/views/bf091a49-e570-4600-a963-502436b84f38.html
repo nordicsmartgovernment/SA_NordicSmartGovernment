@@ -19,28 +19,41 @@
 
 <body>
 	<div class="panel panel-default root-panel">
-		<div class="panel-heading root-panel-heading">
-			<b>Bank</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
-		</div>
-		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/bf091a49-e570-4600-a963-502436b84f38.png" alt="Bank" usemap="#bf091a49-e570-4600-a963-502436b84f38map">
-			<map name="bf091a49-e570-4600-a963-502436b84f38map">
-						<area shape="rect" coords="10,94,130,149" href="../elements/6fedf950-cd3a-481e-b369-d0fa31fba1c5.html"  target="element">
-						<area shape="rect" coords="214,94,395,149" href="../elements/2c2948c6-404d-4a9d-bf7c-6cd4347dfad6.html"  target="element">
-						<area shape="rect" coords="526,94,646,149" href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html"  target="element">
-						<area shape="rect" coords="214,173,395,228" href="../elements/ae6db195-75ee-4b79-8b0b-8253b5cc188d.html"  target="element">
-						<area shape="rect" coords="10,10,130,65" href="../elements/942bbac4-713b-4726-b184-3790fddf9926.html"  target="element">
 
-			</map>
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Bank</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/bf091a49-e570-4600-a963-502436b84f38.png" alt="Bank" usemap="#bf091a49-e570-4600-a963-502436b84f38map"/>
+			   <map name="bf091a49-e570-4600-a963-502436b84f38map">
+				  		<area shape="rect" coords="10,94,130,149" href="../elements/6fedf950-cd3a-481e-b369-d0fa31fba1c5.html"  target="element">
+				  		<area shape="rect" coords="214,94,395,149" href="../elements/2c2948c6-404d-4a9d-bf7c-6cd4347dfad6.html"  target="element">
+				  		<area shape="rect" coords="526,94,646,149" href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html"  target="element">
+				  		<area shape="rect" coords="214,173,395,228" href="../elements/ae6db195-75ee-4b79-8b0b-8253b5cc188d.html"  target="element">
+				  		<area shape="rect" coords="10,10,130,65" href="../elements/942bbac4-713b-4726-b184-3790fddf9926.html"  target="element">
+
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -70,11 +83,31 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/6fedf950-cd3a-481e-b369-d0fa31fba1c5.html" target="element"> Credit provider (bank) </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-											<tr><td> <a href="../elements/2c2948c6-404d-4a9d-bf7c-6cd4347dfad6.html" target="element"> Credit lending evaluation </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
-											<tr><td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-											<tr><td> <a href="../elements/ae6db195-75ee-4b79-8b0b-8253b5cc188d.html" target="element"> Other business opportunities </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
-											<tr><td> <a href="../elements/942bbac4-713b-4726-b184-3790fddf9926.html" target="element"> Bank </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
+											<tr>
+											    <td> <a href="../elements/6fedf950-cd3a-481e-b369-d0fa31fba1c5.html" target="element"> Credit provider (bank) </a> </td>
+											    <td> <a href="../elements/6fedf950-cd3a-481e-b369-d0fa31fba1c5.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/2c2948c6-404d-4a9d-bf7c-6cd4347dfad6.html" target="element"> Credit lending evaluation </a> </td>
+											    <td> <a href="../elements/2c2948c6-404d-4a9d-bf7c-6cd4347dfad6.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td>
+											    <td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/ae6db195-75ee-4b79-8b0b-8253b5cc188d.html" target="element"> Other business opportunities </a> </td>
+											    <td> <a href="../elements/ae6db195-75ee-4b79-8b0b-8253b5cc188d.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/942bbac4-713b-4726-b184-3790fddf9926.html" target="element"> Bank </a> </td>
+											    <td> <a href="../elements/942bbac4-713b-4726-b184-3790fddf9926.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
 
 								</tbody>
 							</table>

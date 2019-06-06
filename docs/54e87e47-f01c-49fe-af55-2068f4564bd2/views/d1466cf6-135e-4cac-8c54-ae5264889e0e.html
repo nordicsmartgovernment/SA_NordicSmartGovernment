@@ -19,26 +19,39 @@
 
 <body>
 	<div class="panel panel-default root-panel">
-		<div class="panel-heading root-panel-heading">
-			<b>Investor</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
-		</div>
-		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/d1466cf6-135e-4cac-8c54-ae5264889e0e.png" alt="Investor" usemap="#d1466cf6-135e-4cac-8c54-ae5264889e0emap">
-			<map name="d1466cf6-135e-4cac-8c54-ae5264889e0emap">
-						<area shape="rect" coords="197,10,317,65" href="../elements/4044ad30-23d6-4398-9ee1-2f9e1b302a8d.html"  target="element">
-						<area shape="rect" coords="10,10,130,65" href="../elements/c174987a-8fc7-4828-99dd-270eede7c7c1.html"  target="element">
-						<area shape="rect" coords="370,10,490,65" href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html"  target="element">
 
-			</map>
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Investor</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/d1466cf6-135e-4cac-8c54-ae5264889e0e.png" alt="Investor" usemap="#d1466cf6-135e-4cac-8c54-ae5264889e0emap"/>
+			   <map name="d1466cf6-135e-4cac-8c54-ae5264889e0emap">
+				  		<area shape="rect" coords="197,10,317,65" href="../elements/4044ad30-23d6-4398-9ee1-2f9e1b302a8d.html"  target="element">
+				  		<area shape="rect" coords="10,10,130,65" href="../elements/c174987a-8fc7-4828-99dd-270eede7c7c1.html"  target="element">
+				  		<area shape="rect" coords="370,10,490,65" href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html"  target="element">
+
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -68,9 +81,21 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/4044ad30-23d6-4398-9ee1-2f9e1b302a8d.html" target="element"> Investors evaluation </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
-											<tr><td> <a href="../elements/c174987a-8fc7-4828-99dd-270eede7c7c1.html" target="element"> Investor </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-											<tr><td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
+											<tr>
+											    <td> <a href="../elements/4044ad30-23d6-4398-9ee1-2f9e1b302a8d.html" target="element"> Investors evaluation </a> </td>
+											    <td> <a href="../elements/4044ad30-23d6-4398-9ee1-2f9e1b302a8d.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/c174987a-8fc7-4828-99dd-270eede7c7c1.html" target="element"> Investor </a> </td>
+											    <td> <a href="../elements/c174987a-8fc7-4828-99dd-270eede7c7c1.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element"> SME </a> </td>
+											    <td> <a href="../elements/aad57129-7682-469e-9e37-a5596f074a2b.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
 
 								</tbody>
 							</table>

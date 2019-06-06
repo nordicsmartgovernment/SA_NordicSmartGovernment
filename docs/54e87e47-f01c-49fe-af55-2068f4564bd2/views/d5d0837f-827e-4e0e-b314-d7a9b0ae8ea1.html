@@ -2,7 +2,7 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>Capability 11 - Addressing</title>
+	<title>Capability 09 - Addressing</title>
 
 	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
 	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
@@ -19,29 +19,42 @@
 
 <body>
 	<div class="panel panel-default root-panel">
+
 		<div class="panel-heading root-panel-heading">
-			<b>Capability 11 - Addressing</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Name -->
+               <b>Capability 09 - Addressing</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
 		</div>
+
 		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/d5d0837f-827e-4e0e-b314-d7a9b0ae8ea1.png" alt="Capability 11 - Addressing" usemap="#d5d0837f-827e-4e0e-b314-d7a9b0ae8ea1map">
-			<map name="d5d0837f-827e-4e0e-b314-d7a9b0ae8ea1map">
-						<area shape="rect" coords="59,142,179,197" href="../elements/12cdb5e1-b5bc-4d53-980c-2b2f07e996c3.html"  target="element">
-						<area shape="rect" coords="274,70,551,125" href="../elements/ca90a7aa-02d4-4a16-b03e-c5f192161105.html"  target="element">
-								<area shape="rect" coords="58,46,178,101" href="../elements/c522a68c-a382-4190-9790-cfd84fad9107.html"  target="element">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/d5d0837f-827e-4e0e-b314-d7a9b0ae8ea1.png" alt="Capability 09 - Addressing" usemap="#d5d0837f-827e-4e0e-b314-d7a9b0ae8ea1map"/>
+			   <map name="d5d0837f-827e-4e0e-b314-d7a9b0ae8ea1map">
+				  		<area shape="rect" coords="59,142,179,197" href="../elements/12cdb5e1-b5bc-4d53-980c-2b2f07e996c3.html"  target="element">
+				  		<area shape="rect" coords="274,70,551,125" href="../elements/ca90a7aa-02d4-4a16-b03e-c5f192161105.html"  target="element">
+				  				<area shape="rect" coords="58,46,178,101" href="../elements/c522a68c-a382-4190-9790-cfd84fad9107.html"  target="element">
 
-						<area shape="rect" coords="10,10,227,113" href="../elements/b89e5fdb-3981-4a00-b0ef-736faecd2b79.html"  target="element">
-						<area shape="rect" coords="274,10,551,62" href="../elements/e0de03aa-42a6-4e7d-84ab-12285e0beb15.html"  target="element">
+				  		<area shape="rect" coords="10,10,227,113" href="../elements/b89e5fdb-3981-4a00-b0ef-736faecd2b79.html"  target="element">
+				  		<area shape="rect" coords="274,10,551,62" href="../elements/e0de03aa-42a6-4e7d-84ab-12285e0beb15.html"  target="element">
 
-			</map>
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -71,12 +84,32 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/12cdb5e1-b5bc-4d53-980c-2b2f07e996c3.html" target="element"> Adressing SBB </a> </td><td class="i18n-elementtype-Resource"></td></tr>
-											<tr><td> <a href="../elements/ca90a7aa-02d4-4a16-b03e-c5f192161105.html" target="element"> The endpoint of an organisation's business system must be known </a> </td><td class="i18n-elementtype-Requirement"></td></tr>
-											<tr><td> <a href="../elements/b89e5fdb-3981-4a00-b0ef-736faecd2b79.html" target="element"> Data discovery </a> </td><td class="i18n-elementtype-Capability"></td></tr>
-													<tr><td> <a href="../elements/c522a68c-a382-4190-9790-cfd84fad9107.html" target="element"> Adressing </a> </td><td class="i18n-elementtype-Capability"></td></tr>
+											<tr>
+											    <td> <a href="../elements/12cdb5e1-b5bc-4d53-980c-2b2f07e996c3.html" target="element"> Adressing SBB </a> </td>
+											    <td> <a href="../elements/12cdb5e1-b5bc-4d53-980c-2b2f07e996c3.html" target="element" class="i18n-elementtype-Resource"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/ca90a7aa-02d4-4a16-b03e-c5f192161105.html" target="element"> Addressing - The endpoint(s) of the organisation&#8217;s ERP-system must be known </a> </td>
+											    <td> <a href="../elements/ca90a7aa-02d4-4a16-b03e-c5f192161105.html" target="element" class="i18n-elementtype-Requirement"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/b89e5fdb-3981-4a00-b0ef-736faecd2b79.html" target="element"> Data discovery </a> </td>
+											    <td> <a href="../elements/b89e5fdb-3981-4a00-b0ef-736faecd2b79.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/c522a68c-a382-4190-9790-cfd84fad9107.html" target="element"> Adressing </a> </td>
+													    <td> <a href="../elements/c522a68c-a382-4190-9790-cfd84fad9107.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+													</tr>
+
 											
-											<tr><td> <a href="../elements/e0de03aa-42a6-4e7d-84ab-12285e0beb15.html" target="element"> Financial vouchers must be avaliable for lookup </a> </td><td class="i18n-elementtype-Requirement"></td></tr>
+											<tr>
+											    <td> <a href="../elements/e0de03aa-42a6-4e7d-84ab-12285e0beb15.html" target="element"> Financial raw data must be available for lookup [variants 1-8] </a> </td>
+											    <td> <a href="../elements/e0de03aa-42a6-4e7d-84ab-12285e0beb15.html" target="element" class="i18n-elementtype-Requirement"> </a> </td>
+											</tr>
+
 
 								</tbody>
 							</table>
@@ -110,13 +143,13 @@
 																				<td> <a href="../elements/5a53ba2c-9a44-4dfc-9a36-08711bb4e0b3.html" target="element">  </a> </td>
 																				<td> <a href="../elements/5a53ba2c-9a44-4dfc-9a36-08711bb4e0b3.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
 																				<td> <a href="../elements/c522a68c-a382-4190-9790-cfd84fad9107.html" target="element"> Adressing </a> </td>
-																				<td> <a href="../elements/ca90a7aa-02d4-4a16-b03e-c5f192161105.html" target="element"> The endpoint of an organisation's business system must be known </a> </td>
+																				<td> <a href="../elements/ca90a7aa-02d4-4a16-b03e-c5f192161105.html" target="element"> Addressing - The endpoint(s) of the organisation&#8217;s ERP-system must be known </a> </td>
 																			</tr>
 																			<tr>
 																				<td> <a href="../elements/dac7329e-de30-447f-b8e0-ba925207753b.html" target="element">  </a> </td>
 																				<td> <a href="../elements/dac7329e-de30-447f-b8e0-ba925207753b.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
 																				<td> <a href="../elements/c522a68c-a382-4190-9790-cfd84fad9107.html" target="element"> Adressing </a> </td>
-																				<td> <a href="../elements/e0de03aa-42a6-4e7d-84ab-12285e0beb15.html" target="element"> Financial vouchers must be avaliable for lookup </a> </td>
+																				<td> <a href="../elements/e0de03aa-42a6-4e7d-84ab-12285e0beb15.html" target="element"> Financial raw data must be available for lookup [variants 1-8] </a> </td>
 																			</tr>
 
 											

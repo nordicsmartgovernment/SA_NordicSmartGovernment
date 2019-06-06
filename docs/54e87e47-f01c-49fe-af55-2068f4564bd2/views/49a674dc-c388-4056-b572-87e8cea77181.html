@@ -19,28 +19,43 @@
 
 <body>
 	<div class="panel panel-default root-panel">
-		<div class="panel-heading root-panel-heading">
-			<b>SmartGovernment Goals 2017</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
-		</div>
-		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/49a674dc-c388-4056-b572-87e8cea77181.png" alt="SmartGovernment Goals 2017" usemap="#49a674dc-c388-4056-b572-87e8cea77181map">
-			<map name="49a674dc-c388-4056-b572-87e8cea77181map">
-						<area shape="rect" coords="10,10,335,71" href="../elements/1abaf931-2891-4891-818d-1bab6826f73f.html"  target="element">
-						<area shape="rect" coords="10,142,143,215" href="../elements/e554b0f3-ba22-42b3-8adb-197b06550be6.html"  target="element">
-						<area shape="rect" coords="154,142,275,215" href="../elements/27298629-b799-4a78-9fd3-da3ce23d054d.html"  target="element">
-						<area shape="rect" coords="287,142,407,215" href="../elements/b52f9e2a-3efa-48ba-a5f7-380b4061325b.html"  target="element">
-						<area shape="rect" coords="418,142,538,215" href="../elements/411b1e05-69eb-4302-8a71-587933c98828.html"  target="element">
 
-			</map>
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>SmartGovernment Goals 2017</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/49a674dc-c388-4056-b572-87e8cea77181.png" alt="SmartGovernment Goals 2017" usemap="#49a674dc-c388-4056-b572-87e8cea77181map"/>
+			   <map name="49a674dc-c388-4056-b572-87e8cea77181map">
+				  		<area shape="rect" coords="10,10,335,71" href="../elements/1abaf931-2891-4891-818d-1bab6826f73f.html"  target="element">
+				          <area shape="rect" coords="406,10,591,71" href="../objects/df4fcca8-9154-4e6b-9d64-bb66506fa23a.html" target="element" >
+				  		<area shape="rect" coords="10,142,143,215" href="../elements/e554b0f3-ba22-42b3-8adb-197b06550be6.html"  target="element">
+				          <area shape="rect" coords="214,262,363,299" href="../objects/13885dad-d2e8-4952-9123-0bfec146b900.html" target="element" >
+				  		<area shape="rect" coords="154,142,275,215" href="../elements/27298629-b799-4a78-9fd3-da3ce23d054d.html"  target="element">
+				  		<area shape="rect" coords="287,142,407,215" href="../elements/b52f9e2a-3efa-48ba-a5f7-380b4061325b.html"  target="element">
+				  		<area shape="rect" coords="418,142,538,215" href="../elements/411b1e05-69eb-4302-8a71-587933c98828.html"  target="element">
+
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -70,13 +85,41 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/1abaf931-2891-4891-818d-1bab6826f73f.html" target="element"> A new digital infrastructure for automated exchange of business data </a> </td><td class="i18n-elementtype-Goal"></td></tr>
-											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
-											<tr><td> <a href="../elements/e554b0f3-ba22-42b3-8adb-197b06550be6.html" target="element"> share and utilise data more efficiently </a> </td><td class="i18n-elementtype-Goal"></td></tr>
-											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
-											<tr><td> <a href="../elements/27298629-b799-4a78-9fd3-da3ce23d054d.html" target="element"> Avoid manual processes </a> </td><td class="i18n-elementtype-Goal"></td></tr>
-											<tr><td> <a href="../elements/b52f9e2a-3efa-48ba-a5f7-380b4061325b.html" target="element"> extract the full value embedded in data </a> </td><td class="i18n-elementtype-Goal"></td></tr>
-											<tr><td> <a href="../elements/411b1e05-69eb-4302-8a71-587933c98828.html" target="element"> digitisation and automation </a> </td><td class="i18n-elementtype-Goal"></td></tr>
+											<tr>
+											    <td> <a href="../elements/1abaf931-2891-4891-818d-1bab6826f73f.html" target="element"> A new digital infrastructure for automated exchange of business data </a> </td>
+											    <td> <a href="../elements/1abaf931-2891-4891-818d-1bab6826f73f.html" target="element" class="i18n-elementtype-Goal"> </a> </td>
+											</tr>
+
+									        <tr>
+									           <td> <a href="../objects/df4fcca8-9154-4e6b-9d64-bb66506fa23a.html" target="element">  </a> </td>
+									           <td> <a href="../objects/df4fcca8-9154-4e6b-9d64-bb66506fa23a.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+											<tr>
+											    <td> <a href="../elements/e554b0f3-ba22-42b3-8adb-197b06550be6.html" target="element"> share and utilise data more efficiently </a> </td>
+											    <td> <a href="../elements/e554b0f3-ba22-42b3-8adb-197b06550be6.html" target="element" class="i18n-elementtype-Goal"> </a> </td>
+											</tr>
+
+									        <tr>
+									           <td> <a href="../objects/13885dad-d2e8-4952-9123-0bfec146b900.html" target="element">  </a> </td>
+									           <td> <a href="../objects/13885dad-d2e8-4952-9123-0bfec146b900.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+											<tr>
+											    <td> <a href="../elements/27298629-b799-4a78-9fd3-da3ce23d054d.html" target="element"> Avoid manual processes </a> </td>
+											    <td> <a href="../elements/27298629-b799-4a78-9fd3-da3ce23d054d.html" target="element" class="i18n-elementtype-Goal"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/b52f9e2a-3efa-48ba-a5f7-380b4061325b.html" target="element"> extract the full value embedded in data </a> </td>
+											    <td> <a href="../elements/b52f9e2a-3efa-48ba-a5f7-380b4061325b.html" target="element" class="i18n-elementtype-Goal"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/411b1e05-69eb-4302-8a71-587933c98828.html" target="element"> digitisation and automation </a> </td>
+											    <td> <a href="../elements/411b1e05-69eb-4302-8a71-587933c98828.html" target="element" class="i18n-elementtype-Goal"> </a> </td>
+											</tr>
+
 
 								</tbody>
 							</table>

@@ -4,7 +4,7 @@
     id="ff47eb15-1766-4d9c-91c4-54366d64876c">
   <source
       xsi:type="archimate:ApplicationInterface"
-      href="ApplicationInterface_af09ed18-1b24-4576-9693-56a7b85133e2.xml#af09ed18-1b24-4576-9693-56a7b85133e2"/>
+      href="ApplicationInterface_7a466117-f71f-4522-8902-a4542173fcd5.xml#7a466117-f71f-4522-8902-a4542173fcd5"/>
   <target
       xsi:type="archimate:BusinessService"
       href="BusinessService_56a16cf2-b5f7-4b0b-927b-38807e078139.xml#56a16cf2-b5f7-4b0b-927b-38807e078139"/>

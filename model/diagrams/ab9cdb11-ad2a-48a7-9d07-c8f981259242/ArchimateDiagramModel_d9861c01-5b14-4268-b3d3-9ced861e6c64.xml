@@ -29,7 +29,8 @@
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="033bfba6-c676-457e-bcb8-df5307c67782"
-      name="What is &quot;control&quot;?">
+      name="What is &quot;control&quot;?"
+      textAlignment="1">
     <bounds
         x="62"
         y="948"

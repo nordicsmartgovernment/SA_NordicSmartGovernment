@@ -38,6 +38,7 @@ var hints = {
     viewpoint_technology: "vp_technology.html",
     viewpoint_technology_usage: "vp_technology_usage.html",
 // Hints for concepts
+    ArchimateModel: "model.html",
 	AccessRelationship: "access.html",
 	AggregationRelationship: "aggregation.html",
 	ApplicationCollaboration: "application_collaboration.html",
@@ -108,7 +109,19 @@ var hints = {
     TechnologyService: "technology_service.html",
 	TriggeringRelationship: "triggering.html",
 	Value: "value.html",
-	WorkPackage: "workpackage.html"
+	WorkPackage: "workpackage.html",
+// Hints for graphical objects
+	DiagramModelNote: "note.html",
+	DiagramModelGroup: "group.html",
+// Hints for sketch objects
+	SketchModel: "sketch.html",
+	SketchModelSticky: "sketch_sticky.html",
+	SketchModelActor: "sketch_actor.html",
+// Hints for canvas objects
+	CanvasModel: "canvas_diagram.html",
+	CanvasModelBlock: "canvas_block.html",
+	CanvasModelImage: "canvas_image.html",
+	CanvasModelSticky: "canvas_sticky.html",
 };
 
 $(document).ready(function() {
@@ -123,10 +136,13 @@ $(document).ready(function() {
 	
 	// Update documentation div and create links
 	$('#doctgt').text($('#docsrc').text());
-	$('#doctgt').html($('#doctgt').html()
-		.replace(/(\w+:\/\/\S+)/g, '<a href="$1" target="_blank">$1</a>')
-		.replace(/mailto:(\S+)/g, '<a href="mailto:$1">$1</a>')
-	);
+	
+	if(typeof $('#doctgt').html() !== "undefined") {
+	   $('#doctgt').html($('#doctgt').html()
+		  .replace(/(\w+:\/\/\S+)/g, '<a href="$1" target="_blank">$1</a>')
+		  .replace(/mailto:(\S+)/g, '<a href="mailto:$1">$1</a>')
+	   );
+	}
 	
 	// Replace Hint URL
 	for (var id in hints) {

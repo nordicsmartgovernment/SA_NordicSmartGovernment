@@ -2,7 +2,7 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>Capability 13 - Common representation</title>
+	<title>Capability 10 - Common representation</title>
 
 	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
 	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
@@ -19,28 +19,41 @@
 
 <body>
 	<div class="panel panel-default root-panel">
+
 		<div class="panel-heading root-panel-heading">
-			<b>Capability 13 - Common representation</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Name -->
+               <b>Capability 10 - Common representation</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
 		</div>
+
 		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/f4da23e4-ee58-49b3-b47e-45cb29aa1ac9.png" alt="Capability 13 - Common representation" usemap="#f4da23e4-ee58-49b3-b47e-45cb29aa1ac9map">
-			<map name="f4da23e4-ee58-49b3-b47e-45cb29aa1ac9map">
-						<area shape="rect" coords="298,31,587,86" href="../elements/a865f654-12c5-4680-ad60-81ae451c011b.html"  target="element">
-								<area shape="rect" coords="70,34,195,99" href="../elements/c7ea6b2b-13c4-4ced-8c6b-6b20db75b45f.html"  target="element">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/f4da23e4-ee58-49b3-b47e-45cb29aa1ac9.png" alt="Capability 10 - Common representation" usemap="#f4da23e4-ee58-49b3-b47e-45cb29aa1ac9map"/>
+			   <map name="f4da23e4-ee58-49b3-b47e-45cb29aa1ac9map">
+				  		<area shape="rect" coords="298,31,587,107" href="../elements/a865f654-12c5-4680-ad60-81ae451c011b.html"  target="element">
+				  				<area shape="rect" coords="70,34,195,99" href="../elements/c7ea6b2b-13c4-4ced-8c6b-6b20db75b45f.html"  target="element">
 
-						<area shape="rect" coords="10,10,249,107" href="../elements/e8499ac6-2f6b-4c89-b571-7f3945d0cf6f.html"  target="element">
-						<area shape="rect" coords="70,166,190,221" href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html"  target="element">
+				  		<area shape="rect" coords="10,10,249,107" href="../elements/e8499ac6-2f6b-4c89-b571-7f3945d0cf6f.html"  target="element">
+				  		<area shape="rect" coords="70,166,190,221" href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html"  target="element">
 
-			</map>
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -70,11 +83,27 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/a865f654-12c5-4680-ad60-81ae451c011b.html" target="element"> The information must be represented in a generic and system-independent way to record all of the details in any kind of ledger.and bookkeeping </a> </td><td class="i18n-elementtype-Requirement"></td></tr>
-											<tr><td> <a href="../elements/e8499ac6-2f6b-4c89-b571-7f3945d0cf6f.html" target="element"> Structured data management </a> </td><td class="i18n-elementtype-Capability"></td></tr>
-													<tr><td> <a href="../elements/c7ea6b2b-13c4-4ced-8c6b-6b20db75b45f.html" target="element"> Common representation of transactions </a> </td><td class="i18n-elementtype-Capability"></td></tr>
+											<tr>
+											    <td> <a href="../elements/a865f654-12c5-4680-ad60-81ae451c011b.html" target="element"> The information must be represented in a generic and system-independent way to record all of the details in any kind of ledger and bookkeeping </a> </td>
+											    <td> <a href="../elements/a865f654-12c5-4680-ad60-81ae451c011b.html" target="element" class="i18n-elementtype-Requirement"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/e8499ac6-2f6b-4c89-b571-7f3945d0cf6f.html" target="element"> Structured data management </a> </td>
+											    <td> <a href="../elements/e8499ac6-2f6b-4c89-b571-7f3945d0cf6f.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/c7ea6b2b-13c4-4ced-8c6b-6b20db75b45f.html" target="element"> Common representation of transactions </a> </td>
+													    <td> <a href="../elements/c7ea6b2b-13c4-4ced-8c6b-6b20db75b45f.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+													</tr>
+
 											
-											<tr><td> <a href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html" target="element"> Business systems </a> </td><td class="i18n-elementtype-Resource"></td></tr>
+											<tr>
+											    <td> <a href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html" target="element"> Business systems </a> </td>
+											    <td> <a href="../elements/4a2a2e28-92a6-4ee1-b6f6-0e8e919d634f.html" target="element" class="i18n-elementtype-Resource"> </a> </td>
+											</tr>
+
 
 								</tbody>
 							</table>
@@ -101,7 +130,7 @@
 																				<td> <a href="../elements/143f3013-3a1a-4850-9d81-15a1a4d67075.html" target="element">  </a> </td>
 																				<td> <a href="../elements/143f3013-3a1a-4850-9d81-15a1a4d67075.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
 																				<td> <a href="../elements/c7ea6b2b-13c4-4ced-8c6b-6b20db75b45f.html" target="element"> Common representation of transactions </a> </td>
-																				<td> <a href="../elements/a865f654-12c5-4680-ad60-81ae451c011b.html" target="element"> The information must be represented in a generic and system-independent way to record all of the details in any kind of ledger.and bookkeeping </a> </td>
+																				<td> <a href="../elements/a865f654-12c5-4680-ad60-81ae451c011b.html" target="element"> The information must be represented in a generic and system-independent way to record all of the details in any kind of ledger and bookkeeping </a> </td>
 																			</tr>
 
 											
