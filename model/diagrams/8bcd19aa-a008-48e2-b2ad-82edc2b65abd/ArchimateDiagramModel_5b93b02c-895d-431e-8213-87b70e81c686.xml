@@ -187,12 +187,24 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="d05b3965-fca7-4a91-96c0-df6984eae44f">
     <bounds
-        x="24"
+        x="156"
         y="288"
         width="120"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_6f3998ab-fb52-4c29-863e-e6594c656429.xml#6f3998ab-fb52-4c29-863e-e6594c656429"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="e3f2ef4a-4a62-4d4a-ac59-ae1ca8ea1955">
+    <bounds
+        x="24"
+        y="288"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_ebaf196a-9b0d-4269-ad9b-2413e4f8a8a7.xml#ebaf196a-9b0d-4269-ad9b-2413e4f8a8a7"/>
   </children>
 </archimate:ArchimateDiagramModel>
