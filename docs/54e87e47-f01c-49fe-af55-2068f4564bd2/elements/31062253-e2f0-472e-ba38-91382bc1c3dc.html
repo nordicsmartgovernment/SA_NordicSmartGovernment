@@ -19,35 +19,46 @@
 
 <body>
 	<div class="panel panel-default root-panel">
-
 		<div class="panel-heading root-panel-heading">
-            <!-- Name -->
-               <b>Directive 2015/2366/EU on payment services in the internal market (PSD2)</b>
-
-            <!-- If a View with Viewpoint -->
-			   (<span class="i18n-elementtype-Driver"></span>)
-			   <a class="glyphicon glyphicon-info-sign" id="hint-Driver" target="hint"></a>
+			<b>Directive 2015/2366/EU on payment services in the internal market (PSD2)</b>
+			(<span class="i18n-elementtype-Driver"></span>)
+			<a class="glyphicon glyphicon-info-sign" id="hint-Driver" target="hint"></a>
 		</div>
-
 		<div class="panel-body root-panel-body">
-		    <!-- If this is a digram model (has children and no bounds) show the image -->
-
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-                    <!-- Purpose / Documentation / Content -->
-					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-
-                    <!-- Properties -->
-                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
-
+					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
 				</ul>
 
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<textarea id="docsrc" style="display:none">The PSD2 aims at enhancing consumer protection, promoting innovation and improving the security of payment services within
-the EU.</textarea>
+						<textarea id="docsrc" style="display:none">The PSD2 aims at enhancing consumer protection, promoting innovation and improving the security of payment services within the EU.
+
+What does it mean: Standardize security and distribution for payment. Account information is a spin-off. A technical API was put on ice. Berlin Groups API has 80% take up. 
+
+Consists of two parts
+* PISP - initiate a payment on behafe of a customer. Tranfer money imideately, without using a card-scheme. PSD2 regualte the responsibilty, data protection, security, open communication, information sharing, limitations and insurance. To do a payment you need be lisensed (konsesjon)
+* AISP - account information. Offers a standarizzed information about a customers payments accounts. Somewhat simpler requiremntes to become an AISP, access to accounts, and data protection. Easier to get a lisense.
+
+Two perspectives: Complience vs. new business opportunities
+
+Effects: 
+	- standardization of interfaces
+	- banks starts with open banking beyound complience
+	- fintech: Payment, personal finance management
+
+PISP challenges Visa/MC
+	- Initiate payments from the same user interface, regardless of bank
+	- visa /mc electronic cards, 
+	- what does the consumer care about.
+
+NOTE: A payment is a context choosen by a customer
+
+
+An extreme importen driver for the bank and finance industry. Have triggered a set of challenges that otherwise would have taken time. Banks are generally delivering the same business servcies as they did a houdred years ago. Most of the digitalization is ahead of us. PSD2 will deliver a more common ground. PSD2 have acellerated FinTech. </textarea>
 						<div id="doctgt" style="white-space:pre-wrap"></div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
