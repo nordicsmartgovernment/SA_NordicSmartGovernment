@@ -25,6 +25,10 @@
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_d7522a19-7248-4a0a-b910-0e6c5502a2db.xml#d7522a19-7248-4a0a-b910-0e6c5502a2db"/>
     </sourceConnections>
+    <sourceConnections
+        id="5e9b5c82-cfb1-4aa0-8c32-3e7ee06068b2"
+        source="6471095a-4fbb-49a4-84bd-5d97f91755dc"
+        target="207b8273-9c52-4cee-90f5-78845dfa2259"/>
     <bounds
         x="300"
         y="114"
@@ -46,6 +50,15 @@
       <archimateRelationship
           xsi:type="archimate:SpecializationRelationship"
           href="SpecializationRelationship_d024cd64-9671-4754-9c14-0f39964cc0cd.xml#d024cd64-9671-4754-9c14-0f39964cc0cd"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="dada3e2a-2fc3-47f9-b982-55a6354ebb99"
+        source="08550709-6b25-4c36-b155-46d48475588c"
+        target="7f614eed-fe63-49b6-8bc2-2cda4ac1ec97">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_e732d3dc-15bf-452c-a295-7e191407cdb1.xml#e732d3dc-15bf-452c-a295-7e191407cdb1"/>
     </sourceConnections>
     <bounds
         x="24"
@@ -229,6 +242,10 @@
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_507809d0-75a2-4a6f-94a0-79d2c6b41941.xml#507809d0-75a2-4a6f-94a0-79d2c6b41941"/>
     </sourceConnections>
+    <sourceConnections
+        id="2736515d-e48d-42e1-8325-3bdd9ffe0738"
+        source="2018d5d4-7613-425a-932f-8a75206b5147"
+        target="d1d3734b-651c-44a6-ad68-918a9ee45505"/>
     <bounds
         x="348"
         y="305"
@@ -242,12 +259,12 @@
       xsi:type="archimate:DiagramModelNote"
       id="3ab3c063-07fa-40c1-b70b-63aef169f79a"
       textAlignment="1"
-      content="XBRL GL vs. XBRL FS/FR (Financial Statements/Finance Report) - Aggregation?">
+      content="XBRL GL vs. XBRL FS/FR (Financial Statements/Finance Report) - Aggregation?&#xD;&#xA;> In XBRL GL there is a possiblity to link the XBRL Financial statement report (external reporting) element to the accounting entries. This way aggregation to the external reports can be done automatically">
     <bounds
         x="81"
         y="305"
         width="185"
-        height="55"/>
+        height="200"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -263,5 +280,42 @@
         y="192"
         width="185"
         height="260"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="7f614eed-fe63-49b6-8bc2-2cda4ac1ec97"
+      targetConnections="dada3e2a-2fc3-47f9-b982-55a6354ebb99">
+    <bounds
+        x="30"
+        y="240"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Stakeholder"
+        href="Stakeholder_21950e74-df0e-40e2-a4df-c8b939f3ef52.xml#21950e74-df0e-40e2-a4df-c8b939f3ef52"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="d1d3734b-651c-44a6-ad68-918a9ee45505"
+      targetConnections="2736515d-e48d-42e1-8325-3bdd9ffe0738"
+      textAlignment="1"
+      content="How can we deal with the extensions that each country has created on top of the base SAF-T definition?">
+    <bounds
+        x="427"
+        y="405"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="207b8273-9c52-4cee-90f5-78845dfa2259"
+      targetConnections="5e9b5c82-cfb1-4aa0-8c32-3e7ee06068b2"
+      textAlignment="1"
+      content="We must come up with a mapping between SAF-T and XBRL GL in order to create a conversion tool to be used by the standard API">
+    <bounds
+        x="265"
+        y="516"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

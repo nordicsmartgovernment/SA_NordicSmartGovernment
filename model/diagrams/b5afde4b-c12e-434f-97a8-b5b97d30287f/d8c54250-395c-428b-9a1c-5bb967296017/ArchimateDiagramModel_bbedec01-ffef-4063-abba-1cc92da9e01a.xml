@@ -283,4 +283,15 @@
         xsi:type="archimate:ApplicationInterface"
         href="ApplicationInterface_c74ce596-fe3c-47f2-9d8e-67c867491b35.xml#c74ce596-fe3c-47f2-9d8e-67c867491b35"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="f5aa952b-582b-4be5-9a78-59b1618dda0d"
+      textAlignment="1"
+      content="For the reference implementation we use the XSLT transformers to create accounting entries from the invoice. There has to be a knowledge of if it's a purchase invoice or a sales invoice as they are handeled differently so there is separate transformers for them. &#xD;&#xA;&#xD;&#xA;Does the API have a separate interface for purchase / sales invoice? If not, then the application should read from the invoice the buyer and seller ids and make a selection base on which one is the system owner.">
+    <bounds
+        x="145"
+        y="378"
+        width="185"
+        height="319"/>
+  </children>
 </archimate:ArchimateDiagramModel>

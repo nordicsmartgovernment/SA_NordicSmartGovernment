@@ -1,5 +1,5 @@
 <archimate:Constraint
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="XBRL Taxonomy"
+    name="XBRL Global Ledger Taxonomy"
     id="32f713c4-9391-4dca-b0b1-b9f53a5372dd"
     documentation="In the context of financial *reporting*, the  XBRL taxonomy defines and describes each key data element (e.g., total assets, accounts, payable, net income). Because each national jurisdiction may have different accounting rules and regulations, each country may have its own taxonomy for financial reporting. That is why there are different taxonomies for each country: XBRL Australia, XBRL  Canada, XBRL Germany, XBRL IASB, XBRL Japan, XBRL-Netherlands, and XBRL-UK.&#xA;&#xA;Taxonomies continue to be developed to enable filings to regulators (such as banks), tax authorities (such as the IRS), and other governmental entities. For example, U.S. banks are required to submit their quarterly report, “Report of Condition and Income,” or their Call Report, to the Federal Deposit Insurance Corporation (FDIC) using XBRL. The Federal Financial Institutions Examination Council (FFIEC) is responsible for creating XBRL Call Report taxonomy to facilitate filing call reports."/>

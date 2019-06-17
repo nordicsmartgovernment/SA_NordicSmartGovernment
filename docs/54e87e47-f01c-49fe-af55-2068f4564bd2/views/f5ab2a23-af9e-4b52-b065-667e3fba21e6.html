@@ -19,30 +19,43 @@
 
 <body>
 	<div class="panel panel-default root-panel">
+
 		<div class="panel-heading root-panel-heading">
-			<b>Procurement</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Name -->
+               <b>Procurement</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
 		</div>
+
 		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/f5ab2a23-af9e-4b52-b065-667e3fba21e6.png" alt="Procurement" usemap="#f5ab2a23-af9e-4b52-b065-667e3fba21e6map">
-			<map name="f5ab2a23-af9e-4b52-b065-667e3fba21e6map">
-								<area shape="rect" coords="34,46,227,101" href="../elements/859081c4-c5ea-4867-af65-fb1387ca1b78.html"  target="element">
-								<area shape="rect" coords="238,46,419,101" href="../elements/f7b4969f-f5a9-4c5c-a13a-689dc4bad380.html"  target="element">
-								<area shape="rect" coords="430,46,599,101" href="../elements/70bd6c46-1a7f-4c66-bb8d-bf420983f38e.html"  target="element">
-								<area shape="rect" coords="610,46,791,101" href="../elements/b356716e-1496-40d4-bc6b-6687b8fd4cb8.html"  target="element">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/f5ab2a23-af9e-4b52-b065-667e3fba21e6.png" alt="Procurement" usemap="#f5ab2a23-af9e-4b52-b065-667e3fba21e6map"/>
+			   <map name="f5ab2a23-af9e-4b52-b065-667e3fba21e6map">
+				  				<area shape="rect" coords="34,46,227,101" href="../elements/859081c4-c5ea-4867-af65-fb1387ca1b78.html"  target="element">
+				  				<area shape="rect" coords="238,46,419,101" href="../elements/f7b4969f-f5a9-4c5c-a13a-689dc4bad380.html"  target="element">
+				  				<area shape="rect" coords="430,46,599,101" href="../elements/70bd6c46-1a7f-4c66-bb8d-bf420983f38e.html"  target="element">
+				  				<area shape="rect" coords="610,46,791,101" href="../elements/b356716e-1496-40d4-bc6b-6687b8fd4cb8.html"  target="element">
 
-						<area shape="rect" coords="10,10,815,114" href="../elements/3571fab9-d4ba-47e9-9478-fb6d0e10138d.html"  target="element">
-						<area shape="rect" coords="353,137,473,192" href="../elements/1be315dc-a0f1-4973-8686-58adc59cac54.html"  target="element">
+				  		<area shape="rect" coords="10,10,815,114" href="../elements/3571fab9-d4ba-47e9-9478-fb6d0e10138d.html"  target="element">
+				  		<area shape="rect" coords="353,137,473,192" href="../elements/1be315dc-a0f1-4973-8686-58adc59cac54.html"  target="element">
 
-			</map>
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -72,13 +85,37 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/3571fab9-d4ba-47e9-9478-fb6d0e10138d.html" target="element"> Procurement </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
-													<tr><td> <a href="../elements/859081c4-c5ea-4867-af65-fb1387ca1b78.html" target="element"> Source </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
-													<tr><td> <a href="../elements/f7b4969f-f5a9-4c5c-a13a-689dc4bad380.html" target="element"> Purchase </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
-													<tr><td> <a href="../elements/70bd6c46-1a7f-4c66-bb8d-bf420983f38e.html" target="element"> Fullfill </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
-													<tr><td> <a href="../elements/b356716e-1496-40d4-bc6b-6687b8fd4cb8.html" target="element"> Pay </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
+											<tr>
+											    <td> <a href="../elements/3571fab9-d4ba-47e9-9478-fb6d0e10138d.html" target="element"> Procurement </a> </td>
+											    <td> <a href="../elements/3571fab9-d4ba-47e9-9478-fb6d0e10138d.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/859081c4-c5ea-4867-af65-fb1387ca1b78.html" target="element"> Source </a> </td>
+													    <td> <a href="../elements/859081c4-c5ea-4867-af65-fb1387ca1b78.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/f7b4969f-f5a9-4c5c-a13a-689dc4bad380.html" target="element"> Purchase </a> </td>
+													    <td> <a href="../elements/f7b4969f-f5a9-4c5c-a13a-689dc4bad380.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/70bd6c46-1a7f-4c66-bb8d-bf420983f38e.html" target="element"> Fullfill </a> </td>
+													    <td> <a href="../elements/70bd6c46-1a7f-4c66-bb8d-bf420983f38e.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/b356716e-1496-40d4-bc6b-6687b8fd4cb8.html" target="element"> Pay </a> </td>
+													    <td> <a href="../elements/b356716e-1496-40d4-bc6b-6687b8fd4cb8.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+													</tr>
+
 											
-											<tr><td> <a href="../elements/1be315dc-a0f1-4973-8686-58adc59cac54.html" target="element"> Public procurement </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
+											<tr>
+											    <td> <a href="../elements/1be315dc-a0f1-4973-8686-58adc59cac54.html" target="element"> Public procurement </a> </td>
+											    <td> <a href="../elements/1be315dc-a0f1-4973-8686-58adc59cac54.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+											</tr>
+
 
 								</tbody>
 							</table>

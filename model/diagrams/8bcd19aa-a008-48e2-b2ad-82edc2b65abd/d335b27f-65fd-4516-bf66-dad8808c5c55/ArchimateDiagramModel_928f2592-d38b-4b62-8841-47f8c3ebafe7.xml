@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Transaction standards information structures"
+    name="Business document standards information structures"
     id="928f2592-d38b-4b62-8841-47f8c3ebafe7">
   <children
       xsi:type="archimate:DiagramModelGroup"
