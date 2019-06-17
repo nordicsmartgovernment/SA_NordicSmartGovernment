@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Capability 07 - Keeping the data safe"
+    name="Capability 4.2 - Keeping the data safe"
     id="d9e6658b-3e9c-4a93-a33c-0b50f0c3f5d3">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -16,8 +16,8 @@
           href="AssignmentRelationship_888a162b-595f-4ec5-9766-f9dad395faa5.xml#888a162b-595f-4ec5-9766-f9dad395faa5"/>
     </sourceConnections>
     <bounds
-        x="72"
-        y="252"
+        x="102"
+        y="276"
         width="145"
         height="55"/>
     <archimateElement
@@ -29,8 +29,8 @@
       id="123669e3-7504-4677-84c7-b58d9e0a7a3f"
       targetConnections="c929a2bb-b430-4b2a-ab8a-2a0c6f165d68">
     <bounds
-        x="312"
-        y="141"
+        x="324"
+        y="156"
         width="241"
         height="55"/>
     <archimateElement
@@ -39,25 +39,25 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="0b4edb6e-51fd-477e-9e8a-95c5f12b0669">
+      id="81f14181-3d38-433b-ba5a-de7b8386df97">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="6cad2ce0-8291-41d9-8416-de489cc4170c"
-        source="0b4edb6e-51fd-477e-9e8a-95c5f12b0669"
+        id="56547713-0b99-413b-a77e-18c9fdaf6514"
+        source="81f14181-3d38-433b-ba5a-de7b8386df97"
         target="66a6011a-399b-47f1-8694-400225d7fff3">
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_8aebd491-cc9b-48e0-9db5-ff2471f7f164.xml#8aebd491-cc9b-48e0-9db5-ff2471f7f164"/>
+          href="CompositionRelationship_437b3e58-06fe-42e7-b4e9-11943c6e3a13.xml#437b3e58-06fe-42e7-b4e9-11943c6e3a13"/>
     </sourceConnections>
     <bounds
-        x="43"
-        y="108"
-        width="221"
+        x="72"
+        y="120"
+        width="205"
         height="121"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="66a6011a-399b-47f1-8694-400225d7fff3"
-        targetConnections="c9f810fb-4064-48c6-8f26-68f396fe992e 6cad2ce0-8291-41d9-8416-de489cc4170c"
+        targetConnections="c9f810fb-4064-48c6-8f26-68f396fe992e 56547713-0b99-413b-a77e-18c9fdaf6514"
         fillColor="#fbca36">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -69,16 +69,16 @@
             href="RealizationRelationship_de021c8f-b67f-4f53-9650-8ce0b6691ec0.xml#de021c8f-b67f-4f53-9650-8ce0b6691ec0"/>
       </sourceConnections>
       <bounds
-          x="48"
+          x="36"
           y="36"
-          width="120"
-          height="55"/>
+          width="133"
+          height="61"/>
       <archimateElement
           xsi:type="archimate:Capability"
           href="Capability_b1f50883-2034-413b-b7c7-0f6dc093aec5.xml#b1f50883-2034-413b-b7c7-0f6dc093aec5"/>
     </children>
     <archimateElement
         xsi:type="archimate:Capability"
-        href="Capability_90205bbb-917d-4493-ab55-b19397a48dac.xml#90205bbb-917d-4493-ab55-b19397a48dac"/>
+        href="Capability_50d3b798-d18b-4de8-bb7d-728f011f0ada.xml#50d3b798-d18b-4de8-bb7d-728f011f0ada"/>
   </children>
 </archimate:ArchimateDiagramModel>

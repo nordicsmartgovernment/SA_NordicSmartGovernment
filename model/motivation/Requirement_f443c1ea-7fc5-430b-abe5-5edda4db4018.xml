@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Check the validity of e-Receipts and e-Invoices - to prevent fraud. Both fraud in creating false Invoices, and receipts - and also prevent using them more than once to verify expenses. "
+    id="f443c1ea-7fc5-430b-abe5-5edda4db4018"/>

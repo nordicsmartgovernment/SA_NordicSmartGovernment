@@ -1221,17 +1221,17 @@
     <bounds
         x="791"
         y="-156"
-        width="625"
+        width="734"
         height="211"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="3386ec12-ca8c-42ca-b003-c0bd4a83aa57"
         targetConnections="e57f7ea7-7c7a-4395-8a07-5fbf8e45d6e7">
       <bounds
-          x="228"
+          x="240"
           y="24"
-          width="180"
-          height="83"/>
+          width="168"
+          height="97"/>
       <archimateElement
           xsi:type="archimate:Principle"
           href="Principle_b5ac7e93-bb06-4f4a-a883-27335b66a54c.xml#b5ac7e93-bb06-4f4a-a883-27335b66a54c"/>
@@ -1242,9 +1242,9 @@
         targetConnections="8c98713b-f5ee-4317-ae27-28e0f88615c4">
       <bounds
           x="420"
-          y="120"
-          width="203"
-          height="84"/>
+          y="131"
+          width="277"
+          height="73"/>
       <archimateElement
           xsi:type="archimate:Principle"
           href="Principle_d5cd50e8-d251-4ca9-8a09-5352a3a1b971.xml#d5cd50e8-d251-4ca9-8a09-5352a3a1b971"/>
@@ -1256,8 +1256,8 @@
       <bounds
           x="420"
           y="25"
-          width="203"
-          height="82"/>
+          width="301"
+          height="96"/>
       <archimateElement
           xsi:type="archimate:Principle"
           href="Principle_c87141cc-6e68-4fb0-bb6e-423a02680286.xml#c87141cc-6e68-4fb0-bb6e-423a02680286"/>
@@ -1269,7 +1269,7 @@
       <bounds
           x="13"
           y="131"
-          width="204"
+          width="216"
           height="73"/>
       <archimateElement
           xsi:type="archimate:Principle"
@@ -1282,8 +1282,8 @@
       <bounds
           x="13"
           y="24"
-          width="203"
-          height="96"/>
+          width="216"
+          height="97"/>
       <archimateElement
           xsi:type="archimate:Principle"
           href="Principle_245cce39-8899-4074-9689-4a9c730ac1d4.xml#245cce39-8899-4074-9689-4a9c730ac1d4"/>
@@ -1293,10 +1293,10 @@
         id="512c78a1-4b5a-4263-b342-364a069366be"
         targetConnections="7f79fb7d-a54b-448c-a1fd-f9b69910c58c">
       <bounds
-          x="230"
-          y="113"
-          width="175"
-          height="91"/>
+          x="240"
+          y="131"
+          width="165"
+          height="73"/>
       <archimateElement
           xsi:type="archimate:Principle"
           href="Principle_5a794013-4d05-4c6f-8f5c-502e7388d606.xml#5a794013-4d05-4c6f-8f5c-502e7388d606"/>

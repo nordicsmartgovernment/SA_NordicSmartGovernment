@@ -299,7 +299,7 @@
             fillColor="#fbca36">
           <bounds
               x="13"
-              y="162"
+              y="156"
               width="147"
               height="55"/>
           <archimateElement
@@ -315,7 +315,7 @@
               x="14"
               y="108"
               width="146"
-              height="55"/>
+              height="49"/>
           <archimateElement
               xsi:type="archimate:Capability"
               href="Capability_b026764e-0552-4f87-a6ca-7bd822133745.xml#b026764e-0552-4f87-a6ca-7bd822133745"/>
