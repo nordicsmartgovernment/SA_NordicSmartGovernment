@@ -73,4 +73,54 @@
         xsi:type="archimate:Meaning"
         href="Meaning_4e845139-0257-4b12-b0ff-97636237c300.xml#4e845139-0257-4b12-b0ff-97636237c300"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="a0c6180c-0578-4925-91a8-0f8ee7697be9"
+      targetConnections="cde211e0-a435-4f2a-9444-8a2fefa88708">
+    <sourceConnections
+        id="9f6605c1-0b0c-4a68-96cb-ac53e4cede6f"
+        source="a0c6180c-0578-4925-91a8-0f8ee7697be9"
+        target="32cb2662-9dd4-49a5-b180-05500b49bc37"/>
+    <bounds
+        x="552"
+        y="226"
+        width="223"
+        height="123"/>
+    <archimateElement
+        xsi:type="archimate:Driver"
+        href="Driver_1a1d8c0b-63bd-4fc5-bcae-4ebaaa204f26.xml#1a1d8c0b-63bd-4fc5-bcae-4ebaaa204f26"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="32cb2662-9dd4-49a5-b180-05500b49bc37"
+      targetConnections="9f6605c1-0b0c-4a68-96cb-ac53e4cede6f"
+      textAlignment="1"
+      content="Affects public companies (børsnorterte selskaper)">
+    <bounds
+        x="832"
+        y="220"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="ec84db98-e1bd-490a-ada8-c41330ab52e9">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="cde211e0-a435-4f2a-9444-8a2fefa88708"
+        source="ec84db98-e1bd-490a-ada8-c41330ab52e9"
+        target="a0c6180c-0578-4925-91a8-0f8ee7697be9">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_61c3ca2d-ad31-4102-aa7b-a948c53867aa.xml#61c3ca2d-ad31-4102-aa7b-a948c53867aa"/>
+    </sourceConnections>
+    <bounds
+        x="828"
+        y="312"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Constraint"
+        href="Constraint_d55822d9-6264-444d-8458-4e6696b0efe0.xml#d55822d9-6264-444d-8458-4e6696b0efe0"/>
+  </children>
 </archimate:ArchimateDiagramModel>

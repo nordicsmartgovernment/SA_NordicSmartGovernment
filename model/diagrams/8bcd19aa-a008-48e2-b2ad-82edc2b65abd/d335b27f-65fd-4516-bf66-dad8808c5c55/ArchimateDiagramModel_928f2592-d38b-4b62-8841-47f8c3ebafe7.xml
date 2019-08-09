@@ -181,7 +181,7 @@
         targetConnections="e993c7be-9f18-493f-ace7-0a9f79e80b31">
       <bounds
           x="264"
-          y="254"
+          y="259"
           width="133"
           height="44"/>
       <archimateElement
@@ -245,9 +245,9 @@
         id="5cbdb01b-2e7d-48a5-9f72-c17a3a715cd6"
         targetConnections="305155bf-5302-498d-be3b-76127b6a8c99">
       <bounds
-          x="271"
+          x="264"
           y="205"
-          width="120"
+          width="133"
           height="38"/>
       <archimateElement
           xsi:type="archimate:BusinessObject"

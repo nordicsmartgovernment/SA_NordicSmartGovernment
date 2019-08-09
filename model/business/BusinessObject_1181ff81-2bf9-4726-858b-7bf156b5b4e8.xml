@@ -1,4 +1,5 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Business document"
-    id="1181ff81-2bf9-4726-858b-7bf156b5b4e8"/>
+    id="1181ff81-2bf9-4726-858b-7bf156b5b4e8"
+    documentation="Note that this is somewhat different to what some standardization agencies put this. They tend to make a similarity between business documents and vouchers. &quot;Business documents (from product catalog to delivery receipt) are all defined in the UBL 2.0 or UBL 2.1 standard. &quot;"/>

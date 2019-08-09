@@ -16,7 +16,7 @@
           href="AssignmentRelationship_f042651b-a181-43e0-98d6-a2ca789681af.xml#f042651b-a181-43e0-98d6-a2ca789681af"/>
     </sourceConnections>
     <bounds
-        x="96"
+        x="84"
         y="204"
         width="120"
         height="55"/>
@@ -29,9 +29,9 @@
       id="02308c99-097d-4a97-8bd3-3b98ec705c6a"
       targetConnections="161d3235-7ed6-4236-b0ba-a654bb65c222">
     <bounds
-        x="300"
-        y="103"
-        width="685"
+        x="336"
+        y="98"
+        width="505"
         height="28"/>
     <archimateElement
         xsi:type="archimate:Requirement"
@@ -50,9 +50,9 @@
           href="CompositionRelationship_c24962c7-a472-4967-abe0-0ecc6809ed28.xml#c24962c7-a472-4967-abe0-0ecc6809ed28"/>
     </sourceConnections>
     <bounds
-        x="72"
+        x="36"
         y="60"
-        width="181"
+        width="229"
         height="104"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -69,10 +69,10 @@
             href="RealizationRelationship_b548d5fb-3b20-4474-8df7-5989e1d84f1e.xml#b548d5fb-3b20-4474-8df7-5989e1d84f1e"/>
       </sourceConnections>
       <bounds
-          x="24"
+          x="36"
           y="24"
-          width="133"
-          height="55"/>
+          width="145"
+          height="73"/>
       <archimateElement
           xsi:type="archimate:Capability"
           href="Capability_bb4eb59e-11c7-44bb-9347-30f5f7ebafc5.xml#bb4eb59e-11c7-44bb-9347-30f5f7ebafc5"/>
