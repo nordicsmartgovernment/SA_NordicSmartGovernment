@@ -1,0 +1,5 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Equity"
+    id="825a2f6b-3e57-4ddc-94ce-cade4366c261"
+    documentation="How much you (or the business) is currently worth (i.e. assets less liabilities)&#xA;&#xA;Equity = Assets - Liabilities"/>
