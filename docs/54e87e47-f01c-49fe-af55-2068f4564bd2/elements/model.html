@@ -535,7 +535,7 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataElements.push({id:"e70c79e9-1820-42c1-915b-2fa3a0b8dc21", type:"BusinessObject", name:decodeURL("Order+Response"), description:decodeURL("")});
 										dataElements.push({id:"14bbaa88-21c8-4969-8d39-77d823268bc5", type:"BusinessService", name:decodeURL("Purchasing"), description:decodeURL("")});
 										dataElements.push({id:"20627efb-ccab-4dee-812a-eff1f5a74454", type:"BusinessProcess", name:decodeURL("Receipt+activities"), description:decodeURL("")});
-										dataElements.push({id:"595f9f00-5531-4d19-b9e4-297a626f9a7b", type:"BusinessObject", name:decodeURL("Journal"), description:decodeURL("")});
+										dataElements.push({id:"595f9f00-5531-4d19-b9e4-297a626f9a7b", type:"BusinessObject", name:decodeURL("Journal"), description:decodeURL("report about transactions time order, vs. ledger by account")});
 										dataElements.push({id:"c1ff403f-226c-4581-bef4-031ccc765824", type:"BusinessObject", name:decodeURL("Catalogue+Request"), description:decodeURL("")});
 										dataElements.push({id:"f4d4f1d5-ea92-4a73-b16e-63d53996f436", type:"BusinessService", name:decodeURL("Automatic+reporting+to+government"), description:decodeURL("")});
 										dataElements.push({id:"191003d2-caa7-4ec7-9380-e19ac3c236ac", type:"BusinessProcess", name:decodeURL("Internal+financial+reporting"), description:decodeURL("")});
@@ -698,7 +698,7 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataElements.push({id:"87c548d5-dd47-432a-beea-eb3b9222faff", type:"BusinessObject", name:decodeURL("Recveivable+VAT"), description:decodeURL("")});
 										dataElements.push({id:"036b691b-f0a5-4872-83b6-f90786589aaf", type:"BusinessObject", name:decodeURL("Payable+VAT"), description:decodeURL("found on invoices you are sending to the customer. Businesses are required to collect sales tax on the goods and services that they sell and pay this through to the government.")});
 										dataElements.push({id:"ff4047ec-572b-424b-9223-3e3813d2bed4", type:"BusinessObject", name:decodeURL("Assets"), description:decodeURL("Assets are what a company owns. Things of commercial value (cash, property, furniture, equipment, etc.)")});
-										dataElements.push({id:"b9e9aa9f-5602-4371-8285-c128b95c77fe", type:"BusinessObject", name:decodeURL("Liability"), description:decodeURL("Liabilities are what a company owes (mortgages, unpaid bills, etc.)
+										dataElements.push({id:"b9e9aa9f-5602-4371-8285-c128b95c77fe", type:"BusinessObject", name:decodeURL("Liabilites"), description:decodeURL("Liabilities are what a company owes (mortgages, unpaid bills, etc.)
 
 								")});
 										dataElements.push({id:"02816aec-918d-4c92-81a7-cdab8a794617", type:"BusinessObject", name:decodeURL("Income"), description:decodeURL("Money coming in (proceeds from sales, interest income, etc.)
@@ -710,6 +710,8 @@ The detailed objects in the model are under "model content", while archimate vie
 								Equity = Assets - Liabilities")});
 										dataElements.push({id:"039fba91-777d-455e-a777-254c8cce9ad8", type:"BusinessObject", name:decodeURL("Profit+and+loss+statement+accounts"), description:decodeURL("shows a company&#8217;s revenue and expenses over a particular period of time
 								Profit/Loss = Income - Expenses")});
+										dataElements.push({id:"f9d16468-ab31-4674-8c76-07f212f8c5b5", type:"BusinessObject", name:decodeURL("General+Ledger"), description:decodeURL("Bookkeeping ledger
+								List of transactions by accounts starting from liabilities, equity etc.")});
 
 
 												dataElements.push({id:"946e45cf-aab3-4a21-98d1-ba659e6ec177", type:"ApplicationService", name:decodeURL("e-Catalogue"), description:decodeURL("")});
@@ -1936,7 +1938,7 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataRelationships.push({id:"6ab834d2-3d62-4a38-9776-d1c76f9d5933", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"7c479aa5-f2f3-4ff6-bc3f-831d3f70fdee", targetid:"33b08a33-2b61-4324-b614-da3a857fe8da"});
 										dataRelationships.push({id:"6a872d2f-5904-4c8d-9a83-b2e9c68849fa", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"10e11698-fbca-42bd-a519-f7c5cabb3c50", targetid:"570f2323-8083-477e-8b7b-c5f85b6b19c7"});
 										dataRelationships.push({id:"3eca78bc-30d3-42a5-a979-cfba6abbf313", type:"ServingRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"7a466117-f71f-4522-8902-a4542173fcd5", targetid:"c877fc7e-e249-4f0e-96fb-b50a7a9fc945"});
-										dataRelationships.push({id:"6fb27709-1cba-46cf-b8b0-650da61df1da", type:"AssociationRelationship", name:decodeURL("recorded+in"), description:decodeURL(""), sourceid:"2569e42e-abdd-40ee-bc16-dcf625a34a94", targetid:"595f9f00-5531-4d19-b9e4-297a626f9a7b"});
+										dataRelationships.push({id:"6fb27709-1cba-46cf-b8b0-650da61df1da", type:"AssociationRelationship", name:decodeURL("listed+in"), description:decodeURL(""), sourceid:"d4bf416e-5c92-4121-9f10-ef5e098f7a65", targetid:"595f9f00-5531-4d19-b9e4-297a626f9a7b"});
 										dataRelationships.push({id:"5d933d85-92e7-4a90-9d6f-22e6b450a32e", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"c0dd7c24-f149-409a-92e4-502f5141b121", targetid:"bb4eb59e-11c7-44bb-9347-30f5f7ebafc5"});
 										dataRelationships.push({id:"afe3d2aa-ad67-46ec-abde-cc7213a6d43d", type:"TriggeringRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"f19a2a8c-bfb3-422e-a706-fed0160f6163", targetid:"33547ded-5d95-429a-b931-33f7fda81738"});
 										dataRelationships.push({id:"ed42b7d9-ea1e-4608-85f4-00b936b10b64", type:"AssociationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"21efa32b-952d-4021-bb21-b75cc9b5077e", targetid:"c77cdedc-68a5-4281-a903-a95e05e01d6f"});
@@ -2750,7 +2752,6 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataRelationships.push({id:"d7bfe4da-3696-4593-bb50-0a6f4bd819dc", type:"SpecializationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"2569e42e-abdd-40ee-bc16-dcf625a34a94", targetid:"1181ff81-2bf9-4726-858b-7bf156b5b4e8"});
 										dataRelationships.push({id:"e20adb8c-bbff-484c-b2f2-62053097c2f4", type:"AssociationRelationship", name:decodeURL("filed+on"), description:decodeURL(""), sourceid:"d4bf416e-5c92-4121-9f10-ef5e098f7a65", targetid:"23769ae4-4a84-46d3-b1af-3acd4ce56c2b"});
 										dataRelationships.push({id:"9a9599ea-4f0b-482b-94d1-f7a93574e280", type:"AssociationRelationship", name:decodeURL("recorded+in"), description:decodeURL(""), sourceid:"f05bd5c4-8db8-4764-b439-1ff91a0aec00", targetid:"d4bf416e-5c92-4121-9f10-ef5e098f7a65"});
-										dataRelationships.push({id:"5485955d-60e4-44e3-b716-f366244929ca", type:"SpecializationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"87c548d5-dd47-432a-beea-eb3b9222faff", targetid:"b9e9aa9f-5602-4371-8285-c128b95c77fe"});
 										dataRelationships.push({id:"64dbcb32-1dce-443b-b808-4288eadca6ee", type:"SpecializationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"036b691b-f0a5-4872-83b6-f90786589aaf", targetid:"b9e9aa9f-5602-4371-8285-c128b95c77fe"});
 										dataRelationships.push({id:"f96f233a-cf7d-4b2a-a6b4-d27233a8959f", type:"AssociationRelationship", name:decodeURL("creates"), description:decodeURL(""), sourceid:"2569e42e-abdd-40ee-bc16-dcf625a34a94", targetid:"d4bf416e-5c92-4121-9f10-ef5e098f7a65"});
 										dataRelationships.push({id:"e11d0161-0f04-4ad4-a43e-5bb0170339f3", type:"AssociationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"494e5350-f38d-4585-acfe-10a2695ca620", targetid:"f05bd5c4-8db8-4764-b439-1ff91a0aec00"});
@@ -2762,6 +2763,10 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataRelationships.push({id:"fb58a16e-c7ad-4305-b223-189112343287", type:"SpecializationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"825a2f6b-3e57-4ddc-94ce-cade4366c261", targetid:"630f388f-859f-40d2-ab3f-655bb50ad366"});
 										dataRelationships.push({id:"0690e245-613a-4a2c-9f43-b147fc3e7a07", type:"SpecializationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"630f388f-859f-40d2-ab3f-655bb50ad366", targetid:"23769ae4-4a84-46d3-b1af-3acd4ce56c2b"});
 										dataRelationships.push({id:"f1ae61b6-1173-413d-b4db-a03ac3757fcc", type:"SpecializationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"039fba91-777d-455e-a777-254c8cce9ad8", targetid:"23769ae4-4a84-46d3-b1af-3acd4ce56c2b"});
+										dataRelationships.push({id:"4b8d23c2-b79f-4b2c-aa64-1a5d6d5d013a", type:"AssociationRelationship", name:decodeURL("referencing+the+voucher"), description:decodeURL(""), sourceid:"2569e42e-abdd-40ee-bc16-dcf625a34a94", targetid:"595f9f00-5531-4d19-b9e4-297a626f9a7b"});
+										dataRelationships.push({id:"09c1293e-5af5-43a4-8240-2b56915c9357", type:"AssociationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"d4bf416e-5c92-4121-9f10-ef5e098f7a65", targetid:"f9d16468-ab31-4674-8c76-07f212f8c5b5"});
+										dataRelationships.push({id:"77603d1a-a21b-431f-a00b-2953a0517032", type:"AssociationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"23769ae4-4a84-46d3-b1af-3acd4ce56c2b", targetid:"f9d16468-ab31-4674-8c76-07f212f8c5b5"});
+										dataRelationships.push({id:"3e1e4b98-7b06-46da-8e65-c5445f8940ff", type:"SpecializationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"87c548d5-dd47-432a-beea-eb3b9222faff", targetid:"ff4047ec-572b-424b-9223-3e3813d2bed4"});
 
 
 												<!-- DEBUG: Skipping view SmartGovernment SKD stakeholder -->
