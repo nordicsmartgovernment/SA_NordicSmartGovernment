@@ -1,5 +1,5 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="VAT Payable"
-    id="036b691b-f0a5-4872-83b6-f90786589aaf"
+    name="Accounts payable"
+    id="2733db79-c1bb-49c4-b3ef-a4ad7b1edf0d"
     documentation="found on invoices you are sending to the customer. Businesses are required to collect sales tax on the goods and services that they sell and pay this through to the government."/>

@@ -1,4 +1,5 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Journal"
-    id="595f9f00-5531-4d19-b9e4-297a626f9a7b"/>
+    id="595f9f00-5531-4d19-b9e4-297a626f9a7b"
+    documentation="report about transactions time order, vs. ledger by account"/>
