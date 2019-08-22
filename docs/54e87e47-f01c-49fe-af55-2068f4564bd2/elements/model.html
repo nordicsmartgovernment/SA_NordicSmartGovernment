@@ -695,8 +695,8 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataElements.push({id:"6eab3eb6-63db-4ce5-8d62-1ec109e1af5a", type:"BusinessActor", name:decodeURL("Astrid+Sky%2C+Product+manager+-+grapql"), description:decodeURL("")});
 										dataElements.push({id:"23769ae4-4a84-46d3-b1af-3acd4ce56c2b", type:"BusinessObject", name:decodeURL("Account"), description:decodeURL("")});
 										dataElements.push({id:"d4bf416e-5c92-4121-9f10-ef5e098f7a65", type:"BusinessObject", name:decodeURL("Entry"), description:decodeURL("")});
-										dataElements.push({id:"87c548d5-dd47-432a-beea-eb3b9222faff", type:"BusinessObject", name:decodeURL("Recveivable+VAT"), description:decodeURL("")});
-										dataElements.push({id:"036b691b-f0a5-4872-83b6-f90786589aaf", type:"BusinessObject", name:decodeURL("Payable+VAT"), description:decodeURL("found on invoices you are sending to the customer. Businesses are required to collect sales tax on the goods and services that they sell and pay this through to the government.")});
+										dataElements.push({id:"87c548d5-dd47-432a-beea-eb3b9222faff", type:"BusinessObject", name:decodeURL("+VAT+Recveivable"), description:decodeURL("")});
+										dataElements.push({id:"036b691b-f0a5-4872-83b6-f90786589aaf", type:"BusinessObject", name:decodeURL("VAT+Payable"), description:decodeURL("found on invoices you are sending to the customer. Businesses are required to collect sales tax on the goods and services that they sell and pay this through to the government.")});
 										dataElements.push({id:"ff4047ec-572b-424b-9223-3e3813d2bed4", type:"BusinessObject", name:decodeURL("Assets"), description:decodeURL("Assets are what a company owns. Things of commercial value (cash, property, furniture, equipment, etc.)")});
 										dataElements.push({id:"b9e9aa9f-5602-4371-8285-c128b95c77fe", type:"BusinessObject", name:decodeURL("Liabilites"), description:decodeURL("Liabilities are what a company owes (mortgages, unpaid bills, etc.)
 
@@ -712,6 +712,9 @@ The detailed objects in the model are under "model content", while archimate vie
 								Profit/Loss = Income - Expenses")});
 										dataElements.push({id:"f9d16468-ab31-4674-8c76-07f212f8c5b5", type:"BusinessObject", name:decodeURL("General+Ledger"), description:decodeURL("Bookkeeping ledger
 								List of transactions by accounts starting from liabilities, equity etc.")});
+										dataElements.push({id:"2733db79-c1bb-49c4-b3ef-a4ad7b1edf0d", type:"BusinessObject", name:decodeURL("Accounts+payable"), description:decodeURL("found on invoices you are sending to the customer. Businesses are required to collect sales tax on the goods and services that they sell and pay this through to the government.")});
+										dataElements.push({id:"a23234ed-a2c0-4562-b05a-605d6c7f94f8", type:"BusinessObject", name:decodeURL("Loans"), description:decodeURL("")});
+										dataElements.push({id:"e25aa899-1c2d-4d02-afa8-53d6b164d033", type:"BusinessObject", name:decodeURL("Accounts+receivalbe"), description:decodeURL("")});
 
 
 												dataElements.push({id:"946e45cf-aab3-4a21-98d1-ba659e6ec177", type:"ApplicationService", name:decodeURL("e-Catalogue"), description:decodeURL("")});
@@ -2766,7 +2769,10 @@ The detailed objects in the model are under "model content", while archimate vie
 										dataRelationships.push({id:"4b8d23c2-b79f-4b2c-aa64-1a5d6d5d013a", type:"AssociationRelationship", name:decodeURL("referencing+the+voucher"), description:decodeURL(""), sourceid:"2569e42e-abdd-40ee-bc16-dcf625a34a94", targetid:"595f9f00-5531-4d19-b9e4-297a626f9a7b"});
 										dataRelationships.push({id:"09c1293e-5af5-43a4-8240-2b56915c9357", type:"AssociationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"d4bf416e-5c92-4121-9f10-ef5e098f7a65", targetid:"f9d16468-ab31-4674-8c76-07f212f8c5b5"});
 										dataRelationships.push({id:"77603d1a-a21b-431f-a00b-2953a0517032", type:"AssociationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"23769ae4-4a84-46d3-b1af-3acd4ce56c2b", targetid:"f9d16468-ab31-4674-8c76-07f212f8c5b5"});
-										dataRelationships.push({id:"3e1e4b98-7b06-46da-8e65-c5445f8940ff", type:"SpecializationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"87c548d5-dd47-432a-beea-eb3b9222faff", targetid:"ff4047ec-572b-424b-9223-3e3813d2bed4"});
+										dataRelationships.push({id:"3e1e4b98-7b06-46da-8e65-c5445f8940ff", type:"SpecializationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"87c548d5-dd47-432a-beea-eb3b9222faff", targetid:"b9e9aa9f-5602-4371-8285-c128b95c77fe"});
+										dataRelationships.push({id:"9aad3865-abcb-4d26-9cf3-00842d33b9e2", type:"SpecializationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"2733db79-c1bb-49c4-b3ef-a4ad7b1edf0d", targetid:"b9e9aa9f-5602-4371-8285-c128b95c77fe"});
+										dataRelationships.push({id:"18d14079-bd52-4bed-8fc2-02e4ebdf3fde", type:"SpecializationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"a23234ed-a2c0-4562-b05a-605d6c7f94f8", targetid:"b9e9aa9f-5602-4371-8285-c128b95c77fe"});
+										dataRelationships.push({id:"98dd4f14-a3d8-4fac-b13e-01fcaca8d9fd", type:"SpecializationRelationship", name:decodeURL(""), description:decodeURL(""), sourceid:"e25aa899-1c2d-4d02-afa8-53d6b164d033", targetid:"ff4047ec-572b-424b-9223-3e3813d2bed4"});
 
 
 												<!-- DEBUG: Skipping view SmartGovernment SKD stakeholder -->
