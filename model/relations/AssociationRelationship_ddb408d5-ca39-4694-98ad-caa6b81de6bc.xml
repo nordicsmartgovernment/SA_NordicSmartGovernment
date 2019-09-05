@@ -1,0 +1,12 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="reference a voucher"
+    id="ddb408d5-ca39-4694-98ad-caa6b81de6bc">
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_f9d16468-ab31-4674-8c76-07f212f8c5b5.xml#f9d16468-ab31-4674-8c76-07f212f8c5b5"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_2569e42e-abdd-40ee-bc16-dcf625a34a94.xml#2569e42e-abdd-40ee-bc16-dcf625a34a94"/>
+</archimate:AssociationRelationship>
