@@ -1,5 +1,5 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Business transaction"
+    name="Transaction"
     id="f05bd5c4-8db8-4764-b439-1ff91a0aec00"
     documentation="a financial happening entered into by two or more willing parties.  It effects a change in the asset, liability, or net worth account.&#xA;&#xA;Transactions are recorded in the books of accounts on the basis of an source documents such as &#xA;• cash memo &#xA;• invoice of purchases &#xA;• invoices for sales &#xA;• debit and credit notes &#xA;• contracts , agreements &#xA;"/>

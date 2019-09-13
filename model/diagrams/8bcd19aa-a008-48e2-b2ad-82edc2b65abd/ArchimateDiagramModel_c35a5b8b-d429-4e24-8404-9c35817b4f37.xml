@@ -17,7 +17,7 @@
     </sourceConnections>
     <bounds
         x="48"
-        y="156"
+        y="240"
         width="120"
         height="55"/>
     <archimateElement
@@ -38,7 +38,7 @@
     </sourceConnections>
     <bounds
         x="180"
-        y="156"
+        y="240"
         width="120"
         height="55"/>
     <archimateElement
@@ -58,7 +58,7 @@
           href="SpecializationRelationship_06070728-7f1c-4728-87fb-88fd92ba2c30.xml#06070728-7f1c-4728-87fb-88fd92ba2c30"/>
     </sourceConnections>
     <bounds
-        x="312"
+        x="299"
         y="156"
         width="120"
         height="55"/>
@@ -79,7 +79,7 @@
           href="SpecializationRelationship_db55217f-2013-4a28-ac0e-0952bcd5e4af.xml#db55217f-2013-4a28-ac0e-0952bcd5e4af"/>
     </sourceConnections>
     <bounds
-        x="444"
+        x="432"
         y="156"
         width="120"
         height="55"/>
@@ -100,7 +100,7 @@
           href="SpecializationRelationship_919d5882-8da0-4765-aefa-0a44d1d6dff7.xml#919d5882-8da0-4765-aefa-0a44d1d6dff7"/>
     </sourceConnections>
     <bounds
-        x="576"
+        x="564"
         y="156"
         width="120"
         height="55"/>
@@ -121,7 +121,7 @@
           href="SpecializationRelationship_f3ea113f-0594-452e-99a2-e8ceee6fe499.xml#f3ea113f-0594-452e-99a2-e8ceee6fe499"/>
     </sourceConnections>
     <bounds
-        x="708"
+        x="696"
         y="156"
         width="120"
         height="55"/>
@@ -157,7 +157,7 @@
     </sourceConnections>
     <bounds
         x="120"
-        y="72"
+        y="156"
         width="120"
         height="55"/>
     <archimateElement
