@@ -1,5 +1,5 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Vouchers"
+    name="Proof of transaction"
     id="2569e42e-abdd-40ee-bc16-dcf625a34a94"
     documentation="document evidencing a business transaction. Thus, &#xA;• whenever a transaction takes place, &#xA;• an evidence to that effect is also established. &#xA;• such evidences are known as Source Documents."/>

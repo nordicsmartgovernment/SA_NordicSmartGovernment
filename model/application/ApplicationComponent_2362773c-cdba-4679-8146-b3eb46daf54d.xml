@@ -1,5 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Manage Business Transactions (reference implementation)"
+    name="Digital shoebox (reference implementation)"
     id="2362773c-cdba-4679-8146-b3eb46daf54d"
     documentation="The sandbox realizes the standard APIs (to be defined in WP3) and the data warehouse for the business transactions. The sandbox translates the standard API calls to the business transactions data warehouse (multiple technical choises with corresponding proprietary APIs)"/>

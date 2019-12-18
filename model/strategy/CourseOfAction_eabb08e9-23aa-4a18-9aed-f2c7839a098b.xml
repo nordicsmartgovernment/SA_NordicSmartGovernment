@@ -1,4 +1,5 @@
 <archimate:CourseOfAction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Course of Action"
-    id="eabb08e9-23aa-4a18-9aed-f2c7839a098b"/>
+    id="eabb08e9-23aa-4a18-9aed-f2c7839a098b"
+    documentation="Plan for configuring some capabilities and resources of the enterprise, undertaken to achieve a goal. A Course of Action represents what an enterprise has decided to do. Courses of action can be categorized as strategies (long-term) and tactics (short-term)."/>

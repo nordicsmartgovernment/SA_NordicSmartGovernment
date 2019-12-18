@@ -1,7 +1,7 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="reference a voucher"
+    name="reference"
     id="f96f233a-cf7d-4b2a-a6b4-d27233a8959f">
   <source
       xsi:type="archimate:BusinessObject"

@@ -1,0 +1,41 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Capability 4.3 - Maintain availability"
+    id="20f74adb-5143-4ea4-be7c-abf026b2e8ae">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="024bf537-a242-48ee-aa03-f77b7c3170ca">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="7343ca0c-7053-4748-bfd6-4828b650a904"
+        source="024bf537-a242-48ee-aa03-f77b7c3170ca"
+        target="0736dc88-d313-4be0-bb14-53b3c4a48b66">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_24cec455-5865-45db-8c27-06a21323cc55.xml#24cec455-5865-45db-8c27-06a21323cc55"/>
+    </sourceConnections>
+    <bounds
+        x="132"
+        y="72"
+        width="205"
+        height="121"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="0736dc88-d313-4be0-bb14-53b3c4a48b66"
+        targetConnections="7343ca0c-7053-4748-bfd6-4828b650a904"
+        fillColor="#fbca36">
+      <bounds
+          x="48"
+          y="48"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Capability"
+          href="Capability_bc9e23f0-e23d-49c0-bb66-07885a56348e.xml#bc9e23f0-e23d-49c0-bb66-07885a56348e"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:Capability"
+        href="Capability_50d3b798-d18b-4de8-bb7d-728f011f0ada.xml#50d3b798-d18b-4de8-bb7d-728f011f0ada"/>
+  </children>
+</archimate:ArchimateDiagramModel>

@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Capability 14 - Handle life cycle of transations"
+    name="Capability 7.1 - Handle life cycle of transations"
     id="6f156b03-6698-4bbe-9376-d3339ff0cd4c">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
