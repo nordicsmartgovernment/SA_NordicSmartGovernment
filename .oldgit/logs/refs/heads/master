@@ -1,0 +1,31 @@
+0000000000000000000000000000000000000000 fc9efcfd2427761c7990bd945751758b8463eadf testbruker <testbruker@192.168.50.27> 1552027458 +0100	
+fc9efcfd2427761c7990bd945751758b8463eadf 456b5cabae5d8bda7ec08afe2953ec299f4eb511 data-david <david.norheim@brreg.no> 1552336906 +0100	commit: after workshop in CPH
+456b5cabae5d8bda7ec08afe2953ec299f4eb511 5d868a59fde4ed897bcf8ee944d26522aa1b2dde data-david <david.norheim@brreg.no> 1552337959 +0100	commit: after CPH workshop
+5d868a59fde4ed897bcf8ee944d26522aa1b2dde 9da36b98d5b1e6bdb23e57b8e502fe2110b11389 data-david <david.norheim@brreg.no> 1553592250 +0100	commit: new
+9da36b98d5b1e6bdb23e57b8e502fe2110b11389 e9d82acc2eee13e2422ea38fb7ef596fa5a9183f data-david <david.norheim@brreg.no> 1554189754 +0200	commit: updated capabilities
+e9d82acc2eee13e2422ea38fb7ef596fa5a9183f 19ab6b64739fd13bd2cac98140352a714bf83d2e data-david <david.norheim@brreg.no> 1554194787 +0200	commit: capabilities
+19ab6b64739fd13bd2cac98140352a714bf83d2e 79745cdeba7d7c358a6c313eab4e5d0dfe64c7bb data-david <david.norheim@brreg.no> 1554719548 +0200	commit: new changes on capabilities
+79745cdeba7d7c358a6c313eab4e5d0dfe64c7bb 75047f8c0c50061fdd6716dca84b73023db3bd7b data-david <david.norheim@brreg.no> 1554719591 +0200	merge branch 'master' of https://github.com/Informasjonsforvaltning/SA_NordicSmartGovernment: Merge made by recursive.
+75047f8c0c50061fdd6716dca84b73023db3bd7b cbff190b43e24618bf3f1270486935f7fb2166ce data-david <david.norheim@brreg.no> 1554719674 +0200	commit: capabilities
+cbff190b43e24618bf3f1270486935f7fb2166ce dcfef807d80cbb96fc8be41c404af35ff63a816e data-david <david.norheim@brreg.no> 1554719797 +0000	commit: new capabilities
+dcfef807d80cbb96fc8be41c404af35ff63a816e 1b56d9c3c444a679e09ad62abe44d3965d79f0ce data-david <david.norheim@brreg.no> 1554909682 +0200	commit: Capabilities again
+1b56d9c3c444a679e09ad62abe44d3965d79f0ce ca144108ad3f8fbca603f2d1e6c4878be340ca4e data-david <david.norheim@brreg.no> 1554909819 +0000	commit: new capabilities
+ca144108ad3f8fbca603f2d1e6c4878be340ca4e ed0636f38e0a07bd4487264053b42763f20a57f2 data-david <david.norheim@brreg.no> 1554979244 +0200	commit: updated capabilites
+ed0636f38e0a07bd4487264053b42763f20a57f2 b6214a30e0f88b7be8ab78d3baec1c0cfd4f0431 data-david <david.norheim@brreg.no> 1554979375 +0000	commit: updated capabilities docs
+b6214a30e0f88b7be8ab78d3baec1c0cfd4f0431 3fad13460001830256c9fda2ed7a68598fba59d5 data-david <david.norheim@brreg.no> 1556028221 +0200	commit: update since iceland
+3fad13460001830256c9fda2ed7a68598fba59d5 bad334ec33e7902f5a9fb391d74127503f3ca8fe data-david <david.norheim@brreg.no> 1557383814 +0200	commit: Update of capabilities
+bad334ec33e7902f5a9fb391d74127503f3ca8fe b3226f4d1fd1ddd347de11915b38032fdbf8aa55 data-david <david.norheim@brreg.no> 1560801695 +0200	commit: capabilities
+b3226f4d1fd1ddd347de11915b38032fdbf8aa55 ae9517bc4525e526b208d4e1442bcc5765be6d99 data-david <david.norheim@brreg.no> 1560801891 +0200	commit: resolved conflict in reference implementation by renaming extended (non-qa) architecture
+ae9517bc4525e526b208d4e1442bcc5765be6d99 e51ffa02fa23e0c455e13c6dd1c582dfeb090431 data-david <david.norheim@brreg.no> 1560801914 +0200	commit: Refresh/Publish of branch 'master' with some conflicts solved.
+e51ffa02fa23e0c455e13c6dd1c582dfeb090431 4325c30bf19df7f6fb95a468ea83929399702eb5 data-david <david.norheim@brreg.no> 1560802046 +0200	commit: updated due to capabilities
+4325c30bf19df7f6fb95a468ea83929399702eb5 f0765f1244d214c3328f9bf7032b0ad799fb6a1b data-david <david.norheim@brreg.no> 1565358432 +0200	commit: detailing information model
+f0765f1244d214c3328f9bf7032b0ad799fb6a1b 93e55f2b260278a4ff3e01265a53f94e5713ff66 data-david <david.norheim@brreg.no> 1565358555 +0200	commit: information model
+93e55f2b260278a4ff3e01265a53f94e5713ff66 0ce6ea76534c3a760fa7b1679dadd3d127daf95f data-david <david.norheim@brreg.no> 1566300902 +0200	commit: Information model
+0ce6ea76534c3a760fa7b1679dadd3d127daf95f 614dfc7e6725c890682d034c3ca186d1fb81028e data-david <david.norheim@brreg.no> 1566376770 +0200	commit: all
+614dfc7e6725c890682d034c3ca186d1fb81028e f62017038272af17cfd50a39f82cf0a0cad039f8 data-david <david.norheim@brreg.no> 1566475487 +0200	commit: accounts
+f62017038272af17cfd50a39f82cf0a0cad039f8 a3d7bdf58fb347361100c93b250cf6a068dfd38f data-david <david.norheim@brreg.no> 1566475610 +0200	commit: all
+a3d7bdf58fb347361100c93b250cf6a068dfd38f 0f3f8c1f180b418c598be9bf4fb8ec5d9466b92a data-david <david.norheim@brreg.no> 1567660343 +0200	commit: updated information model
+0f3f8c1f180b418c598be9bf4fb8ec5d9466b92a 01289ac78cae1f18d4ba4404b2b6c71fc82b9f87 data-david <david.norheim@brreg.no> 1568382046 +0200	commit: after workshop in Rosendal
+01289ac78cae1f18d4ba4404b2b6c71fc82b9f87 00cf77dd1e1fcbfdc3de523057fa3019970e471d data-david <david.norheim@brreg.no> 1568382167 +0200	commit: changes after rosendal
+00cf77dd1e1fcbfdc3de523057fa3019970e471d 92053c5218eaba9a0603cffd9f2b4d3bb1770a83 data-david <david.norheim@brreg.no> 1568382266 +0200	commit: test
+92053c5218eaba9a0603cffd9f2b4d3bb1770a83 1b6bde1e13492abad1b6ee862081d67ef3f77965 data-david <david.norheim@brreg.no> 1576667135 +0100	commit: updates

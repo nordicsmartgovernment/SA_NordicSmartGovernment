@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	logallrefupdates = true
+	precomposeunicode = true
+	autocrlf = input
+[remote "origin"]
+	url = https://github.com/Informasjonsforvaltning/SA_NordicSmartGovernment
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[user]
+	name = data-david
+	email = david.norheim@brreg.no

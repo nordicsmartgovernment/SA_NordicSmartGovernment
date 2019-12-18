@@ -1,0 +1,26 @@
+0000000000000000000000000000000000000000 fc9efcfd2427761c7990bd945751758b8463eadf testbruker <testbruker@192.168.50.27> 1552027458 +0100	fetch: created
+fc9efcfd2427761c7990bd945751758b8463eadf 456b5cabae5d8bda7ec08afe2953ec299f4eb511 data-david <david.norheim@brreg.no> 1552336965 +0100	push: forced-update
+456b5cabae5d8bda7ec08afe2953ec299f4eb511 5d868a59fde4ed897bcf8ee944d26522aa1b2dde data-david <david.norheim@brreg.no> 1552338000 +0100	update by push
+5d868a59fde4ed897bcf8ee944d26522aa1b2dde 9da36b98d5b1e6bdb23e57b8e502fe2110b11389 data-david <david.norheim@brreg.no> 1553592261 +0100	update by push
+9da36b98d5b1e6bdb23e57b8e502fe2110b11389 e9d82acc2eee13e2422ea38fb7ef596fa5a9183f data-david <david.norheim@brreg.no> 1554189768 +0200	push: forced-update
+e9d82acc2eee13e2422ea38fb7ef596fa5a9183f 19ab6b64739fd13bd2cac98140352a714bf83d2e data-david <david.norheim@brreg.no> 1554194800 +0200	push: forced-update
+19ab6b64739fd13bd2cac98140352a714bf83d2e afd1d073154b6371a96581cf2e96854a0e032c5b data-david <david.norheim@brreg.no> 1554719588 +0200	fetch: forced-update
+afd1d073154b6371a96581cf2e96854a0e032c5b cbff190b43e24618bf3f1270486935f7fb2166ce data-david <david.norheim@brreg.no> 1554719680 +0200	push: forced-update
+cbff190b43e24618bf3f1270486935f7fb2166ce dcfef807d80cbb96fc8be41c404af35ff63a816e data-david <david.norheim@brreg.no> 1554719807 +0000	update by push
+dcfef807d80cbb96fc8be41c404af35ff63a816e 1b56d9c3c444a679e09ad62abe44d3965d79f0ce data-david <david.norheim@brreg.no> 1554909705 +0200	push: forced-update
+1b56d9c3c444a679e09ad62abe44d3965d79f0ce ca144108ad3f8fbca603f2d1e6c4878be340ca4e data-david <david.norheim@brreg.no> 1554909829 +0000	update by push
+ca144108ad3f8fbca603f2d1e6c4878be340ca4e ed0636f38e0a07bd4487264053b42763f20a57f2 data-david <david.norheim@brreg.no> 1554979277 +0200	push: forced-update
+ed0636f38e0a07bd4487264053b42763f20a57f2 b6214a30e0f88b7be8ab78d3baec1c0cfd4f0431 data-david <david.norheim@brreg.no> 1554979387 +0000	update by push
+b6214a30e0f88b7be8ab78d3baec1c0cfd4f0431 3fad13460001830256c9fda2ed7a68598fba59d5 data-david <david.norheim@brreg.no> 1556028233 +0200	push: forced-update
+3fad13460001830256c9fda2ed7a68598fba59d5 bad334ec33e7902f5a9fb391d74127503f3ca8fe data-david <david.norheim@brreg.no> 1557383847 +0200	push: forced-update
+bad334ec33e7902f5a9fb391d74127503f3ca8fe e756b8349a6f24f3aa2e151ae9484c41042cc901 data-david <david.norheim@brreg.no> 1560801699 +0200	fetch: forced-update
+e756b8349a6f24f3aa2e151ae9484c41042cc901 4325c30bf19df7f6fb95a468ea83929399702eb5 data-david <david.norheim@brreg.no> 1560802064 +0200	update by push
+4325c30bf19df7f6fb95a468ea83929399702eb5 f0765f1244d214c3328f9bf7032b0ad799fb6a1b data-david <david.norheim@brreg.no> 1565358447 +0200	push: forced-update
+f0765f1244d214c3328f9bf7032b0ad799fb6a1b 93e55f2b260278a4ff3e01265a53f94e5713ff66 data-david <david.norheim@brreg.no> 1565358563 +0200	update by push
+93e55f2b260278a4ff3e01265a53f94e5713ff66 0ce6ea76534c3a760fa7b1679dadd3d127daf95f data-david <david.norheim@brreg.no> 1566300928 +0200	push: forced-update
+0ce6ea76534c3a760fa7b1679dadd3d127daf95f 614dfc7e6725c890682d034c3ca186d1fb81028e data-david <david.norheim@brreg.no> 1566376780 +0200	update by push
+614dfc7e6725c890682d034c3ca186d1fb81028e a3d7bdf58fb347361100c93b250cf6a068dfd38f data-david <david.norheim@brreg.no> 1567660344 +0200	fetch: forced-update
+a3d7bdf58fb347361100c93b250cf6a068dfd38f 0f3f8c1f180b418c598be9bf4fb8ec5d9466b92a data-david <david.norheim@brreg.no> 1567660358 +0200	push: forced-update
+0f3f8c1f180b418c598be9bf4fb8ec5d9466b92a 01289ac78cae1f18d4ba4404b2b6c71fc82b9f87 data-david <david.norheim@brreg.no> 1568382061 +0200	push: forced-update
+01289ac78cae1f18d4ba4404b2b6c71fc82b9f87 00cf77dd1e1fcbfdc3de523057fa3019970e471d data-david <david.norheim@brreg.no> 1568382178 +0200	update by push
+00cf77dd1e1fcbfdc3de523057fa3019970e471d 92053c5218eaba9a0603cffd9f2b4d3bb1770a83 data-david <david.norheim@brreg.no> 1568382287 +0200	push: forced-update
