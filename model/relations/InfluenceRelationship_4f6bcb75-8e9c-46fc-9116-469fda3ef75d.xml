@@ -1,0 +1,14 @@
+<archimate:InfluenceRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="supports"
+    id="4f6bcb75-8e9c-46fc-9116-469fda3ef75d"
+    documentation="https://trello.com/c/5dbfKWyW/171-puls-dnb-and-dnb-accounting"
+    strength="+">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_6bd8d368-85f0-4575-816f-2a2fee8733be.xml#6bd8d368-85f0-4575-816f-2a2fee8733be"/>
+  <target
+      xsi:type="archimate:Goal"
+      href="Goal_bdc843e5-fddf-4bdf-b2d9-395bb183499c.xml#bdc843e5-fddf-4bdf-b2d9-395bb183499c"/>
+</archimate:InfluenceRelationship>

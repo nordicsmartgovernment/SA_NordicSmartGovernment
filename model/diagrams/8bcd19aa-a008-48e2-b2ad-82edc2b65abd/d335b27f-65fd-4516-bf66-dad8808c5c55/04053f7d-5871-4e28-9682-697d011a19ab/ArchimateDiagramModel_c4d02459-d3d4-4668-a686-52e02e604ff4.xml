@@ -21,10 +21,10 @@
         source="2053f289-a741-42d9-9194-17ede2c3f3bf"
         target="284e9611-950b-4487-a906-99e0ee281cfa">
       <bendpoints
-          startX="468"
-          startY="-15"
-          endX="114"
-          endY="-241"/>
+          startX="504"
+          startY="-3"
+          endX="78"
+          endY="-219"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_c0700267-0f7f-49db-a450-f061db02ed98.xml#c0700267-0f7f-49db-a450-f061db02ed98"/>
@@ -160,7 +160,7 @@
     <bounds
         x="576"
         y="252"
-        width="158"
+        width="193"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessRole"

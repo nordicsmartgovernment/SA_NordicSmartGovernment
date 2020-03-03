@@ -1,0 +1,5 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Norwegian regulation &quot;Forskrift om bokføring&quot;"
+    id="aaf97045-d091-4e54-bbd8-a2d4be808c13"
+    documentation="I forskrift om bokføring, § 5-3-5 Utskrift av salgskvittering mv. står det følgende: Ved hvert salg skal det skrives ut en salgskvittering fra kassasystemet som skal fremlegges for kunden. Dette gjelder likevel ikke dersom det benyttes en integrert betalingsløsning i forbindelse med salget og kunden ikke ønsker kvittering. Dersom kassasystemet også brukes til å registrere kredittsalg som blir fakturert på et senere tidspunkt, skal det skrives ut en utleveringskvittering. Salgskvittering og utleveringskvittering kan sendes kunden elektronisk."/>

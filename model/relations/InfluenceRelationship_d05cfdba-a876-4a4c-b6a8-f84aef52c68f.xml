@@ -1,0 +1,13 @@
+<archimate:InfluenceRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="supports"
+    id="d05cfdba-a876-4a4c-b6a8-f84aef52c68f"
+    documentation="https://trello.com/c/asshcH9p/183-microsoft-dynamics">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_33f3a96a-110f-46bd-a5d6-4e0ba75eeb2f.xml#33f3a96a-110f-46bd-a5d6-4e0ba75eeb2f"/>
+  <target
+      xsi:type="archimate:Goal"
+      href="Goal_bdc843e5-fddf-4bdf-b2d9-395bb183499c.xml#bdc843e5-fddf-4bdf-b2d9-395bb183499c"/>
+</archimate:InfluenceRelationship>

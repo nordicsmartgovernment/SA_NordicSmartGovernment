@@ -1,4 +1,5 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Sales invoices"
-    id="aabd271c-43f7-418a-88bb-ad662fa8338d"/>
+    id="aabd271c-43f7-418a-88bb-ad662fa8338d"
+    documentation="A sales invoice is a voucher that is prepared whenever a company requests payment from a customer for goods or services delivered. The invoice contains important information about the delivered good/service, such as a description and seller’s product code and/or EAN code, quantity, price and terms of payment etc. "/>

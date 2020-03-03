@@ -1,0 +1,14 @@
+<archimate:InfluenceRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="supports"
+    id="7cb08c6a-1a26-4634-ad7f-497de8508e9f"
+    documentation="https://trello.com/c/T4YPNhPk/45-zirius&#xA;&#xA;In Norway, an alternative to register cash sales on a cash register system, is to issue a &quot;cash invoice&quot; (&quot;kontantfaktura&quot;, also known as &quot;kontantnota&quot;). It would be a great improvement to have this as standardised document in Peppol so it could be sent as an e-document with structured data."
+    strength="+">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_ea42072e-e23d-476e-baef-67a96abd75cc.xml#ea42072e-e23d-476e-baef-67a96abd75cc"/>
+  <target
+      xsi:type="archimate:Goal"
+      href="Goal_f18c0d16-f5fd-4f95-a271-981b764c4d60.xml#f18c0d16-f5fd-4f95-a271-981b764c4d60"/>
+</archimate:InfluenceRelationship>

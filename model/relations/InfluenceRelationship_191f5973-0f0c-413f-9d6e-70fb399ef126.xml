@@ -1,0 +1,14 @@
+<archimate:InfluenceRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="supports"
+    id="191f5973-0f0c-413f-9d6e-70fb399ef126"
+    documentation="https://trello.com/c/62krC8tk/1-xledger"
+    strength="+">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_423115a3-41be-4f5c-9606-6fe705400447.xml#423115a3-41be-4f5c-9606-6fe705400447"/>
+  <target
+      xsi:type="archimate:Goal"
+      href="Goal_bdc843e5-fddf-4bdf-b2d9-395bb183499c.xml#bdc843e5-fddf-4bdf-b2d9-395bb183499c"/>
+</archimate:InfluenceRelationship>

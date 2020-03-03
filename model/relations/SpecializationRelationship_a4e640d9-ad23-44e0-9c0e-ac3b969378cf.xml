@@ -1,11 +1,12 @@
 <archimate:SpecializationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="a4e640d9-ad23-44e0-9c0e-ac3b969378cf">
+    id="a4e640d9-ad23-44e0-9c0e-ac3b969378cf"
+    documentation="the order confirmation will be handled as a voucher and be the basis for the payment.">
   <source
       xsi:type="archimate:BusinessObject"
       href="BusinessObject_688c4b8d-468c-4318-8a17-7595ece8d9d6.xml#688c4b8d-468c-4318-8a17-7595ece8d9d6"/>
   <target
       xsi:type="archimate:BusinessObject"
-      href="BusinessObject_1181ff81-2bf9-4726-858b-7bf156b5b4e8.xml#1181ff81-2bf9-4726-858b-7bf156b5b4e8"/>
+      href="BusinessObject_2569e42e-abdd-40ee-bc16-dcf625a34a94.xml#2569e42e-abdd-40ee-bc16-dcf625a34a94"/>
 </archimate:SpecializationRelationship>

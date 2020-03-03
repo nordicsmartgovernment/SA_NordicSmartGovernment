@@ -1,0 +1,14 @@
+<archimate:InfluenceRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="supports"
+    id="627cbd8d-7d16-44d2-b923-0cfea6e5aef6"
+    documentation="https://trello.com/c/x4RZYl9r/48-visma-norge"
+    strength="+">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_045aa24f-42fd-4c9e-8a37-257159e42ac7.xml#045aa24f-42fd-4c9e-8a37-257159e42ac7"/>
+  <target
+      xsi:type="archimate:Goal"
+      href="Goal_bdc843e5-fddf-4bdf-b2d9-395bb183499c.xml#bdc843e5-fddf-4bdf-b2d9-395bb183499c"/>
+</archimate:InfluenceRelationship>

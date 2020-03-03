@@ -1,0 +1,14 @@
+<archimate:InfluenceRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="supports"
+    id="8828357a-60e3-4e04-9a6c-ae350935036c"
+    documentation="https://trello.com/c/5dbfKWyW/171-puls-dnb-and-dnb-accounting&#xA;DNB Puls support standardisation of electronic receipts from the sales data systems."
+    strength="+">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_6bd8d368-85f0-4575-816f-2a2fee8733be.xml#6bd8d368-85f0-4575-816f-2a2fee8733be"/>
+  <target
+      xsi:type="archimate:Goal"
+      href="Goal_f18c0d16-f5fd-4f95-a271-981b764c4d60.xml#f18c0d16-f5fd-4f95-a271-981b764c4d60"/>
+</archimate:InfluenceRelationship>

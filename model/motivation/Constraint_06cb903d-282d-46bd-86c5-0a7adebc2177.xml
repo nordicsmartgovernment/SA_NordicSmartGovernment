@@ -1,4 +1,5 @@
 <archimate:Constraint
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="BIM"
-    id="06cb903d-282d-46bd-86c5-0a7adebc2177"/>
+    id="06cb903d-282d-46bd-86c5-0a7adebc2177"
+    documentation="ISO 19640: &#xA;INformasjonskrav er konkret definert og spesifisert og skal kunne behandles av mennesker eller datamaskiner:&#xA;- for hva, når, hvordan og for hvem skal informasjon produseres&#xA;- oinfomrasjonskrav i forbindelse med organisasjonens mål&#xA;- informasjonskrav i forbilndelse drift av byggverk&#xA;- informasjonskrav i forbindele med levering av byggverk&#xA;- informasjonskrav i forbindelse med avtale/kontrakt&#xA;- når utvekslie informasojn... &#xA;Regleboka for hvorledes I-en i BIM skal håndeteres for alle roller gjennom hele verdikejden for bygvverk."/>

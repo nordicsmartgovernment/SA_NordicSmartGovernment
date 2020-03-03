@@ -1,0 +1,14 @@
+<archimate:InfluenceRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="supports"
+    id="7bdf966b-1fc1-487d-a552-b120cda9c246"
+    documentation="Agreeing with Visma on adoption on eInvoices, hopes for 100% adoption. Easiest for them, easiest for the customer."
+    strength="+">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_c849b779-655a-496d-8076-7b951d2d6bbf.xml#c849b779-655a-496d-8076-7b951d2d6bbf"/>
+  <target
+      xsi:type="archimate:Goal"
+      href="Goal_bdc843e5-fddf-4bdf-b2d9-395bb183499c.xml#bdc843e5-fddf-4bdf-b2d9-395bb183499c"/>
+</archimate:InfluenceRelationship>

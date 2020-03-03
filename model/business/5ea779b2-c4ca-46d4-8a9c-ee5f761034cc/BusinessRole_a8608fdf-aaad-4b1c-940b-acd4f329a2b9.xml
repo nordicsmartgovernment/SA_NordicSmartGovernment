@@ -1,4 +1,5 @@
 <archimate:BusinessRole
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="GS1"
-    id="a8608fdf-aaad-4b1c-940b-acd4f329a2b9"/>
+    id="a8608fdf-aaad-4b1c-940b-acd4f329a2b9"
+    documentation="Knut Mathisen, GS1:&#xA;Forvalter grlobale standarder i 150 land. I norge fokus på daglivarebransjen, men også andre. &#xA;Brukes allandaerede&#xA;Store effektivitetsgevinster: EDI, Logistikk og sporbarhet&#xA;Under strekkoden finnes GTIN&#xA;Standardene er dumme, sikrer bare identifikasjonen. Sitter ikke på baser i Norge. &#xA;GS1 standardene kan hjelpe bransjen med entydig identifikasjon av produktet i hele produktets levetid."/>

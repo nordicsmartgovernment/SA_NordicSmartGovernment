@@ -1,4 +1,5 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Order Response Simple"
-    id="688c4b8d-468c-4318-8a17-7595ece8d9d6"/>
+    name="Order Response Simple aka Order Acknowledgement, PO Response"
+    id="688c4b8d-468c-4318-8a17-7595ece8d9d6"
+    documentation="The document used to indicate simple acceptance or rejection of an entire Order.&#xA;&#xA;NSG: the order confirmation will be handled as a voucher and be the basis for the payment."/>

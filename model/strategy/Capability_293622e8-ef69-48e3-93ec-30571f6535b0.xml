@@ -1,4 +1,5 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="1. Digital business document adoption"
-    id="293622e8-ef69-48e3-93ec-30571f6535b0"/>
+    name="1. Use of digital business documents"
+    id="293622e8-ef69-48e3-93ec-30571f6535b0"
+    documentation="Ability to capture, process and ensure the validity and quality of data in the digital business documents, and ensure their adoption in B2B"/>

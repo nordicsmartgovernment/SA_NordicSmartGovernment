@@ -1,0 +1,14 @@
+<archimate:InfluenceRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="supports"
+    id="5e45b584-ec1b-475e-b1b9-4460dc6367af"
+    documentation="https://trello.com/c/PaXqbQCe/6-fiken&#xA;&#xA;eInvoice is important because structured data reinforce automation, but some eInovices doesn’t contain VAT and lack of account information is a challenge with EHF"
+    strength="+">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_5fdee7ed-a7ad-463b-8fc3-709565251607.xml#5fdee7ed-a7ad-463b-8fc3-709565251607"/>
+  <target
+      xsi:type="archimate:Goal"
+      href="Goal_bdc843e5-fddf-4bdf-b2d9-395bb183499c.xml#bdc843e5-fddf-4bdf-b2d9-395bb183499c"/>
+</archimate:InfluenceRelationship>

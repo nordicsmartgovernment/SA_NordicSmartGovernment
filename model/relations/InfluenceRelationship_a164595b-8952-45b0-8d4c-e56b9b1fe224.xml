@@ -1,0 +1,13 @@
+<archimate:InfluenceRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="supports"
+    id="a164595b-8952-45b0-8d4c-e56b9b1fe224"
+    documentation="https://trello.com/c/pVfU81Ay/212-ikt-forum-regnskap-norge">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_bdd3f163-2efe-422d-b966-0286e7810352.xml#bdd3f163-2efe-422d-b966-0286e7810352"/>
+  <target
+      xsi:type="archimate:Goal"
+      href="Goal_bdc843e5-fddf-4bdf-b2d9-395bb183499c.xml#bdc843e5-fddf-4bdf-b2d9-395bb183499c"/>
+</archimate:InfluenceRelationship>

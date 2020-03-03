@@ -100,7 +100,7 @@
           href="SpecializationRelationship_f3ea113f-0594-452e-99a2-e8ceee6fe499.xml#f3ea113f-0594-452e-99a2-e8ceee6fe499"/>
     </sourceConnections>
     <bounds
-        x="696"
+        x="299"
         y="156"
         width="120"
         height="55"/>
@@ -113,9 +113,9 @@
       id="e8745ff5-e8e5-441c-beb5-cf3548f29dc9"
       targetConnections="9ad9f076-6151-4653-9216-d9bd663cc8b5 da717f38-2850-4a2d-95e4-bb3c1868fcfb 9223f59b-5191-464a-97b6-54cd41b67701 c5e59f3b-8d88-4f1d-90c3-5bb91d3f807c c1530d84-beb6-42b4-8b2a-bb5580d29b7d">
     <bounds
-        x="360"
+        x="120"
         y="-12"
-        width="120"
+        width="708"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -156,7 +156,7 @@
           href="SpecializationRelationship_06070728-7f1c-4728-87fb-88fd92ba2c30.xml#06070728-7f1c-4728-87fb-88fd92ba2c30"/>
     </sourceConnections>
     <bounds
-        x="299"
+        x="708"
         y="156"
         width="120"
         height="55"/>
