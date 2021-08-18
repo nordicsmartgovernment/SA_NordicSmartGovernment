@@ -1,0 +1,19 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="All actions"
+    id="e392ffe6-321c-4b1d-9aa8-0bd58e497e1f">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="c1ef9793-a95d-413a-9e38-209ec04a0333"
+      fillColor="#fbca36">
+    <bounds
+        x="108"
+        y="36"
+        width="241"
+        height="61"/>
+    <archimateElement
+        xsi:type="archimate:Capability"
+        href="Capability_24dcf7b1-aa5f-45a1-bca9-69772a097091.xml#24dcf7b1-aa5f-45a1-bca9-69772a097091"/>
+  </children>
+</archimate:ArchimateDiagramModel>
