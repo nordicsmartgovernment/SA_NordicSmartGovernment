@@ -1,5 +1,0 @@
-<archimate:Constraint
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="XBRL GL"
-    id="bebdb07f-5625-439a-b028-09166d0b32ba"
-    documentation="The XBRL Global Ledger Taxonomy Framework (XBRL GL) is a holistic and generic XML and XBRL-based representation of the detailed data that can be found in accounting and operational systems, and is meant to be the bridge from transactional standards to reporting standards, integrating the Business Reporting Supply Chain."/>
