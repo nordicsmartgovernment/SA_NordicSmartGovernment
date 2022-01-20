@@ -156,9 +156,9 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="ffa9c8e0-6d04-4cb0-9bdb-53f242f1c704">
     <bounds
-        x="432"
-        y="321"
-        width="322"
+        x="60"
+        y="468"
+        width="337"
         height="55"/>
     <archimateElement
         xsi:type="archimate:ApplicationFunction"
