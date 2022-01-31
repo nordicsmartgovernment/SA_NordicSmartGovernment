@@ -1,0 +1,5 @@
+<archimate:ApplicationFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Make changes to requested report(???)"
+    id="id-f0c2970b4d6d433ba7c8cd244349cbd0"
+    documentation="TODO: Separate changes that has to be done in the General Ledger (corrections/updates), and additional information or information about mapping, that must be added/supplement to the generation. For instance to handle the differences in how individual accountplans are used."/>
