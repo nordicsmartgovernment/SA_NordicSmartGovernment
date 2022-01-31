@@ -1,0 +1,10 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="09. Tax and insurance"
+    id="id-038bd1bf6a55476d89f0b5937628d13a">
+  <properties
+      key="name-norwegian"
+      value="09. Skatt og forsikring"/>
+  <properties
+      key="doc-norwegian"/>
+</archimate:BusinessProcess>

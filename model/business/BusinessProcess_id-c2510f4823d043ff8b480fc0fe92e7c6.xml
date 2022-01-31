@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Phase B. Establishing"
+    id="id-c2510f4823d043ff8b480fc0fe92e7c6"
+    documentation="Med etableringsfase menes i denne sammenheng tidspunktet fra en person aktivt begynner å innhente informasjon om hvordan  han/ hun skal gå frem for å etablere seg til han/ hun har sendt inn terminoppgave eller MVA-oppgave første gang eller betalt forskuddsskatt første gang (Rambøl).&#xA;&#xA;Business service: Med tjenester menes i denne sammenheng de ulike registreringer, søknad om tillatelser og andre både lovpålagte og frivillige aktiviteter som personer må gjennom ved etablering av bedrift .">
+  <properties
+      key="name-norwegian"
+      value="B. Etableringsfase"/>
+  <properties
+      key="doc-norwegian"
+      value="Med etableringsfase menes i denne sammenheng tidspunktet fra en person aktivt begynner å innhente informasjon om hvordan  han/ hun skal gå frem for å etablere seg til han/ hun har sendt inn terminoppgave eller MVA-oppgave første gang eller betalt forskuddsskatt første gang (Rambøl).&#xA;&#xA;Business service: Med tjenester menes i denne sammenheng de ulike registreringer, søknad om tillatelser og andre både lovpålagte og frivillige aktiviteter som personer må gjennom ved etablering av bedrift ."/>
+</archimate:BusinessProcess>
