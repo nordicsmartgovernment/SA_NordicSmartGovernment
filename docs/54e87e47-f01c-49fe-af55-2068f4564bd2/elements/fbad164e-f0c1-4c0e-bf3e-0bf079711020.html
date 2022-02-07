@@ -7,8 +7,7 @@
 	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
 	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
 	<!-- BOOTSTRAP -->
-	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
-	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
 	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
 	<!-- REPORT SPECIFIC -->
 	<link type="text/css" rel="stylesheet" href="../../css/model.css">
@@ -19,26 +18,36 @@
 
 <body>
 	<div class="panel panel-default root-panel">
+
 		<div class="panel-heading root-panel-heading">
-			<b>Submitted order (purchase order)</b>
-			(<span class="i18n-elementtype-BusinessObject"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-BusinessObject" target="hint"></a>
+            <!-- Name -->
+               <b>Submitted order (purchase order)</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-BusinessObject"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-BusinessObject" target="hint"></a>
 		</div>
+
 		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 				</ul>
 
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<textarea id="docsrc" style="display:none">A purchase order (PO) is a document that represents an agreement with a vendor to buy goods or services. The document also helps keep track of product receipts that are made toward the order and, later, the accounting of vendor invoices that the vendor bills toward the order.
+						<div class="convertlinks documentation" style="white-space:pre-wrap">A purchase order (PO) is a document that represents an agreement with a vendor to buy goods or services. The document also helps keep track of product receipts that are made toward the order and, later, the accounting of vendor invoices that the vendor bills toward the order.
 
-A purchase order or PO is prepared by a company to communicate and document precisely what the company is ordering from a vendor. </textarea>
-						<div id="doctgt" style="white-space:pre-wrap"></div>
+A purchase order or PO is prepared by a company to communicate and document precisely what the company is ordering from a vendor. </div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">

@@ -10,6 +10,11 @@ function strcmp(a, b){
     return 0;
 }
 
+function createLinks(text) {
+	return text.replace(/(\w+:\/\/\S+)/g, '<a href="$1" target="_blank">$1</a>')
+          .replace(/mailto:(\S+)/g, '<a href="mailto:$1">$1</a>');
+}
+
 // Hints URLs
 var hints = {
 // Hints for viewpoints
@@ -36,8 +41,10 @@ var hints = {
     viewpoint_stakeholder: "vp_stakeholder.html",
     viewpoint_strategy: "vp_strategy.html",
     viewpoint_technology: "vp_technology.html",
-    viewpoint_technology_usage: "vp_technology_usage.html",
+	viewpoint_technology_usage: "vp_technology_usage.html",
+	viewpoint_value_stream: "vp_value_stream.html",
 // Hints for concepts
+    ArchimateModel: "model.html",
 	AccessRelationship: "access.html",
 	AggregationRelationship: "aggregation.html",
 	ApplicationCollaboration: "application_collaboration.html",
@@ -108,7 +115,20 @@ var hints = {
     TechnologyService: "technology_service.html",
 	TriggeringRelationship: "triggering.html",
 	Value: "value.html",
-	WorkPackage: "workpackage.html"
+	ValueStream: "value_stream.html",
+	WorkPackage: "workpackage.html",
+// Hints for graphical objects
+	DiagramModelNote: "note.html",
+	DiagramModelGroup: "group.html",
+// Hints for sketch objects
+	SketchModel: "sketch.html",
+	SketchModelSticky: "sketch_sticky.html",
+	SketchModelActor: "sketch_actor.html",
+// Hints for canvas objects
+	CanvasModel: "canvas_diagram.html",
+	CanvasModelBlock: "canvas_block.html",
+	CanvasModelImage: "canvas_image.html",
+	CanvasModelSticky: "canvas_sticky.html",
 };
 
 $(document).ready(function() {
@@ -121,13 +141,11 @@ $(document).ready(function() {
 		e.stopPropagation();
 	});
 	
-	// Update documentation div and create links
-	$('#doctgt').text($('#docsrc').text());
-	$('#doctgt').html($('#doctgt').html()
-		.replace(/(\w+:\/\/\S+)/g, '<a href="$1" target="_blank">$1</a>')
-		.replace(/mailto:(\S+)/g, '<a href="mailto:$1">$1</a>')
-	);
-	
+	// Create links in this class
+    $('.convertlinks').each(function() {
+        $(this).html(createLinks($(this).text()));
+    });
+
 	// Replace Hint URL
 	for (var id in hints) {
 		if (document.getElementById('hint-'+id) != null)
@@ -141,4 +159,56 @@ $(document).ready(function() {
 	var tabProperties = $('#properties > table > tbody');
 	var tabPropertiesRows = tabProperties.children('tr');
 	tabPropertiesRows.sort(strcmp).appendTo(tabProperties);
+	
+	const type = document.location.href.split('/').slice(-2, -1).pop();
+	if (type == "views") {
+		// *** DEEP LINKS ***
+		// Notify the root frameset of the new view id
+		const viewId = document.location.href.split('/').pop().slice(0,-5);
+		parent.window.postMessage('view-id=' + viewId, '*');
+
+		// *** DIAGRAM ZOOM ***
+		initZoomSlider();
+	}
+
+	function initZoomSlider() {
+		const sliderHtml = ' \
+		<div class="row" id="zoomSlider"> \
+			<div class="col-xs-1" id="btnZoomOut"><span class="glyphicon glyphicon-minus"></span></div> \
+			<div class="col-xs-7"><input type="range" min="100" max="400" value="100" id="zoomRange"></div> \
+			<div class="col-xs-1" id="btnZoomIn"><span class="glyphicon glyphicon-plus"></span></div> \
+		</div>';
+		
+		// Inject slider widget
+		document.getElementsByClassName("panel-heading")[0].innerHTML += sliderHtml;
+		
+		// Get reference to slider and image
+		var slider = document.getElementById("zoomRange");
+		let img = document.getElementsByClassName("diagram")[0];
+		let imgNativeWidth = img.width;
+		const step = 10;
+
+		function setZoom() {
+			img.style.maxWidth = slider.value + "%";
+			img.style.width = (imgNativeWidth * slider.value / 100) + "px";
+			imageMapResize();
+			window.focus();
+		}
+		
+		// Internet Explorer doesn't trigger input events so we have to hook on the change event
+		slider.onchange = setZoom;
+		
+		// Other browser should work
+		slider.oninput = setZoom;
+
+		// Register events on plus/minus buttons
+		document.getElementById("btnZoomOut").onclick = function () {
+			slider.value = ((parseInt(slider.value)) - step);
+			setZoom();
+		}
+		document.getElementById("btnZoomIn").onclick = function () {
+			slider.value = ((parseInt(slider.value)) + step);
+			setZoom();
+		}
+	}
 });

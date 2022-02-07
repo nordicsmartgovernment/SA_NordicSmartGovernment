@@ -7,8 +7,7 @@
 	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
 	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
 	<!-- BOOTSTRAP -->
-	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
-	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
 	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
 	<!-- REPORT SPECIFIC -->
 	<link type="text/css" rel="stylesheet" href="../../css/model.css">
@@ -19,23 +18,34 @@
 
 <body>
 	<div class="panel panel-default root-panel">
+
 		<div class="panel-heading root-panel-heading">
-			<b>Sikre kjeder</b>
-			(<span class="i18n-elementtype-Assessment"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-Assessment" target="hint"></a>
+            <!-- Name -->
+               <b>Sikre kjeder</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Assessment"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Assessment" target="hint"></a>
 		</div>
+
 		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 				</ul>
 
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<textarea id="docsrc" style="display:none">"I dag leverer vi et regnskap, i fremtiden kan vi kanskje bare levera alle transaksjonene til Skattedirektoratet som genererer regnskapet for oss."
+						<div class="convertlinks documentation" style="white-space:pre-wrap">"I dag leverer vi et regnskap, i fremtiden kan vi kanskje bare levera alle transaksjonene til Skattedirektoratet som genererer regnskapet for oss."
 Espen Andersen og Rangvald Sannes, BI magma 7/2017
 
 Prinsipielt problematsik, b&#229;de n&#230;rignslivet og skatteetaten oppfatter det som viktig at virksomhetene har ansvaret for egen bokf&#248;ring og regnskap.
@@ -44,8 +54,7 @@ Prinsipielt problematsik, b&#229;de n&#230;rignslivet og skatteetaten oppfatter 
 
 Digitale &#248;kosystem (Compliance by design - OECD): Utformingen av digitale systemer og prosesser hos virksomheten og hos de sentrale akt&#248;rene i virksomhetens omgivelser - som henger sammen.
 
-Store potensialer, og vi gleder oss til &#229; ta fatt p&#229; arbeidet.</textarea>
-						<div id="doctgt" style="white-space:pre-wrap"></div>
+Store potensialer, og vi gleder oss til &#229; ta fatt p&#229; arbeidet.</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">

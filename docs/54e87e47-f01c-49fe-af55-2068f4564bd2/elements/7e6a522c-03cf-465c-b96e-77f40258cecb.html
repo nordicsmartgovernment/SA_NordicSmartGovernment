@@ -7,8 +7,7 @@
 	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
 	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
 	<!-- BOOTSTRAP -->
-	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
-	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
 	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
 	<!-- REPORT SPECIFIC -->
 	<link type="text/css" rel="stylesheet" href="../../css/model.css">
@@ -19,29 +18,39 @@
 
 <body>
 	<div class="panel panel-default root-panel">
+
 		<div class="panel-heading root-panel-heading">
-			<b>RTECO (Real time economy)</b>
-			(<span class="i18n-elementtype-WorkPackage"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-WorkPackage" target="hint"></a>
+            <!-- Name -->
+               <b>RTECO (Real time economy)</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-WorkPackage"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-WorkPackage" target="hint"></a>
 		</div>
+
 		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 				</ul>
 
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<textarea id="docsrc" style="display:none">We have defined eReciept structured data model, end to end infrastructure and define basic use cases e.g. = Rulebook for eReciept ecosystem
+						<div class="convertlinks documentation" style="white-space:pre-wrap">We have defined eReciept structured data model, end to end infrastructure and define basic use cases e.g. = Rulebook for eReciept ecosystem
 - roles of the members in the ecosystem
 ...
 - e-reciept e-address and 4-corner model (just idea, no peppol - idea is the same, but we do not have that much peppol in finland, do not see the need)
 - e-reciept mobile use, to display the eRecipts in mobile app
--integration to companies travel and expense systems or purchase invoice system</textarea>
-						<div id="doctgt" style="white-space:pre-wrap"></div>
+-integration to companies travel and expense systems or purchase invoice system</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">
