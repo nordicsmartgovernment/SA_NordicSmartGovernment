@@ -1,10 +1,10 @@
 <archimate:BusinessProcess
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="12. End of year tax"
-    id="id-f7ea6c51c0284a6099d92f1acc21cdab">
+    name="D04. Delete and/or dissolving"
+    id="id-073a0470a4ec4ff2a6ba0799e9039dc2">
   <properties
       key="name-norwegian"
-      value="12. Skatt ved årsavslutning"/>
+      value="04. Sletting og/eller oppløsning"/>
   <properties
       key="doc-norwegian"/>
 </archimate:BusinessProcess>
