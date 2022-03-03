@@ -316,7 +316,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-a70b9d772ce745e9b22630c7fe97ec44"
-        targetConnections="id-6ea489e42c6c4c99b2f3499c6f033163 id-aae1b47f7d3a4394b0bdd958e4ab1dff">
+        targetConnections="id-6ea489e42c6c4c99b2f3499c6f033163 id-aae1b47f7d3a4394b0bdd958e4ab1dff id-c67f179c0188438daa75a6b7e69b9fdf">
       <bounds
           x="204"
           y="372"
@@ -485,12 +485,12 @@
       id="id-425985f475b34ebdb7dbae20fdf475df"
       targetConnections="id-8a6fcc0dc37841319fe28dfede204b0c"
       textAlignment="1"
-      content="&quot;Rule as Code&quot;-type of queries for extracting the relevant information from the SAF-T&#xD;&#xA;&#xD;&#xA;Example: XLST?&#xD;&#xA;&#xD;&#xA;Example from VAT in Norway: Published formal validation rules, see more: https://skatteetaten.github.io/mva-meldingen/documentation/forretningsregler/#valideringsregler&#xD;&#xA;&#xD;&#xA;Example from Peppol: Peppol have been using principles and tools for automatic testing of software ot support automatic validation of peppol formats">
+      content="&quot;Rule as Code&quot;-type of queries for extracting the relevant information from the SAF-T&#xD;&#xA;&#xD;&#xA;Example: XLST?&#xD;&#xA;&#xD;&#xA;Example from VAT in Norway: Published formal validation rules, see more: https://skatteetaten.github.io/mva-meldingen/documentation/forretningsregler/#valideringsregler&#xD;&#xA;&#xD;&#xA;Example from Peppol: Peppol have been using principles and tools for automatic testing of software ot support automatic validation of peppol formats (Schematron -- i.e. XSLT --> validate the structure and the content)">
     <bounds
         x="756"
-        y="660"
+        y="648"
         width="185"
-        height="300"/>
+        height="337"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -579,14 +579,14 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-83bf17d74ee74d11b01243580c9576f3"
       textAlignment="1"
-      content="This could also be in an external system, that has access to the SAF-T-representation of the bookkeeping system">
+      content="This could also be in an external system, that has access to the SAF-T-representation of the bookkeeping system&#xD;&#xA;&#xD;&#xA;Change to &quot;validate report&quot;? Validation as a separate function?">
     <sourceConnections
         id="id-6ea489e42c6c4c99b2f3499c6f033163"
         source="id-83bf17d74ee74d11b01243580c9576f3"
         target="id-a70b9d772ce745e9b22630c7fe97ec44"/>
     <bounds
         x="552"
-        y="852"
+        y="840"
         width="185"
         height="108"/>
   </children>
@@ -601,5 +601,20 @@
     <archimateElement
         xsi:type="archimate:BusinessService"
         href="BusinessService_384cb1e0-baf3-4dd7-bd51-e453d32c3183.xml#384cb1e0-baf3-4dd7-bd51-e453d32c3183"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-52e5d7f874c047d086fa6926a1811c53"
+      textAlignment="1"
+      content="Must be specified more. What is the role of this functionality? Why is it/is it not a backdoor? What mechanisms must support it to avoid backdoor?&#xD;&#xA;&#xD;&#xA;Distributed Query Language - SPARQL?">
+    <sourceConnections
+        id="id-c67f179c0188438daa75a6b7e69b9fdf"
+        source="id-52e5d7f874c047d086fa6926a1811c53"
+        target="id-a70b9d772ce745e9b22630c7fe97ec44"/>
+    <bounds
+        x="240"
+        y="887"
+        width="256"
+        height="98"/>
   </children>
 </archimate:ArchimateDiagramModel>
