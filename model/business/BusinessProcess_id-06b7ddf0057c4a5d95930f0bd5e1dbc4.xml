@@ -1,0 +1,11 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="C19. Negotiation of debt and restructuring"
+    id="id-06b7ddf0057c4a5d95930f0bd5e1dbc4"
+    documentation="krav til forsvarlig egenkapital, krav til effektivisering og omstilling&#xA;">
+  <properties
+      key="name-norwegian"
+      value="19. Gjeldsforhandling og restrukturering"/>
+  <properties
+      key="doc-norwegian"/>
+</archimate:BusinessProcess>

@@ -1,0 +1,11 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="C04. Adjust excpected turnover, income and VAT"
+    id="id-f35d942bfa984c95ae69ab43dea68d9b"
+    documentation="Examples: Adjust the expected estimates for turnover and income to ensure the quarterly tax-bills are closer to reality. If treshold for VAT is reached, register for VAT. ">
+  <properties
+      key="name-norwegian"
+      value="04. Melde skatt og avgift"/>
+  <properties
+      key="doc-norwegian"/>
+</archimate:BusinessProcess>

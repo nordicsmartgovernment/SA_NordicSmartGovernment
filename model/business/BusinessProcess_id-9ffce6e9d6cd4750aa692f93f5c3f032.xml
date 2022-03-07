@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="C08. Paying salary"
+    id="id-9ffce6e9d6cd4750aa692f93f5c3f032"
+    documentation="alle formaliteter som er knyttet til ansettelse/bemanning er tatt inn.&#xA;det er ulike måter å få ta i arbeidskraft på, og ulikt regelverk knyttet til de ulike måtene .. Også lagt inn &quot;skaffe HMS-kort&quot; som registreres og fås hos Arbeidstilsynet.">
+  <properties
+      key="name-norwegian"
+      value="07. Bemanning (ansette)"/>
+  <properties
+      key="doc-norwegian"
+      value="alle formaliteter som er knyttet til ansettelse/bemanning er tatt inn.&#xA;det er ulike måter å få ta i arbeidskraft på, og ulikt regelverk knyttet til de ulike måtene .. Også lagt inn &quot;skaffe HMS-kort&quot; som registreres og fås hos Arbeidstilsynet."/>
+</archimate:BusinessProcess>

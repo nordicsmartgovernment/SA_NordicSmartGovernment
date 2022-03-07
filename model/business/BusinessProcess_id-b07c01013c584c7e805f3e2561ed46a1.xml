@@ -1,0 +1,13 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CXX. B2B documentation and reporting"
+    id="id-b07c01013c584c7e805f3e2561ed46a1"
+    documentation="Not in the original, Norwegian Model.&#xD;&#xA;&#xD;&#xA;Includes Statistical Surveys">
+  <properties
+      key="name-norwegian"/>
+  <properties
+      key="TODO"
+      value="Add to Norwegian Model"/>
+  <properties
+      key="doc-norwegian"/>
+</archimate:BusinessProcess>
