@@ -3,4 +3,4 @@
     name="NordicSmartGovernment"
     id="54e87e47-f01c-49fe-af55-2068f4564bd2"
     purpose="The Reference Archietecture for Nordic Smart Government&#xA;&#xA;This is an archimate-representation of the roles, services, use-cases and relationships covered in the business case and stakeholder analysis for &quot;nordic smart government&quot;, augmented with some basic assumptions about applications and application functions.&#xD;&#xA;&#xD;&#xA;The detailed objects in the model are under &quot;model content&quot;, while archimate views are under &quot;views&quot;. Good places to start are:&#xD;&#xA;* Views - Business processes, functions and roles - Business Roles - Roles&#xD;&#xA;* Views - Application functions, processes - Application processes - Accounting&#xA;* Views - Information architecture &#xD;&#xA;* Views - Application functions, processes - Application processes - Analysis&#xD;&#xA;"
-    version="4.9.0"/>
+    version="4.6.0"/>
