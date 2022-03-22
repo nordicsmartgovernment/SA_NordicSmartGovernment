@@ -7,8 +7,7 @@
 	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
 	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
 	<!-- BOOTSTRAP -->
-	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
-	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
 	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
 	<!-- REPORT SPECIFIC -->
 	<link type="text/css" rel="stylesheet" href="../../css/model.css">
@@ -19,29 +18,39 @@
 
 <body>
 	<div class="panel panel-default root-panel">
+
 		<div class="panel-heading root-panel-heading">
-			<b>Data discovery</b>
-			(<span class="i18n-elementtype-Capability"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-Capability" target="hint"></a>
+            <!-- Name -->
+               <b>Data discovery</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Capability"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Capability" target="hint"></a>
 		</div>
+
 		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 				</ul>
 
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<textarea id="docsrc" style="display:none">Information Discovery is the capability to distil the organisation&#8217;s data and information down to the most pertinent evidence pertaining to a court-related matter or compliance directive. The major information discovery steps include:
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Information Discovery is the capability to distil the organisation&#8217;s data and information down to the most pertinent evidence pertaining to a court-related matter or compliance directive. The major information discovery steps include:
 - Work with subject matter expert to look at all the scenarios, processes, and projects and gather all the information assets used, produced and/or changed during
 those scenarios, processes, and projects. The Government Enterprise Architect team has designed an Information Discovery process that causes the GEA-NZ v3+ Data
 and Information Reference Model to efficiently discover information.
 - Managing the entire data and information asset catalogue in a manner to identify all evidence associated with specific matters to make evidence based decisions.
-Note: The Information Assets Catalogue template is available through the Government Enterprise Architecture team.</textarea>
-						<div id="doctgt" style="white-space:pre-wrap"></div>
+Note: The Information Assets Catalogue template is available through the Government Enterprise Architecture team.</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">

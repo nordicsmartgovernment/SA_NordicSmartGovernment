@@ -7,8 +7,7 @@
 	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
 	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
 	<!-- BOOTSTRAP -->
-	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
-	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
 	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
 	<!-- REPORT SPECIFIC -->
 	<link type="text/css" rel="stylesheet" href="../../css/model.css">
@@ -19,23 +18,34 @@
 
 <body>
 	<div class="panel panel-default root-panel">
+
 		<div class="panel-heading root-panel-heading">
-			<b>Intervju med SSB</b>
-			(<span class="i18n-elementtype-Assessment"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-Assessment" target="hint"></a>
+            <!-- Name -->
+               <b>Intervju med SSB</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Assessment"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Assessment" target="hint"></a>
 		</div>
+
 		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 				</ul>
 
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<textarea id="docsrc" style="display:none">Rune Gl&#248;ersen 19. september.
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Rune Gl&#248;ersen 19. september.
 
 Utelukkende for at virksomhetene ser poenget. Skds poeng var i gang med alene &#229; legge s&#229; mye belasting p&#229; virksomhetene, at du kun kan levere ved et kontinuelerig underlag. Hvis du f&#248;rst har gjort dette kan du endre grunnlaget kontinuerlig. Vannvittin smart ide som f&#248;lger at vi offentlige har lagt s&#229; mye byrder at du kun kan svare ved &#229; v&#230;re fulldigital. 
 
@@ -105,8 +115,7 @@ Foranking: Hvor i departmentene? Betingelsen for digitalisering ligger i &#229; 
 Grunn til at Altinn ble sukkess var veriden til n&#230;ringslivet. Det kan likne. Du lykkes ikke uten at den verdien er tydelig. Er my st&#248;rre. Altinn ble etablert uten lovendringer.
 
 Jobbe med er finans er en viktig enabler. Opptatt av samfunns&#248;konomisk nytte. Vil alltid se p&#229; egne samf.&#248;konomiske perspektiver. Spille p&#229; n&#229;v&#230;rende og ikke framtidige roller i finans.
-</textarea>
-						<div id="doctgt" style="white-space:pre-wrap"></div>
+</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">

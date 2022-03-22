@@ -7,8 +7,7 @@
 	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
 	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
 	<!-- BOOTSTRAP -->
-	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
-	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
 	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
 	<!-- REPORT SPECIFIC -->
 	<link type="text/css" rel="stylesheet" href="../../css/model.css">
@@ -19,33 +18,45 @@
 
 <body>
 	<div class="panel panel-default root-panel">
+
 		<div class="panel-heading root-panel-heading">
-			<b>Capability 7.1 - Handle life cycle of transations</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Name -->
+               <b>Capability 7.1 - Handle life cycle of transations</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
 		</div>
+
 		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/6f156b03-6698-4bbe-9376-d3339ff0cd4c.png" alt="Capability 7.1 - Handle life cycle of transations" usemap="#6f156b03-6698-4bbe-9376-d3339ff0cd4cmap">
-			<map name="6f156b03-6698-4bbe-9376-d3339ff0cd4cmap">
-								<area shape="rect" coords="46,46,166,101" href="../elements/289d7482-e071-47b6-b1a9-ad358ab551a0.html"  target="element">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/6f156b03-6698-4bbe-9376-d3339ff0cd4c.png" alt="Capability 7.1 - Handle life cycle of transations" usemap="#6f156b03-6698-4bbe-9376-d3339ff0cd4cmap"/>
+			   <map name="6f156b03-6698-4bbe-9376-d3339ff0cd4cmap">
+				  				<area shape="rect" coords="46,46,166,101" href="../elements/289d7482-e071-47b6-b1a9-ad358ab551a0.html"  target="element">
 
-						<area shape="rect" coords="10,10,192,123" href="../elements/52bf9a89-1e94-405a-a9d5-36e509b8d891.html"  target="element">
+				  		<area shape="rect" coords="10,10,192,123" href="../elements/52bf9a89-1e94-405a-a9d5-36e509b8d891.html"  target="element">
 
-			</map>
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<textarea id="docsrc" style="display:none"></textarea>
-						<div id="doctgt" style="white-space:pre-wrap"></div>
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">
@@ -68,8 +79,18 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/52bf9a89-1e94-405a-a9d5-36e509b8d891.html" target="element"> Data governance </a> </td><td class="i18n-elementtype-Capability"></td></tr>
-													<tr><td> <a href="../elements/289d7482-e071-47b6-b1a9-ad358ab551a0.html" target="element"> Handle life cycle of transactions (versions) </a> </td><td class="i18n-elementtype-Capability"></td></tr>
+											<tr>
+											    <td> <a href="../elements/52bf9a89-1e94-405a-a9d5-36e509b8d891.html" target="element"> Data governance </a> </td>
+											    <td> <a href="../elements/52bf9a89-1e94-405a-a9d5-36e509b8d891.html" target="element" class="i18n-elementtype-Capability">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/289d7482-e071-47b6-b1a9-ad358ab551a0.html" target="element"> Handle life cycle of transactions (versions) </a> </td>
+													    <td> <a href="../elements/289d7482-e071-47b6-b1a9-ad358ab551a0.html" target="element" class="i18n-elementtype-Capability">
+													    </a> </td>
+													</tr>
+
 											
 
 								</tbody>
@@ -88,7 +109,8 @@
 								<tbody>
 																	<tr>
 																		<td> <a href="../elements/1a397f94-c143-4f50-8610-47958fe68444.html" target="element">  </a> </td>
-																		<td> <a href="../elements/1a397f94-c143-4f50-8610-47958fe68444.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/1a397f94-c143-4f50-8610-47958fe68444.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
 																		<td> <a href="../elements/52bf9a89-1e94-405a-a9d5-36e509b8d891.html" target="element"> Data governance </a> </td>
 																		<td> <a href="../elements/289d7482-e071-47b6-b1a9-ad358ab551a0.html" target="element"> Handle life cycle of transactions (versions) </a> </td>
 																	</tr>
