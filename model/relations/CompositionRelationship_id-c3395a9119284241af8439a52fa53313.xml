@@ -1,0 +1,11 @@
+<archimate:CompositionRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="id-c3395a9119284241af8439a52fa53313">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_id-5f9dbd4caacf41d1aabac48d5070f287.xml#id-5f9dbd4caacf41d1aabac48d5070f287"/>
+  <target
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_id-c300edd6a4094f2e90f74d5bfd103f34.xml#id-c300edd6a4094f2e90f74d5bfd103f34"/>
+</archimate:CompositionRelationship>
